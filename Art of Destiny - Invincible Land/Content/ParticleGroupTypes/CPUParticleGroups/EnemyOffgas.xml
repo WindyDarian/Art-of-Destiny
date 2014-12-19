@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+    <!-- TODO: replace this Asset with your own XML asset data. -->
+    <Asset Type="AODGameLibrary.Effects.CPUParticleGroupType">
+    <texture>Textures\fire</texture>
+    <groupPosition>
+     0 0 0
+    </groupPosition>
+    <parLifetime>1</parLifetime>
+    <startColor>
+      255 255 255 155
+    </startColor>
+    <endColor>
+      255 0 0 0
+    </endColor>
+    <minInitialSpeed>1</minInitialSpeed>
+    <maxInitialSpeed>6</maxInitialSpeed>
+    <minScale>0.8</minScale>
+    <maxScale>1.5</maxScale>
+    <scaleRate>0.5</scaleRate>
+    <addParticleNum>4</addParticleNum>
+    <pointSize>3.2</pointSize>
+    <isLasting>true</isLasting>
+    <Deathtime>1.3</Deathtime>
+    <particleMoveWithGroup>false</particleMoveWithGroup>
+    <name>测试模型的尾气（敌人）</name>
+  </Asset>
+</XnaContent>

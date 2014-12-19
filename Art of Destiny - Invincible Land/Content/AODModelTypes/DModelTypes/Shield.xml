@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 毁灭力场产生器 -->
+  <Asset Type="AODGameLibrary.Models.DModelType">
+    <model>models\Shield</model>
+    <dieTime>0.5</dieTime>
+    <name>测试模型</name>
+  </Asset>
+</XnaContent>

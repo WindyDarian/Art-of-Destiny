@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+    <!-- TODO: replace this Asset with your own XML asset data. -->
+  <!--迷雾幽灵导弹-->
+    <Asset Type="AODGameLibrary.Weapons.MissileType">
+      <explosionRadius>150.0</explosionRadius>
+      <mass>1.0</mass>
+      <maxThrustForce>1300.0</maxThrustForce>
+      <maxPower>60000.0</maxPower>
+      <frictionForce>200.0</frictionForce>
+      <basicSpeed>5.0</basicSpeed>
+      <basicDamage>185.0</basicDamage>
+      <foldShield>0.25</foldShield>
+      <foldArmor>1.5</foldArmor>
+      <crossValue>0.02</crossValue>
+      <isShieldUseless>false</isShieldUseless>
+      <scale>2</scale>
+      <modelName>AODModelTypes\Ghost</modelName>
+      <modelRotation>
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+      </modelRotation>
+      <lifeTime>10</lifeTime>
+
+    </Asset>
+</XnaContent>

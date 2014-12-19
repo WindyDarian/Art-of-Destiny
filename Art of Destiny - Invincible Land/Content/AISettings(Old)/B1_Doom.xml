@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 大地无敌-范若余于2009年8月8日改进，用于记录标准战斗AI选项 -->
+  <!--第一个BOSS——末日的AI-->
+  <Asset Type="AODGameLibrary.AIs.AISettings">
+    <rangeOfView>4000</rangeOfView>
+    <rangeOfAttack>89000</rangeOfAttack>
+    <rangeOfShot>2000</rangeOfShot>
+    <rangeOfCycle>1600</rangeOfCycle>
+    <minRange>200</minRange>
+    <shotJudgmentAngel>30</shotJudgmentAngel>
+    <updateTimeSpan>2.0</updateTimeSpan>
+    <isShotAble>true</isShotAble>
+    <isRotateAble>true</isRotateAble>
+    <isMoveAble>true</isMoveAble>
+    <isSmartShot>false</isSmartShot>
+    <isMissileLaunchable>true</isMissileLaunchable>
+    <MissileLaunchSpan>9</MissileLaunchSpan>
+    <MinMissileRange>200</MinMissileRange>
+    <MaxMissileRange>20000</MaxMissileRange>
+    <isLoveDirectionChangeAble>false</isLoveDirectionChangeAble>
+    <isSwimable>false</isSwimable>
+    <isCycleAble>false</isCycleAble>
+    <isSkillUsable>false</isSkillUsable>
+    <isSkillSwitchable>false</isSkillSwitchable>
+  </Asset>
+</XnaContent>

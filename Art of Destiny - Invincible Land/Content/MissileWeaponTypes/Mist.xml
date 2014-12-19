@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+    <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="AODGameLibrary.Weapons.MissileWeaponType">
+    <maxNum>2000</maxNum>
+    <cooldown>0.5</cooldown>
+    <missileTypeName>MissileTypes\Mist</missileTypeName>
+    <name>迷雾幽灵导弹</name>
+    <positionIndex1>2</positionIndex1>
+    <positionIndex2>3</positionIndex2>
+ 
+      <AssetName>MissileWeaponTypes\Mist</AssetName>
+   
+  </Asset>
+</XnaContent>

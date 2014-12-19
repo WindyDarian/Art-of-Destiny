@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <!--石头，由大地无敌-范若余在2010年1月15日添加-->
+  <Asset Type="AODGameLibrary.Models.DModelType">
+    <model>models\Rock</model>
+    <dieTime>0.5</dieTime>
+    <name>石头</name>
+  </Asset>
+</XnaContent>

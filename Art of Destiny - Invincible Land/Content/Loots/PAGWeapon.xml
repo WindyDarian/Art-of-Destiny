@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 表示一种可以拾取的LOOT,由大地无敌-范若余在2009年10月4日加入 -->
+  
+  <Asset Type="AODGameLibrary.Units.LootSettings">
+    <!--名字-->
+    <Name>行星突击炮</Name>
+    <!--可拾取物件类别-->
+    <LootType>Weapon</LootType>
+    <!--得到的武器或技能或任务物品的AssetName(含目录)-->
+    <ObjectName>WeaponTypes\PlanetaryAssaultGun</ObjectName>
+    <IsWeapon>true</IsWeapon>
+    <MinBulletNum>800</MinBulletNum>
+    <MaxBulletNum>2900</MaxBulletNum>
+    <ModelName>AODModelTypes\Loot</ModelName>
+    <ModelScale>2</ModelScale>
+    <LootRadius>100</LootRadius>
+  </Asset>
+</XnaContent>

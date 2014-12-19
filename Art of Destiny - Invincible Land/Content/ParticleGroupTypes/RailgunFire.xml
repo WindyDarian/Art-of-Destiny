@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="AODGameLibrary.Effects.ParticleSettings">
+    <!--轨道炮火-->
+    <TextureName>Textures\Offgas</TextureName>
+    <MaxParticles>65</MaxParticles>
+    <Duration>PT0.8S</Duration>
+    <DurationRandomness>0</DurationRandomness>
+    <EmitterVelocitySensitivity>0</EmitterVelocitySensitivity>
+    <MinHorizontalVelocity>0</MinHorizontalVelocity>
+    <MaxHorizontalVelocity>0</MaxHorizontalVelocity>
+    <MinVerticalVelocity>0</MinVerticalVelocity>
+    <MaxVerticalVelocity>0</MaxVerticalVelocity>
+    <MinInitialVelocity>10</MinInitialVelocity>
+    <MaxInitialVelocity>60</MaxInitialVelocity>
+    <Gravity>0 0 0</Gravity>
+    <EndVelocity>1</EndVelocity>
+    <MinColor>255 255 255 255</MinColor>
+    <MaxColor>255 255 255 255</MaxColor>
+    <MinRotateSpeed>0.5</MinRotateSpeed>
+    <MaxRotateSpeed>3</MaxRotateSpeed>
+    <MinStartSize>100</MinStartSize>
+    <MaxStartSize>150</MaxStartSize>
+    <MinEndSize>50</MinEndSize>
+    <MaxEndSize>100</MaxEndSize>
+    <SourceBlend>SourceAlpha</SourceBlend>
+    <DestinationBlend>One</DestinationBlend>
+    <MinStartVelocity>0 0 0</MinStartVelocity>
+    <MaxStartVelocity>0 0 0</MaxStartVelocity>
+    <AddParSpan>0.1</AddParSpan>
+    <AddParTime>0.5</AddParTime>
+    <IsSticking>false</IsSticking>
+  </Asset>
+</XnaContent>

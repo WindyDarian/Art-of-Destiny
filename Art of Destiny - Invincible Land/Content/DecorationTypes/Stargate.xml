@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 星门 -->
+  <Asset Type="AODGameLibrary.Ambient.DecorationType">
+    <Modelname>AODModelTypes\Stargate</Modelname>
+    <Name>星门</Name>
+    <MinScale>1</MinScale>
+    <MaxScale>1</MaxScale>
+    <ModelRotation>
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0 0 0 1
+    </ModelRotation>
+    <RandomModelRotation>false</RandomModelRotation>
+    <MaxShield>80000</MaxShield>
+    <MaxArmor>10000</MaxArmor>
+    <Mass>15</Mass>
+    <FrictionForce>400</FrictionForce>
+    <AngularRate>0</AngularRate>
+    <ShieldRestoreTime>1</ShieldRestoreTime>
+    <ShieldRestoreRate>10000</ShieldRestoreRate>
+    <ArmorRestoreRate>10000</ArmorRestoreRate>
+    <Far>false</Far>
+    <Bounding>false</Bounding>
+    <Heavy>true</Heavy>
+  </Asset>
+</XnaContent>

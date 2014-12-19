@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 测试用单位，于2009年8月8日在UnitType重写后建立 -->
+  <Asset Type="AODGameLibrary.Units.UnitType">
+    <Modelname>AODModelTypes\Sword</Modelname>
+    <Name>鬼雾</Name>
+    <Scale>5</Scale>
+    <ModelRotation>0 0 0</ModelRotation>
+    <MaxShield>8000</MaxShield>
+    <MaxArmor>2000</MaxArmor>
+    <Mass>20</Mass>
+    <MaxPower>60000</MaxPower>
+    <ThrustForce>2000</ThrustForce>
+    <FrictionForce>200</FrictionForce>
+    <AngularRate>150</AngularRate>
+    <ShieldRestoreTime>6</ShieldRestoreTime>
+    <ShieldRestoreRate>100</ShieldRestoreRate>
+    <ArmorRestoreRate>2</ArmorRestoreRate>
+    <Weapons>
+      <Item>WeaponTypes\PlanetaryAssaultGun</Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </Weapons>
+    <MissileWeapons>
+      <Item>MissileWeaponTypes\Mist</Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </MissileWeapons>
+    <Skills>
+    </Skills>
+    <AISettings>
+      <rangeOfView>2000</rangeOfView>
+      <rangeOfAttack>89000</rangeOfAttack>
+      <rangeOfShot>2000</rangeOfShot>
+      <rangeOfCycle>450</rangeOfCycle>
+      <minRange>200</minRange>
+      <shotJudgmentAngel>30</shotJudgmentAngel>
+      <updateTimeSpan>2.0</updateTimeSpan>
+      <isShotAble>true</isShotAble>
+      <isRotateAble>true</isRotateAble>
+      <isMoveAble>true</isMoveAble>
+      <isSmartShot>false</isSmartShot>
+      <isMissileLaunchable>false</isMissileLaunchable>
+      <MissileLaunchSpan>5.1</MissileLaunchSpan>
+      <MinMissileRange>200</MinMissileRange>
+      <MaxMissileRange>2000</MaxMissileRange>
+      <isLoveDirectionChangeAble>true</isLoveDirectionChangeAble>
+      <isSwimable>true</isSwimable>
+      <isCycleAble>true</isCycleAble>
+      <isSkillUsable>true</isSkillUsable>
+      <isSkillSwitchable>true</isSkillSwitchable>
+    </AISettings>
+    <Bounding>true</Bounding>
+    <Heavy>false</Heavy>
+    <MaxWeaponNum>4</MaxWeaponNum>
+    <MaxMissileWeaponNum>4</MaxMissileWeaponNum>
+    <MaxSkillNum>3</MaxSkillNum>
+    <Loots>
+      <Item>
+        <LootAssetName>Loots\Thruster</LootAssetName>
+        <Prob>1</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      
+    </Loots>
+  </Asset>
+</XnaContent>

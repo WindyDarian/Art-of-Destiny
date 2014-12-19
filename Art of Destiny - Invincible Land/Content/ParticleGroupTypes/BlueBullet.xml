@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="AODGameLibrary.Effects.ParticleSettings">
+    <!--蓝色的弹药，由大地无敌在2010年2月1日建立-->
+    <TextureName>Textures\BluePoint</TextureName>
+    <MaxParticles>5</MaxParticles>
+    <Duration>PT0.325S</Duration>
+    <DurationRandomness>0.2</DurationRandomness>
+    <EmitterVelocitySensitivity>1</EmitterVelocitySensitivity>
+    <MinHorizontalVelocity>0</MinHorizontalVelocity>
+    <MaxHorizontalVelocity>0</MaxHorizontalVelocity>
+    <MinVerticalVelocity>0</MinVerticalVelocity>
+    <MaxVerticalVelocity>0</MaxVerticalVelocity>
+    <MinInitialVelocity>0</MinInitialVelocity>
+    <MaxInitialVelocity>3</MaxInitialVelocity>
+    <Gravity>0 0 0</Gravity>
+    <EndVelocity>0</EndVelocity>
+    <MinColor>255 255 255 255</MinColor>
+    <MaxColor>255 255 255 255</MaxColor>
+    <MinRotateSpeed>0</MinRotateSpeed>
+    <MaxRotateSpeed>0</MaxRotateSpeed>
+    <MinStartSize>2.2</MinStartSize>
+    <MaxStartSize>2.4</MaxStartSize>
+    <MinEndSize>0.22</MinEndSize>
+    <MaxEndSize>0.24</MaxEndSize>
+    <SourceBlend>SourceAlpha</SourceBlend>
+    <DestinationBlend>One</DestinationBlend>
+    <MinStartVelocity>0 0 0</MinStartVelocity>
+    <MaxStartVelocity>0 0 0</MaxStartVelocity>
+    <AddParSpan>0.0125</AddParSpan>
+    <AddParTime>0.075</AddParTime>
+    <IsSticking>false</IsSticking>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 能量球 -->
+  <Asset Type="AODGameLibrary.Models.AODModelType">
+    <ChildModels>
+    </ChildModels>
+
+    <NormalEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\PowerCore</AssetName>
+        <Position>0 0 0</Position>
+        <Scale>1</Scale>
+      </Item>
+    </NormalEffects>
+
+    <DeathEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>0 0 0</Position>
+        <Scale>1</Scale>
+      </Item>
+    </DeathEffects>
+
+    <MovementEffects>
+
+    </MovementEffects>
+    
+    <BirthEffects>
+    </BirthEffects>
+
+    <WeaponPositions>
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+    </WeaponPositions>
+    <SkillPositions>
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+    </SkillPositions>
+
+    <BirthSound></BirthSound>
+
+    <DeathSound>Audio\Blast4</DeathSound>
+
+    <ExtraBoundingSphereRadius>125</ExtraBoundingSphereRadius>
+
+    <ModelCollision>true</ModelCollision>
+
+    <CollisionCheckLevel>1</CollisionCheckLevel>
+
+
+    <name>能量球</name>
+
+    
+  </Asset>
+</XnaContent>

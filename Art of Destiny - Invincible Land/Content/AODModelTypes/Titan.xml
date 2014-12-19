@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 盖亚,由大地无敌-范若余在2010年5月15日制作 -->
+  <Asset Type="AODGameLibrary.Models.AODModelType">
+    <ChildModels>
+      <Item>
+        <DModel>
+          <model>models\Titan\Titan</model>
+          <dieTime>0.5</dieTime>
+          <name>盖亚</name>
+        </DModel>
+        <Position>0 0 0</Position>
+        <Rotation>0 0 0</Rotation>
+        <Scale>1</Scale>
+        <Alpha>1</Alpha>
+      </Item>
+    </ChildModels>
+
+    <NormalEffects>
+    </NormalEffects>
+
+    <DeathEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>0 0 0</Position>
+        <Scale>13</Scale>
+   
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>0 0 0</Position>
+        <Scale>4</Scale>
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>0 100 0</Position>
+        <Scale>2</Scale>
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>0 0 -262</Position>
+        <Scale>3</Scale>
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>0 -421 0</Position>
+        <Scale>2</Scale>
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>300 0 0</Position>
+        <Scale>2</Scale>
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>-203 100 0</Position>
+        <Scale>2</Scale>
+      </Item>
+
+    </DeathEffects>
+
+    <MovementEffects>
+      
+    </MovementEffects>
+    
+    <BirthEffects>
+    </BirthEffects>
+
+    <WeaponPositions>
+      386.407 367.981 -96.386
+      451.775 193.946 -96.386
+      451.775 99.188 -96.386
+      405.236 459.628 336.127
+      -414.384 459.628 -72.457
+      -472.39 100.974 -120.252
+      -360.793 411.929 217.803
+      427.138 -101.092 336.127
+    </WeaponPositions>
+    <SkillPositions>
+      -360.793 411.929 217.803
+      427.138 -101.092 336.127
+      -414.384 459.628 -72.457
+      -472.39 100.974 -120.252
+      451.775 99.188 -96.386
+      405.236 459.628 336.127
+      386.407 367.981 -96.386
+      451.775 193.946 -96.386
+    </SkillPositions>
+
+    <BirthSound></BirthSound>
+
+    <DeathSound>Audio\Blast4</DeathSound>
+
+
+    <ExtraBoundingSphereRadius>0</ExtraBoundingSphereRadius>
+
+    <ModelCollision>true</ModelCollision>
+
+    <CollisionCheckLevel>1</CollisionCheckLevel>
+
+
+    <name>凤凰</name>
+
+    
+  </Asset>
+</XnaContent>

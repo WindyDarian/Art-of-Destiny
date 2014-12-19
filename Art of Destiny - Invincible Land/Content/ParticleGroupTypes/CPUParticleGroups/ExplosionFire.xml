@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+    <!-- TODO: replace this Asset with your own XML asset data. -->
+    <Asset Type="AODGameLibrary.Effects.CPUParticleGroupType">
+    <texture>Textures\fire</texture>
+    <groupPosition>
+     0 0 0
+    </groupPosition>
+    <parLifetime>0.8</parLifetime>
+    <startColor>
+      255 255 255 255
+    </startColor>
+    <endColor>
+      255 255 255 0
+    </endColor>
+    <minInitialSpeed>10</minInitialSpeed>
+    <maxInitialSpeed>60</maxInitialSpeed>
+    <minScale>0.5</minScale>
+    <maxScale>1.5</maxScale>
+    <scaleRate>0.3</scaleRate>
+    <addParticleNum>2</addParticleNum>
+    <pointSize>100</pointSize>
+    <isLasting>true</isLasting>
+    <Deathtime>0.5</Deathtime>
+      <particleMoveWithGroup>false</particleMoveWithGroup>
+    <name>爆炸火焰</name>
+  </Asset>
+</XnaContent>

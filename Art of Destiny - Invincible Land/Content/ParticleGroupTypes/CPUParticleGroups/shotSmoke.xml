@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+    <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="AODGameLibrary.Effects.CPUParticleGroupType">
+    <texture>Textures\smoke</texture>
+    <groupPosition>
+      0 0 0
+    </groupPosition>
+    <parLifetime>1.4</parLifetime>
+    <startColor>
+      255 255 255 80
+    </startColor>
+    <endColor>
+      255 255 255 0
+    </endColor>
+    <minInitialSpeed>1</minInitialSpeed>
+    <maxInitialSpeed>6</maxInitialSpeed>
+    <minScale>1</minScale>
+    <maxScale>1.5</maxScale>
+    <scaleRate>5</scaleRate>
+    <addParticleNum>2</addParticleNum>
+    <pointSize>1.6</pointSize>
+    <isLasting>true</isLasting>
+    <Deathtime>1</Deathtime>
+    <particleMoveWithGroup>false</particleMoveWithGroup>
+    <name>烟雾</name>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="AODGameLibrary.Effects.ParticleSettings">
+    <!--橙色的火焰武器，由大地无敌在2010年4月21日-->
+    <TextureName>Textures\fire</TextureName>
+    <MaxParticles>130</MaxParticles>
+    <Duration>PT0.375S</Duration>
+    <DurationRandomness>0</DurationRandomness>
+    <EmitterVelocitySensitivity>0</EmitterVelocitySensitivity>
+    <MinHorizontalVelocity>0</MinHorizontalVelocity>
+    <MaxHorizontalVelocity>0</MaxHorizontalVelocity>
+    <MinVerticalVelocity>0</MinVerticalVelocity>
+    <MaxVerticalVelocity>0</MaxVerticalVelocity>
+    <MinInitialVelocity>0</MinInitialVelocity>
+    <MaxInitialVelocity>100</MaxInitialVelocity>
+    <Gravity>0 0 0</Gravity>
+    <EndVelocity>1</EndVelocity>
+    <MinColor>255 255 255 150</MinColor>
+    <MaxColor>255 255 255 255</MaxColor>
+    <MinRotateSpeed>0.4</MinRotateSpeed>
+    <MaxRotateSpeed>8</MaxRotateSpeed>
+    <MinStartSize>0.1</MinStartSize>
+    <MaxStartSize>0.1</MaxStartSize>
+    <MinEndSize>50</MinEndSize>
+    <MaxEndSize>100</MaxEndSize>
+    <SourceBlend>SourceAlpha</SourceBlend>
+    <DestinationBlend>One</DestinationBlend>
+    <MinStartVelocity>0 0 -800</MinStartVelocity>
+    <MaxStartVelocity>0 0 -800</MaxStartVelocity>
+    <AddParSpan>0.0125</AddParSpan>
+    <AddParTime>0.3</AddParTime>
+    <IsSticking>true</IsSticking>
+  </Asset>
+</XnaContent>

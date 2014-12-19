@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 幽灵导弹,由大地无敌-范若余在2010年3月20日加入 -->
+  
+  <Asset Type="AODGameLibrary.Units.LootSettings">
+    <!--名字-->
+    <Name>幽灵导弹</Name>
+    <!--可拾取物件类别-->
+    <LootType>MissileWeapon</LootType>
+    <!--得到的武器或技能或任务物品的AssetName(含目录)-->
+    <ObjectName>MissileWeaponTypes\Ghost</ObjectName>
+    <IsWeapon>true</IsWeapon>
+    <MinBulletNum>1</MinBulletNum>
+    <MaxBulletNum>5</MaxBulletNum>
+    <ModelName>AODModelTypes\Loot</ModelName>
+    <ModelScale>2</ModelScale>
+    <LootRadius>100</LootRadius>
+  </Asset>
+</XnaContent>

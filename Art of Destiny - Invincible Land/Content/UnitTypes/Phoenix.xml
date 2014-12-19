@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 测试用单位，于2009年8月8日在UnitType重写后建立 -->
+  <Asset Type="AODGameLibrary.Units.UnitType">
+    <Modelname>AODModelTypes\Phoenix</Modelname>
+    <Name>凤凰</Name>
+    <Scale>1</Scale>
+    <ModelRotation>0 0 0</ModelRotation>
+    <MaxShield>2000</MaxShield>
+    <MaxArmor>2000</MaxArmor>
+    <Mass>17</Mass>
+    <MaxPower>120000</MaxPower>
+    <ThrustForce>3000</ThrustForce>
+    <FrictionForce>500</FrictionForce>
+    <AngularRate>160</AngularRate>
+    <ShieldRestoreTime>6</ShieldRestoreTime>
+    <ShieldRestoreRate>100</ShieldRestoreRate>
+    <ArmorRestoreRate>10</ArmorRestoreRate>
+    <Weapons>
+      <Item>WeaponTypes\Fire</Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </Weapons>
+ 
+    <MissileWeapons>
+      <Item>MissileWeaponTypes\Ghost</Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </MissileWeapons>
+   
+    <Skills>
+     
+        <Item>Skills\ArmorRestorer</Item>
+
+    </Skills>
+   
+    <AISettings>
+      <rangeOfView>900</rangeOfView>
+      <rangeOfAttack>89000</rangeOfAttack>
+      <rangeOfShot>300</rangeOfShot>
+      <rangeOfCycle>250</rangeOfCycle>
+      <minRange>0</minRange>
+      <shotJudgmentAngel>30</shotJudgmentAngel>
+      <updateTimeSpan>2.0</updateTimeSpan>
+      <isShotAble>true</isShotAble>
+      <isRotateAble>true</isRotateAble>
+      <isMoveAble>true</isMoveAble>
+      <isSmartShot>false</isSmartShot>
+      <isMissileLaunchable>true</isMissileLaunchable>
+      <MissileLaunchSpan>5</MissileLaunchSpan>
+      <MinMissileRange>200</MinMissileRange>
+      <MaxMissileRange>600</MaxMissileRange>
+      <isLoveDirectionChangeAble>true</isLoveDirectionChangeAble>
+      <isSwimable>false</isSwimable>
+      <isCycleAble>false</isCycleAble>
+      <isSkillUsable>true</isSkillUsable>
+      <isSkillSwitchable>true</isSkillSwitchable>
+    </AISettings>
+    <Bounding>true</Bounding>
+    <Heavy>false</Heavy>
+    <MaxWeaponNum>4</MaxWeaponNum>
+    <MaxMissileWeaponNum>1</MaxMissileWeaponNum>
+    <MaxSkillNum>1</MaxSkillNum>
+    <Loots>
+      <Item>
+        <LootAssetName>Loots\BlavAmmoSmall</LootAssetName>
+        <Prob>0.1</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\PAGAmmoSmall</LootAssetName>
+        <Prob>1</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\PAGAmmoSmall</LootAssetName>
+        <Prob>0.5</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\Ghost</LootAssetName>
+        <Prob>0.5</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\ShieldRestorer</LootAssetName>
+        <Prob>0.1</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\ArmorRestorer</LootAssetName>
+        <Prob>0.1</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\Thruster</LootAssetName>
+        <Prob>0.1</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\PowerBolt</LootAssetName>
+        <Prob>0.1</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\Fire</LootAssetName>
+        <Prob>1</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+    </Loots>
+  </Asset>
+</XnaContent>

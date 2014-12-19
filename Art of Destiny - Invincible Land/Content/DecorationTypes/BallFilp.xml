@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 包围力场,由大地无敌-范若余在2010年4月3日建立 -->
+  <Asset Type="AODGameLibrary.Ambient.DecorationType">
+    <Modelname>AODModelTypes\BallFilp</Modelname>
+    <Name>包围力场</Name>
+    <MinScale>1</MinScale>
+    <MaxScale>1</MaxScale>
+    <ModelRotation>
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0 0 0 1
+    </ModelRotation>
+    <RandomModelRotation>true</RandomModelRotation>
+    <MaxShield>80000</MaxShield>
+    <MaxArmor>10000</MaxArmor>
+    <Mass>15</Mass>
+    <FrictionForce>400</FrictionForce>
+    <AngularRate>60</AngularRate>
+    <ShieldRestoreTime>1</ShieldRestoreTime>
+    <ShieldRestoreRate>10000</ShieldRestoreRate>
+    <ArmorRestoreRate>10000</ArmorRestoreRate>
+    <Far>true</Far>
+    <Bounding>false</Bounding>
+    <Heavy>true</Heavy>
+  </Asset>
+</XnaContent>

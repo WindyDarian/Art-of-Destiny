@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 与末日的战斗中出现的力场产生器 -->
+  <Asset Type="AODGameLibrary.Units.UnitType">
+    <Modelname>Models\EOS\EOSModel</Modelname>
+    <Name>秩序之眼</Name>
+    <Scale>0.5</Scale>
+    <ModelRotation>0 0 0</ModelRotation>
+    <MaxShield>50000</MaxShield>
+    <MaxArmor>45000</MaxArmor>
+    <Mass>10000</Mass>
+    <MaxPower>60000</MaxPower>
+    <ThrustForce>2000</ThrustForce>
+    <FrictionForce>200</FrictionForce>
+    <AngularRate>15</AngularRate>
+    <ShieldRestoreTime>6</ShieldRestoreTime>
+    <ShieldRestoreRate>100</ShieldRestoreRate>
+    <ArmorRestoreRate>2</ArmorRestoreRate>
+    <Weapons>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </Weapons>
+    <MissileWeapons>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </MissileWeapons>
+    <Skills>
+
+      <Item>Skills\Ghost_AE</Item>
+      <Item>Skills\Railgun</Item>
+      <Item>Skills\GraveBombMK2</Item>
+    </Skills>
+    <AISettings>
+      <rangeOfView>4000</rangeOfView>
+      <rangeOfAttack>89000</rangeOfAttack>
+      <rangeOfShot>460</rangeOfShot>
+      <rangeOfCycle>450</rangeOfCycle>
+      <minRange>200</minRange>
+      <shotJudgmentAngel>30</shotJudgmentAngel>
+      <updateTimeSpan>2.0</updateTimeSpan>
+      <isShotAble>false</isShotAble>
+      <isRotateAble>true</isRotateAble>
+      <isMoveAble>false</isMoveAble>
+      <isSmartShot>false</isSmartShot>
+      <isMissileLaunchable>false</isMissileLaunchable>
+      <MissileLaunchSpan>5.1</MissileLaunchSpan>
+      <MinMissileRange>200</MinMissileRange>
+      <MaxMissileRange>20000</MaxMissileRange>
+      <isLoveDirectionChangeAble>false</isLoveDirectionChangeAble>
+      <isSwimable>false</isSwimable>
+      <isCycleAble>false</isCycleAble>
+      <isSkillUsable>false</isSkillUsable>
+      <isSkillSwitchable>true</isSkillSwitchable>
+    </AISettings>
+    <Bounding>true</Bounding>
+    <Heavy>true</Heavy>
+    <MaxWeaponNum>4</MaxWeaponNum>
+    <MaxMissileWeaponNum>4</MaxMissileWeaponNum>
+    <MaxSkillNum>6</MaxSkillNum>
+    <Loots>
+    </Loots>
+  </Asset>
+</XnaContent>

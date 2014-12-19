@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 轨道炮效果 -->
+  <Asset Type="AODGameLibrary.Effects.ParticleShapes.ParticleLine">
+    <ParticleEffectType>
+      <ParticleGroups>
+        <Item>ParticleGroupTypes\RailgunFire</Item>
+      </ParticleGroups>
+      <CPUParticleGroups>
+
+      </CPUParticleGroups>
+      <Scale>1</Scale>
+
+      <name>爆炸</name>
+    </ParticleEffectType>
+    <Length>4000</Length>
+    <ParticleEffectsNum>80</ParticleEffectsNum>
+
+  </Asset>
+</XnaContent>

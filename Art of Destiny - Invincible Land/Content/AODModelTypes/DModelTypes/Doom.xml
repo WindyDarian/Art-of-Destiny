@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <!--1号BOSS-毁灭级，由大地无敌-范若余在2009年8月15日设计完成-->
+  <Asset Type="AODGameLibrary.Models.DModelType">
+    <model>models\Doom</model>
+    <dieTime>0.5</dieTime>
+    <name>1号BOSS-毁灭级</name>
+  </Asset>
+</XnaContent>

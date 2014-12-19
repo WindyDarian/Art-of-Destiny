@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 大地无敌-范若余于2009年8月8日改进，用于记录标准战斗AI选项 -->
+  <!--第一个小BOSS——鬼雾的AI-->
+  <Asset Type="AODGameLibrary.AIs.AISettings">
+    <rangeOfView>2000</rangeOfView>
+    <rangeOfAttack>89000</rangeOfAttack>
+    <rangeOfShot>2000</rangeOfShot>
+    <rangeOfCycle>450</rangeOfCycle>
+    <minRange>200</minRange>
+    <shotJudgmentAngel>30</shotJudgmentAngel>
+    <updateTimeSpan>2.0</updateTimeSpan>
+    <isShotAble>true</isShotAble>
+    <isRotateAble>true</isRotateAble>
+    <isMoveAble>true</isMoveAble>
+    <isSmartShot>false</isSmartShot>
+    <isMissileLaunchable>false</isMissileLaunchable>
+    <MissileLaunchSpan>5.1</MissileLaunchSpan>
+    <MinMissileRange>200</MinMissileRange>
+    <MaxMissileRange>2000</MaxMissileRange>
+    <isLoveDirectionChangeAble>true</isLoveDirectionChangeAble>
+    <isSwimable>true</isSwimable>
+    <isCycleAble>true</isCycleAble>
+    <isSkillUsable>true</isSkillUsable>
+    <isSkillSwitchable>true</isSkillSwitchable>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 被烧烤 -->
+  <Asset Type="AODGameLibrary.Effects.ParticleEffectType">
+    <ParticleGroups>
+
+      <Item>ParticleGroupTypes\ExplosionSmoke</Item>
+      <Item>ParticleGroupTypes\ExplosionCircle</Item>
+    </ParticleGroups>
+    <CPUParticleGroups>
+
+    </CPUParticleGroups>
+    <Scale>0.1</Scale>
+ 
+    <name>被烧烤</name>
+  </Asset>
+</XnaContent>

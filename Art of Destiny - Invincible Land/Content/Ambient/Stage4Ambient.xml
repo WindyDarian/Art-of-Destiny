@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 关卡环境-->
+  <Asset Type="AODGameLibrary.Ambient.StageAmbient">
+    <SkySphere>
+      <SkySphereModel>models\Skybox\Skybox</SkySphereModel>
+      <Texture>models\Skybox\Sky3</Texture>
+      <Rotation>0 45 45</Rotation>
+    </SkySphere>
+    <Decorations>
+      <Item>
+      <DecorationType>DecorationTypes\Circle</DecorationType>
+      <Position>0 0 0</Position>
+      <RandomScaleAndRotation>false</RandomScaleAndRotation>
+      <Scale>1</Scale>
+      <!--<Rotation>10 30 0</Rotation>-->
+        <Rotation>0 0 0</Rotation>
+      </Item>
+    </Decorations>
+  </Asset>
+</XnaContent>

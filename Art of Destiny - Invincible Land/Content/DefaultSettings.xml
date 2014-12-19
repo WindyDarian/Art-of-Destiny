@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 游戏内默认设置 -->
+  <Asset Type="AODGameLibrary.Settings">
+    <SettingsList>
+      <Item>
+        <Keyword>分辨率</Keyword>
+        <SettingValue>0</SettingValue>
+      </Item>
+      <Item>
+        <Keyword>全屏幕</Keyword>
+        <SettingValue>1</SettingValue>
+      </Item>
+      <Item>
+        <Keyword>Bloom</Keyword>
+        <SettingValue>1</SettingValue>
+      </Item>
+      <Item>
+        <Keyword>音乐</Keyword>
+        <SettingValue>8</SettingValue>
+      </Item>
+      <Item>
+        <Keyword>音效</Keyword>
+        <SettingValue>10</SettingValue>
+      </Item>
+      <Item>
+        <Keyword>invertMouseY</Keyword>
+        <SettingValue>0</SettingValue>
+      </Item>
+      <Item>
+        <Keyword>invertPadY</Keyword>
+        <SettingValue>1</SettingValue>
+      </Item>
+    </SettingsList>
+  </Asset>
+</XnaContent>

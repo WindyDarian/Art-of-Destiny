@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="AODGameLibrary.Weapons.WeaponType">
+    <weaponName>能量突击炮（NPC用）</weaponName>
+    <ammoName>50mm轻型弹药</ammoName>
+    <maxAmmo>6000</maxAmmo>
+    <basicDamage>0.75</basicDamage>
+    <foldShield>1.5</foldShield>
+    <foldArmor>0.8</foldArmor>
+    <crossValue>0.02</crossValue>
+    <isShieldUseless>false</isShieldUseless>
+    <shotSpeed>99</shotSpeed>
+    <basicSpeed>3000</basicSpeed>
+    <range>1000</range>
+    <bulletModelName>AODModelTypes\BlueBullet</bulletModelName>
+    <maxAngle>4</maxAngle>
+    <isInstant>false</isInstant>
+    <shotSpan>0.20</shotSpan>
+    <isFastWeapon>true</isFastWeapon>
+    <supershotModeEnabled>false</supershotModeEnabled>
+    <supershotTime>3.0</supershotTime>
+    <supershotCooldown>2.0</supershotCooldown>
+    <supershotEnterTime>0.75</supershotEnterTime>
+    <shotEffectName>ParticleEffectTypes\Shot</shotEffectName>
+    <supershotEffectName>ParticleEffectTypes\Supershot</supershotEffectName>
+    <positionIndex1>0</positionIndex1>
+    <positionIndex2>1</positionIndex2>
+    <shotSound>Audio\GPMG</shotSound>
+    <singleShotWeapon>false</singleShotWeapon>
+    <AssetName>WeaponTypes\PowerGun</AssetName>
+  </Asset>
+</XnaContent>

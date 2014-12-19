@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="AODGameLibrary.Weapons.WeaponType">
+    <weaponName>熔甲烈焰发射器</weaponName>
+    <ammoName>态化氢燃料</ammoName>
+    <maxAmmo>3000</maxAmmo>
+    <basicDamage>3</basicDamage>
+    <foldShield>0.8</foldShield>
+    <foldArmor>1.5</foldArmor>
+    <crossValue>0.02</crossValue>
+    <isShieldUseless>false</isShieldUseless>
+    <shotSpeed>99</shotSpeed>
+    <basicSpeed>800</basicSpeed>
+    <range>300</range>
+    <bulletModelName></bulletModelName>
+    <maxAngle>24</maxAngle>
+    <isInstant>false</isInstant>
+    <shotSpan>0.10</shotSpan>
+    <isFastWeapon>true</isFastWeapon>
+    <supershotModeEnabled>true</supershotModeEnabled>
+    <supershotTime>3.0</supershotTime>
+    <supershotCooldown>2.0</supershotCooldown>
+    <supershotEnterTime>0.75</supershotEnterTime>
+    <shotEffectName>ParticleEffectTypes\FireBullet</shotEffectName>
+    <supershotEffectName>ParticleEffectTypes\FireBullet</supershotEffectName>
+    <positionIndex1>0</positionIndex1>
+    <positionIndex2>1</positionIndex2>
+    <shotSound></shotSound>
+    <singleShotWeapon>false</singleShotWeapon>
+    <AssetName>WeaponTypes\Fire</AssetName>
+  </Asset>
+</XnaContent>

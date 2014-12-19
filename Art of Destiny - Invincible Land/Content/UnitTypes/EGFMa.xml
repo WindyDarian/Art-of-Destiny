@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 炮塔，于2010年5月23日制造 -->
+  <Asset Type="AODGameLibrary.Units.UnitType">
+    <Modelname>Models\Cannons\EGFMa</Modelname>
+    <Name>禽爪炮台</Name>
+    <Scale>0.6</Scale>
+    <ModelRotation>0 0 0</ModelRotation>
+    <MaxShield>500</MaxShield>
+    <MaxArmor>1000</MaxArmor>
+    <Mass>11</Mass>
+    <MaxPower>1</MaxPower>
+    <ThrustForce>1</ThrustForce>
+    <FrictionForce>1</FrictionForce>
+    <AngularRate>145</AngularRate>
+    <ShieldRestoreTime>6</ShieldRestoreTime>
+    <ShieldRestoreRate>100</ShieldRestoreRate>
+    <ArmorRestoreRate>2</ArmorRestoreRate>
+    <Weapons>
+      <Item>WeaponTypes\PlanetaryAssaultGunBeta</Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </Weapons>
+    <MissileWeapons>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </MissileWeapons>
+
+    <Skills>
+      <Item>Skills\ShieldRestorer</Item>
+    </Skills>
+    
+    <AISettings>
+      <rangeOfView>600</rangeOfView>
+      <rangeOfAttack>2000</rangeOfAttack>
+      <rangeOfShot>1800</rangeOfShot>
+      <rangeOfCycle>100</rangeOfCycle>
+      <minRange>0</minRange>
+      <shotJudgmentAngel>30</shotJudgmentAngel>
+      <updateTimeSpan>2.0</updateTimeSpan>
+      <isShotAble>true</isShotAble>
+      <isRotateAble>true</isRotateAble>
+      <isMoveAble>false</isMoveAble>
+      <isSmartShot>false</isSmartShot>
+      <isMissileLaunchable>false</isMissileLaunchable>
+      <MissileLaunchSpan>20</MissileLaunchSpan>
+      <MinMissileRange>0</MinMissileRange>
+      <MaxMissileRange>2000</MaxMissileRange>
+      <isLoveDirectionChangeAble>false</isLoveDirectionChangeAble>
+      <isSwimable>false</isSwimable>
+      <isCycleAble>false</isCycleAble>
+      <isSkillUsable>true</isSkillUsable>
+      <isSkillSwitchable>true</isSkillSwitchable>
+    </AISettings>
+    <Bounding>false</Bounding>
+    <Heavy>true</Heavy>
+    <MaxWeaponNum>4</MaxWeaponNum>
+    <MaxMissileWeaponNum>4</MaxMissileWeaponNum>
+    <MaxSkillNum>3</MaxSkillNum>
+    <Loots>
+
+      <Item>
+        <LootAssetName>Loots\PAGAmmoSmall</LootAssetName>
+        <Prob>0.8</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\PAGAmmoSmall</LootAssetName>
+        <Prob>1</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\BlavAmmoSmall</LootAssetName>
+        <Prob>0.2</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\Thruster</LootAssetName>
+        <Prob>0.15</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\PowerBolt</LootAssetName>
+        <Prob>0.1</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+    </Loots>
+  </Asset>
+</XnaContent>

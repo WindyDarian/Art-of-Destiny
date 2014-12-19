@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 表示一种技能或可使用的辅助物品,此类XML由大地无敌-范若余在2009年8月23日添加 -->
+  <Asset Type="CombatLibrary.Spells.Railgun">
+    <!--由大地无敌-范若余在2009年8月23日加入-->
+    <!--技能名-->
+    <SkillName>轨道炮</SkillName>
+    <!--技能说明-->
+    <SkillText>使用轨道炮攻击前方直线，毁灭一切</SkillText>
+    <!--施法时间,秒,若为0则瞬间发动-->
+    <CastTime>2</CastTime>
+    <!--引导时间,秒-->
+    <ChannelTime>8</ChannelTime>
+    <!--冷却时间-->
+    <Cooldown>25</Cooldown>
+    <!--技能施放、检测距离-->
+    <Range>5000</Range>
+    <!--技能施放点序号-->
+    <SkillPointNum>0</SkillPointNum>
+    <!--技能伤害-->
+    <Damage>
+      <BasicDamage>480</BasicDamage>
+      <FoldShield>1.3</FoldShield>
+      <FoldArmor>1</FoldArmor>
+      <CrossValue>0.01</CrossValue>
+      <IsShieldUseless>false</IsShieldUseless>
+      <Fold>1</Fold>
+    </Damage>
+    <!--引导周期,只在引导技能上生效-->
+    <ChannelCycle>0.1</ChannelCycle>
+
+    <!--自定义的值，不同种技能有不同的意义-->
+    <FloatValues>
+      <!--0攻击距离-->
+      4000
+      <!--1初始半径-->
+      32.84
+      <!--2结束半径-->
+      131.36
+    </FloatValues>
+
+    <AssetName>Railgun</AssetName>
+    <EffectLine>ParticleEffectTypes\ParticleLines\Railgun</EffectLine>
+    <DamageAll>false</DamageAll>
+  </Asset>
+</XnaContent>

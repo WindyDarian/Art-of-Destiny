@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 弹药的模型,由大地无敌-范若余在2009年8月10日改良. -->
+  <Asset Type="AODGameLibrary.Models.AODModelType">
+    <ChildModels>
+    </ChildModels>
+
+    <NormalEffects>
+    </NormalEffects>
+
+    <DeathEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion_Small</AssetName>
+        <Position>0 0 0</Position>
+        <Scale>1</Scale>
+      </Item>
+    </DeathEffects>
+
+    <MovementEffects>
+    </MovementEffects>
+    
+    <BirthEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\BlueBullet</AssetName>
+        <Position>0 0 0</Position>
+        <Scale>1</Scale>
+      </Item>
+    </BirthEffects>
+
+    <WeaponPositions>
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+    </WeaponPositions>
+    <SkillPositions>
+      0 0 0 
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+    </SkillPositions>
+
+    <BirthSound></BirthSound>
+
+    <DeathSound></DeathSound>
+
+
+    <ExtraBoundingSphereRadius>0</ExtraBoundingSphereRadius>
+
+    <ModelCollision>true</ModelCollision>
+
+    <CollisionCheckLevel>1</CollisionCheckLevel>
+
+
+    <name>弹药模型</name>
+
+  </Asset>
+</XnaContent>

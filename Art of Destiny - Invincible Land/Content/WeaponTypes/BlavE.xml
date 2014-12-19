@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <!--由大地无敌-范若余在2010年5月23日创建，NPC用Blav重炮-->
+  <!--炮弹结构的特殊性使得该武器对于有护盾的目标也可造成优秀的伤害，最新数据证明该武器对有护盾目标的伤害可达无护盾相同类型目标的50%-->
+  <Asset Type="AODGameLibrary.Weapons.WeaponType">
+    <weaponName>Blav重炮</weaponName>
+    <ammoName>Blav穿透弹</ammoName>
+    <maxAmmo>25</maxAmmo>
+    <basicDamage>181</basicDamage>
+    <foldShield>1</foldShield>
+    <foldArmor>1</foldArmor>
+    <crossValue>0.5</crossValue>
+    <isShieldUseless>false</isShieldUseless>
+    <!--值对该类武器无用-->
+    <shotSpeed>99</shotSpeed>
+    <basicSpeed>3000</basicSpeed>
+    <range>1500</range>
+    <bulletModelName>AODModelTypes\Blav</bulletModelName>
+    <maxAngle>0.5</maxAngle>
+    <isInstant>false</isInstant>
+    <shotSpan>0.9</shotSpan>
+    <isFastWeapon>false</isFastWeapon>
+    <!--值对该类武器无用-->
+    <supershotModeEnabled>true</supershotModeEnabled>
+    <!--值对该类武器无用-->
+    <supershotTime>3.0</supershotTime>
+    <!--值对该类武器无用-->
+    <supershotCooldown>2.0</supershotCooldown>
+    <!--值对该类武器无用-->
+    <supershotEnterTime>0.75</supershotEnterTime>
+    <shotEffectName>ParticleEffectTypes\Shot</shotEffectName>
+    <supershotEffectName>ParticleEffectTypes\Supershot</supershotEffectName>
+    <positionIndex1>4</positionIndex1>
+    <positionIndex2>5</positionIndex2>
+    <shotSound></shotSound>
+    <singleShotWeapon>true</singleShotWeapon>
+    <AssetName>WeaponTypes\BlavE</AssetName>
+  </Asset>
+</XnaContent>

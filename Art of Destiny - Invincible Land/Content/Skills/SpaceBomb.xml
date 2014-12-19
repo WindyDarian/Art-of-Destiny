@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 表示一种技能或可使用的辅助物品,此类XML由大地无敌-范若余在2009年8月23日添加 -->
+  <Asset Type="CombatLibrary.Spells.SpaceBomb">
+    <!--由大地无敌-范若余在2009年9月13日加入-->
+    <!--技能名-->
+    <SkillName>末日之雷</SkillName>
+    <!--技能说明-->
+    <SkillText>对周围敌人造成伤害并炸飞</SkillText>
+    
+    <!--施法时间,秒,若为0则瞬间发动-->
+    <CastTime>0</CastTime>
+    <!--引导时间,秒-->
+    <ChannelTime>0</ChannelTime>
+    <!--冷却时间-->
+    <Cooldown>18</Cooldown>
+    <!--技能施放、检测距离-->
+    <Range>800</Range>
+    <!--技能施放点序号-->
+    <SkillPointNum>0</SkillPointNum>
+    <!--技能伤害-->
+    <Damage>
+      <BasicDamage>400</BasicDamage>
+      <FoldShield>1</FoldShield>
+      <FoldArmor>1</FoldArmor>
+      <CrossValue>0.1</CrossValue>
+      <IsShieldUseless>false</IsShieldUseless>
+      <Fold>1</Fold>
+    </Damage>
+    <!--引导周期,只在引导技能上生效-->
+    <ChannelCycle>0.1</ChannelCycle>
+    <!--自定义的值，不同种技能有不同的意义-->
+    <FloatValues>
+      <!--0冲量-->
+      8100
+      <!--1范围-->
+      1500
+    </FloatValues>
+
+    <AssetName>Skills\SpaceBomb</AssetName>
+    
+  </Asset>
+</XnaContent>

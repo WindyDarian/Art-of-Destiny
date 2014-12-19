@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 测试用单位，于2009年8月8日在UnitType重写后建立 -->
+  <Asset Type="AODGameLibrary.Units.UnitType">
+    <Modelname>AODModelTypes\Player</Modelname>
+    <Name>苍隼</Name>
+    <Scale>1</Scale>
+    <ModelRotation>0 0 0</ModelRotation>
+    <MaxShield>400</MaxShield>
+    <MaxArmor>400</MaxArmor>
+    <Mass>15</Mass>
+    <MaxPower>120000</MaxPower>
+    <ThrustForce>4000</ThrustForce>
+    <FrictionForce>400</FrictionForce>
+    <AngularRate>240</AngularRate>
+    <ShieldRestoreTime>6</ShieldRestoreTime>
+    <ShieldRestoreRate>100</ShieldRestoreRate>
+    <ArmorRestoreRate>2</ArmorRestoreRate>
+    <Weapons>
+      <Item>WeaponTypes\PlanetaryAssaultGun</Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </Weapons>
+ 
+    <MissileWeapons>
+      <Item>MissileWeaponTypes\Ghost</Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </MissileWeapons>
+   
+    <Skills>
+
+      <Item>Skills\PowerBolt</Item>
+    </Skills>
+   
+    <AISettings>
+      <rangeOfView>900</rangeOfView>
+      <rangeOfAttack>89000</rangeOfAttack>
+      <rangeOfShot>950</rangeOfShot>
+      <rangeOfCycle>600</rangeOfCycle>
+      <minRange>200</minRange>
+      <shotJudgmentAngel>30</shotJudgmentAngel>
+      <updateTimeSpan>2.0</updateTimeSpan>
+      <isShotAble>true</isShotAble>
+      <isRotateAble>true</isRotateAble>
+      <isMoveAble>true</isMoveAble>
+      <isSmartShot>false</isSmartShot>
+      <isMissileLaunchable>true</isMissileLaunchable>
+      <MissileLaunchSpan>10</MissileLaunchSpan>
+      <MinMissileRange>200</MinMissileRange>
+      <MaxMissileRange>900</MaxMissileRange>
+      <isLoveDirectionChangeAble>true</isLoveDirectionChangeAble>
+      <isSwimable>false</isSwimable>
+      <isCycleAble>true</isCycleAble>
+      <isSkillUsable>true</isSkillUsable>
+      <isSkillSwitchable>true</isSkillSwitchable>
+    </AISettings>
+    <Bounding>true</Bounding>
+    <Heavy>false</Heavy>
+    <MaxWeaponNum>4</MaxWeaponNum>
+    <MaxMissileWeaponNum>4</MaxMissileWeaponNum>
+    <MaxSkillNum>3</MaxSkillNum>
+    <Loots>
+
+    </Loots>
+  </Asset>
+</XnaContent>

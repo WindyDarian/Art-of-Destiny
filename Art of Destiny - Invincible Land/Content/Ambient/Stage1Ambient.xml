@@ -1,0 +1,1485 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 关卡环境-->
+  <Asset Type="AODGameLibrary.Ambient.StageAmbient">
+    <SkySphere>
+      <SkySphereModel>models\Skybox\Skybox</SkySphereModel>
+      <Texture>models\Skybox\Sky1</Texture>
+      <Rotation>0 45 45</Rotation>
+    </SkySphere>
+    <Decorations>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>404.5083 337.2867 -48099.32</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>90.22961 -2041.118 -50154.36</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2180.865 -2874.715 -50215.3</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1996.504 -300.7853 -50102.39</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2415.542 1821.939 -49678.63</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1999.592 -575.2789 -47820.42</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1906.416 -322.4127 -50033.57</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>278.953 3070.824 -49195.86</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>3709.359 421.9274 -47629.57</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2382.491 1021.048 -49487.31</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2317.117 -1188.065 -47332.03</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2806.393 233.3251 -50184.81</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2103.071 -405.0057 -48129.19</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1949.636 254.0185 -50264.73</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2803.253 -233.8805 -51109.4</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2007.719 -44.84827 -50017.13</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2626.589 -2964.221 -50172.59</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1871.669 -632.1368 -48829.9</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>3739.261 -1249.292 -49225.58</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2348.104 -2515.298 -49756.49</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>3362.742 -750.3987 -47264.24</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>5455.454 1881.747 -49694.95</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>358.3003 2842.939 -48980.76</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1948.795 1961.598 -50100.57</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>867.4619 1344.859 -48002.54</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-753.2952 -190.1396 -47569.94</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-427.5388 -909.0673 -49371.57</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2062.539 -1222.951 -50174.68</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1989.325 -38.27373 -49860.7</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1411.897 1411.735 -51862.73</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2867.397 -1128.183 -49960.45</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>975.2246 -3210.484 -48189.78</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1706.103 2495.487 -50863.91</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>3277.027 1823.99 -50831.43</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1555.489 2352.092 -48414.3</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2009.144 2245.26 -50246.97</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1686.172 -1110.73 -49463.13</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2741.857 -1173.109 -49580.05</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1497.51 -93.24282 -50045.45</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1319.798 139.5486 -49290.65</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2376.207 -355.4622 -51037.04</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1962.605 1327.589 -50043.21</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-636.5955 3005.131 -50118.95</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1235.747 -3143.731 -50325.2</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2053.298 1792.962 -49980.65</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>3577.062 1742.78 -46819.03</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>3637.403 -1072.929 -50260.48</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-474.4224 450.7395 -50286.87</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1998.24 292.0103 -49936.13</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2529.469 -30.35786 -50500.88</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>3119.768 -2377.352 -50599.6</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2733.093 799.2343 -51161.29</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1312.131 3176.515 -49102.34</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2558.439 661.767 -49489.59</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1789.433 -364.1203 -49182.51</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>4386.038 -130.6858 -53074.23</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>3355.506 -1362.045 -51824.18</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>3012.735 1854.26 -51165.45</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1996.855 -851.5989 -49976.44</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1765.853 -2060.689 -48655.34</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2054.397 1487.314 -49956.1</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2961.66 -3126.74 -51034.35</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>3707.712 2404.955 -51067.49</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>4553.375 857.0266 -50293.07</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1665.2 453.6541 -50095.47</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2081.177 3083.523 -50122.23</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>62.2262 1375.059 -49643.68</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>505.2091 2311.555 -52747.37</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-1464.03 -471.8099 -51406.71</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>4860.124 1599.607 -48226.86</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>3185.925 3382.84 -49110.08</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1553.778 3912.222 -50428.92</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2229.264 -217.9243 -49996.09</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>3149.75 1601.013 -51030.39</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2147.185 482.9323 -50126.26</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2107.771 -254.8217 -52707.3</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1832.82 565.4449 -52211.47</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2722.059 279.5321 -50017.56</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1793.014 27.12248 -50138.44</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2594.235 452.0756 -50182.99</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-2049.335 -2243.456 1237.573</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-649.5884 -2035.85 -774.2423</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>10.08087 -1965.245 43.75723</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-2045.236 -584.279 1247.766</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-1534.5 323.4797 -1136.342</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>2.015796 89.5838 -9.569882</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-288.6619 1221.551 1334.533</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>121.512 -247.6976 -217.3206</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>796.7717 -427.9886 -276.7756</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-1013.436 381.2119 8.64401</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>624.8536 1899.131 -305.4639</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-88.72599 165.828 -1216.457</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-41.87602 2243.088 171.4306</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>812.3882 1302.02 1742.984</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-441.4701 -2580.149 1353.309</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>170.8323 3048.648 -741.5674</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>62.22759 -212.7533 -298.4163</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1713.469 -2471.116 -1787.234</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>21.53617 -1506.707 720.9024</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-356.0412 -3211.89 3.12375</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1430.961 2733.544 -575.8926</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-9.002544 58.27563 6.031188</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-13.73192 351.5619 -419.9586</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>27.23012 1808.345 -900.551</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1490.748 394.3682 -373.9435</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-2675.16 -2698.613 -765.3482</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-1941.849 2702.062 -444.3232</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-892.5488 344.9272 612.8403</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>328.3692 1596.245 706.0768</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>15.52263 -20.05822 -10.2049</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>69.86811 -1809.834 2189.97</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>29.87284 -1033.647 -2.437892</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-217.0394 -2323.378 654.2593</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>396.8862 -3775.33 544.952</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>537.8867 -1517.778 -986.3876</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>261.4438 -187.1646 155.014</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-3001.123 443.6082 1006.724</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>95.72208 47.25401 -103.6446</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1241.857 -364.1712 -1336.698</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>826.5593 -11.75343 2986.351</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>303.0703 -1140.674 -2373.293</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-1306.103 1430.204 303.2925</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>559.5957 -2022.466 161.0131</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-958.7728 2309.519 -1704.906</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-1163.216 1860.829 -1102.955</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1176.801 -1160.554 -401.5128</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>328.8864 -1496.687 518.8168</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1086.891 1711.914 756.1529</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-46.64343 477.6646 121.2618</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-1594.239 -3126.322 366.5511</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-1156.552 413.511 -12463.33</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-551.6844 1429.068 -11042.62</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-29.47482 3125.449 -11966.02</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-114.1997 -1316.618 -12148.99</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-477.2059 -3517.119 -11405.96</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-322.437 855.8046 -12320.15</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-800.15 2850.288 -13372.18</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1656.235 -917.8613 -12060.83</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-958.7872 -3403.363 -13326.73</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-83.62934 2244.257 -11730.77</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>3388.325 -589.0266 -12624.92</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-202.2802 153.889 -11775.39</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>3125.593 -104.6488 -14000.03</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1255.005 2535.269 -12677.32</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-668.8932 -3490.683 -10818.19</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-67.22649 -2983.593 -12292.8</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>127.187 -370.1857 -12085.31</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-418.7687 1278.856 -14063.72</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-1253.247 320.2285 -13154.89</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-692.7945 -1004.754 -11653.03</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>240.998 -81.46484 -10281.85</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>262.6713 1270.621 -12084.41</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-33.53805 9.226335 -12008.83</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-404.9628 -1046.464 -12200.59</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1.593354 939.1031 -11599.29</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-733.9703 713.5521 -12882.05</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>84.48032 -59.07631 -11767.09</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-411.1546 2285.579 -11277.28</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-354.8614 213.7278 -12897.68</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>14.13148 1006.026 -11951.8</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>930.24 -1681.822 -11239.87</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-2097.821 -2069.752 -13313.23</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-364.4868 2384.447 -12550.5</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>936.325 -841.8781 -12352.82</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-2.399374 -2664.363 -11844.11</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-492.8374 -1949.174 -12687.84</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-19.52744 64.62225 -11949.74</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-807.6789 607.615 -11636.56</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>49.4283 2417.406 -12020.66</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>441.4153 -850.574 -12001.8</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-2231.264 1247.905 -12714.47</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-5.514554 -143.2212 -12003.33</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>148.9675 -1349.663 -11955.03</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-1882.964 655.9535 -11445.88</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-257.6417 -2936.514 -11486.96</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>39.97908 -1674.709 -12133.75</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1390.569 -670.1229 -10991.5</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-53.34426 -407.9436 -11929.16</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>135.8233 3270.672 -11627.04</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-12.4152 1391.841 -11990.08</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-206.9061 3218.169 -11022.46</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-64.45969 294.103 -12302.35</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-178.4164 -2852.876 -10280.43</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>311.7825 -1162.952 -10973.15</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>109.6697 543.1149 -12177.71</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1096.69 -36.02729 -13116.54</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-358.3094 -441.2743 -15389.58</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>106.2658 368.3549 -12121.13</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-165.4687 -1194.077 -11859.65</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-373.6826 -884.6782 -14234.41</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>41.01613 1345.175 -11676.73</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-1312.883 -68.80923 -12028.2</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>601.4604 -1398.644 -12383.31</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>528.5242 -1459.401 -10937.64</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1925.321 -1243.567 -12754.09</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>550.7997 1573.304 -8428.797</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>685.7148 -183.0199 -11900.72</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-3032.583 1387.439 -12427.87</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>257.6948 164.1862 -9694.492</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-20.53342 -685.0012 -12028.13</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-365.2746 -1727.226 -12476.83</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-154.2593 2083.286 -11722.66</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-2409.083 815.9474 -12784.25</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>51.76796 -131.978 -12027.92</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>1220.762 -12.62129 -13285.95</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-1021.724 1479.648 -13440.36</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-3261.027 56.94113 -12766.65</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-782.5389 2908.498 -13072.03</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-2807.942 1370.126 -11466.67</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+      <Item>
+        <DecorationType>DecorationTypes\Rock1</DecorationType>
+        <Position>-16.74716 -31.40801 -12914.77</Position>
+        <RandomScaleAndRotation>true</RandomScaleAndRotation>
+        <Scale>1</Scale>
+        <Rotation>0 0 0</Rotation>
+      </Item>
+
+    </Decorations>
+  </Asset>
+</XnaContent>

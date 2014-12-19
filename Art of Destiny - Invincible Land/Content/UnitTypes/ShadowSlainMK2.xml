@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 测试用单位，于2009年8月8日在UnitType重写后建立 -->
+  <Asset Type="AODGameLibrary.Units.UnitType">
+    <Modelname>AODModelTypes\ShadowSlain</Modelname>
+    <Name>暗影星MK.II</Name>
+    <Scale>1.0</Scale>
+    <ModelRotation>0 0 0</ModelRotation>
+    <MaxShield>750</MaxShield>
+    <MaxArmor>400</MaxArmor>
+    <Mass>11</Mass>
+    <MaxPower>60000</MaxPower>
+    <ThrustForce>2000</ThrustForce>
+    <FrictionForce>250</FrictionForce>
+    <AngularRate>180</AngularRate>
+    <ShieldRestoreTime>6</ShieldRestoreTime>
+    <ShieldRestoreRate>100</ShieldRestoreRate>
+    <ArmorRestoreRate>2</ArmorRestoreRate>
+    <Weapons>
+      <Item>WeaponTypes\PlanetaryAssaultGun</Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </Weapons>
+    <MissileWeapons>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </MissileWeapons>
+
+    <Skills>
+      <Item>Skills\Thruster</Item>
+    </Skills>
+    
+    <AISettings>
+      <rangeOfView>900</rangeOfView>
+      <rangeOfAttack>89000</rangeOfAttack>
+      <rangeOfShot>400</rangeOfShot>
+      <rangeOfCycle>100</rangeOfCycle>
+      <minRange>30</minRange>
+      <shotJudgmentAngel>30</shotJudgmentAngel>
+      <updateTimeSpan>2.0</updateTimeSpan>
+      <isShotAble>true</isShotAble>
+      <isRotateAble>true</isRotateAble>
+      <isMoveAble>true</isMoveAble>
+      <isSmartShot>false</isSmartShot>
+      <isMissileLaunchable>false</isMissileLaunchable>
+      <MissileLaunchSpan>20</MissileLaunchSpan>
+      <MinMissileRange>200</MinMissileRange>
+      <MaxMissileRange>600</MaxMissileRange>
+      <isLoveDirectionChangeAble>false</isLoveDirectionChangeAble>
+      <isSwimable>true</isSwimable>
+      <isCycleAble>true</isCycleAble>
+      <isSkillUsable>true</isSkillUsable>
+      <isSkillSwitchable>true</isSkillSwitchable>
+    </AISettings>
+    <Bounding>true</Bounding>
+    <Heavy>false</Heavy>
+    <MaxWeaponNum>4</MaxWeaponNum>
+    <MaxMissileWeaponNum>4</MaxMissileWeaponNum>
+    <MaxSkillNum>3</MaxSkillNum>
+    <Loots>
+      <Item>
+        <LootAssetName>Loots\X-D</LootAssetName>
+        <Prob>0.5</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\PAGAmmoSmall</LootAssetName>
+        <Prob>0.5</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\BlavAmmoSmall</LootAssetName>
+        <Prob>0.1</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\PAGAmmoSmall</LootAssetName>
+        <Prob>0.5</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\Thruster</LootAssetName>
+        <Prob>0.15</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+      <Item>
+        <LootAssetName>Loots\PowerBolt</LootAssetName>
+        <Prob>0.1</Prob>
+        <MaxRadius>100</MaxRadius>
+      </Item>
+    </Loots>
+  </Asset>
+</XnaContent>

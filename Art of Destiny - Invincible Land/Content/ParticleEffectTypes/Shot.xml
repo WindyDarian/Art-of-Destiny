@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 射击焰火 -->
+  <Asset Type="AODGameLibrary.Effects.ParticleEffectType">
+    <ParticleGroups>
+      <Item>ParticleGroupTypes\SmallestSmoke</Item>
+      <Item>ParticleGroupTypes\ShotFire</Item>
+    </ParticleGroups>
+    <CPUParticleGroups>
+
+      <!-- <Item>ParticleGroupTypes\CPUParticleGroups\shotFire</Item>
+        <Item>ParticleGroupTypes\CPUParticleGroups\shotSmoke_chase</Item>-->
+    </CPUParticleGroups>
+    <Scale>1</Scale>
+
+ 
+    <name>射击焰火</name>
+  </Asset>
+</XnaContent>

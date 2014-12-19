@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <!--能量重炮X-D，由大地无敌-范若余在2010年8月16日创建-->
+  <!--对护盾造成超强伤害的炮-->
+  <Asset Type="AODGameLibrary.Weapons.WeaponType">
+    <weaponName>护盾干扰炮</weaponName>
+    <ammoName>X-D脉冲弹</ammoName>
+    <maxAmmo>8</maxAmmo>
+    <basicDamage>1500</basicDamage>
+    <foldShield>1.2</foldShield>
+    <foldArmor>0.01</foldArmor>
+    <crossValue>0.001</crossValue>
+    <isShieldUseless>false</isShieldUseless>
+    <!--值对该类武器无用-->
+    <shotSpeed>99</shotSpeed>
+    <basicSpeed>1000</basicSpeed>
+    <range>1500</range>
+    <bulletModelName>AODModelTypes\PowerBolt</bulletModelName>
+    <maxAngle>4</maxAngle>
+    <isInstant>false</isInstant>
+    <shotSpan>2.5</shotSpan>
+    <isFastWeapon>false</isFastWeapon>
+    <!--值对该类武器无用-->
+    <supershotModeEnabled>false</supershotModeEnabled>
+    <!--值对该类武器无用-->
+    <supershotTime>3.0</supershotTime>
+    <!--值对该类武器无用-->
+    <supershotCooldown>2.0</supershotCooldown>
+    <!--值对该类武器无用-->
+    <supershotEnterTime>0.75</supershotEnterTime>
+    <shotEffectName>ParticleEffectTypes\Shot</shotEffectName>
+    <supershotEffectName>ParticleEffectTypes\Supershot</supershotEffectName>
+    <positionIndex1>4</positionIndex1>
+    <positionIndex2>5</positionIndex2>
+    <shotSound></shotSound>
+    <singleShotWeapon>true</singleShotWeapon>
+    <AssetName>WeaponTypes\X-D</AssetName>
+  </Asset>
+</XnaContent>

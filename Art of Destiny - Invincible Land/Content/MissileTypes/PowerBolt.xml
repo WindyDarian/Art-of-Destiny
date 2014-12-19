@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+    <!-- TODO: replace this Asset with your own XML asset data. -->
+    <Asset Type="AODGameLibrary.Weapons.MissileType">
+      <!--能量导弹，由大地无敌-范若余在2009年8月24日添加-->
+      <explosionRadius>75.0</explosionRadius>
+      <mass>1.0</mass>
+      <maxThrustForce>1300.0</maxThrustForce>
+      <maxPower>60000.0</maxPower>
+      <frictionForce>200.0</frictionForce>
+      <basicSpeed>5.0</basicSpeed>
+      <basicDamage>85.0</basicDamage>
+      <foldShield>1</foldShield>
+      <foldArmor>1</foldArmor>
+      <crossValue>0.02</crossValue>
+      <isShieldUseless>false</isShieldUseless>
+      <scale>1</scale>
+      <modelName>AODModelTypes\PowerBolt</modelName>
+      <modelRotation>
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+      </modelRotation>
+      <lifeTime>4.25</lifeTime>
+
+    </Asset>
+</XnaContent>

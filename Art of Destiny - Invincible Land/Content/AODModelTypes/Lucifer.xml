@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- EOTO的导弹攻击舰路西法，由大地无敌-范若余于2010年4月17日制作 -->
+  <Asset Type="AODGameLibrary.Models.AODModelType">
+    <ChildModels>
+      <Item>
+        <DModel>
+          <model>models\Lucifer\Lucifer</model>
+          <dieTime>0.5</dieTime>
+          <name>路西法</name>
+        </DModel>
+        <Position>0 0 0</Position>
+        <Rotation>0 0 0</Rotation>
+        <Scale>1.9</Scale>
+        <Alpha>1</Alpha>
+      </Item>
+    </ChildModels>
+
+    <NormalEffects>
+    </NormalEffects>
+
+    <DeathEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>0 0 0</Position>
+        <Scale>2.4</Scale>
+      </Item>
+    </DeathEffects>
+
+    <MovementEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\EnemyOffgas</AssetName>
+        <Position>4 4 20</Position>
+        <Scale>1.2</Scale>
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\EnemyOffgas</AssetName>
+        <Position>-4 4 20</Position>
+        <Scale>1.2</Scale>
+      </Item>
+    </MovementEffects>
+    
+    <BirthEffects>
+    </BirthEffects>
+
+    <WeaponPositions>
+      2 0 -8
+      -2 0 -8
+      2 0 -8
+      -2 0 -8
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+    </WeaponPositions>
+    <SkillPositions>
+      7.454 -2.57 0.72
+      -7.454 -2.57 0.72
+      0 10.991 7.542
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+    </SkillPositions>
+
+    <BirthSound></BirthSound>
+
+    <DeathSound>Audio\Blast4</DeathSound>
+
+    <ExtraBoundingSphereRadius>0</ExtraBoundingSphereRadius>
+
+    <ModelCollision>true</ModelCollision>
+
+    <CollisionCheckLevel>0</CollisionCheckLevel>
+
+
+    <name>测试用敌人模型</name>
+
+    
+  </Asset>
+</XnaContent>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- BOSS1末日级，于2009年8月8日在UnitType重写后建立 -->
+  <Asset Type="AODGameLibrary.Units.UnitType">
+    <Modelname>AODModelTypes\Doom</Modelname>
+    <Name>末日</Name>
+    <Scale>1</Scale>
+    <ModelRotation>0 0 0</ModelRotation>
+    <MaxShield>18000</MaxShield>
+    <MaxArmor>18000</MaxArmor>
+    <Mass>400</Mass>
+    <MaxPower>1000000</MaxPower>
+    <ThrustForce>12000</ThrustForce>
+    <FrictionForce>4000</FrictionForce>
+    <AngularRate>15</AngularRate>
+    <ShieldRestoreTime>6</ShieldRestoreTime>
+    <ShieldRestoreRate>5</ShieldRestoreRate>
+    <ArmorRestoreRate>2</ArmorRestoreRate>
+    <Weapons>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </Weapons>
+    <MissileWeapons>
+      <Item>MissileWeaponTypes\Mist</Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </MissileWeapons>
+    <Skills>
+      <Item>Skills\RailGun</Item>
+      <Item>Skills\SpaceBomb</Item>
+      <Item>Skills\SpaceGrip</Item>
+    </Skills>
+    <AISettings>
+      <rangeOfView>4000</rangeOfView>
+      <rangeOfAttack>89000</rangeOfAttack>
+      <rangeOfShot>1000</rangeOfShot>
+      <rangeOfCycle>1000</rangeOfCycle>
+      <minRange>0</minRange>
+      <shotJudgmentAngel>30</shotJudgmentAngel>
+      <updateTimeSpan>2.0</updateTimeSpan>
+      <isShotAble>true</isShotAble>
+      <isRotateAble>true</isRotateAble>
+      <isMoveAble>true</isMoveAble>
+      <isSmartShot>false</isSmartShot>
+      <isMissileLaunchable>true</isMissileLaunchable>
+      <MissileLaunchSpan>5.1</MissileLaunchSpan>
+      <MinMissileRange>100</MinMissileRange>
+      <MaxMissileRange>20000</MaxMissileRange>
+      <isLoveDirectionChangeAble>false</isLoveDirectionChangeAble>
+      <isSwimable>false</isSwimable>
+      <isCycleAble>false</isCycleAble>
+      <isSkillUsable>false</isSkillUsable>
+      <isSkillSwitchable>false</isSkillSwitchable>
+    </AISettings>
+    <Bounding>true</Bounding>
+    <Heavy>true</Heavy>
+    <MaxWeaponNum>4</MaxWeaponNum>
+    <MaxMissileWeaponNum>4</MaxMissileWeaponNum>
+    <MaxSkillNum>3</MaxSkillNum>
+    <Loots>
+      
+    </Loots>
+  </Asset>
+</XnaContent>

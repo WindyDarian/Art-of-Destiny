@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 最佳状态射击叠加火焰-->
+  <Asset Type="AODGameLibrary.Effects.ParticleEffectType">
+    <ParticleGroups>
+      <Item>ParticleGroupTypes\SuperShotFire</Item>
+    </ParticleGroups>
+    <CPUParticleGroups>
+
+      <!--<Item>ParticleGroupTypes\CPUParticleGroups\supershotFire</Item>-->
+    </CPUParticleGroups>
+    <Scale>1</Scale>
+    <name>最佳状态射击叠加火焰</name>
+  </Asset>
+</XnaContent>

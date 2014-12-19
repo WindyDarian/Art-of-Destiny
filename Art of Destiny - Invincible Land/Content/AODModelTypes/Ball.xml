@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 能量球 -->
+  <Asset Type="AODGameLibrary.Models.AODModelType">
+    <ChildModels>
+      <Item>
+        <DModel>
+          <model>models\Ball\Ball</model>
+          <dieTime>0.5</dieTime>
+          <name>力场</name>
+        </DModel>
+        <Position>0 0 0</Position>
+        <Rotation>0 0 0</Rotation>
+        <Scale>1</Scale>
+        <Alpha>0.4</Alpha>
+      </Item>
+    </ChildModels>
+
+    <NormalEffects>
+    </NormalEffects>
+
+    <DeathEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>0 0 0</Position>
+        <Scale>1</Scale>
+      </Item>
+    </DeathEffects>
+
+    <MovementEffects>
+
+    </MovementEffects>
+    
+    <BirthEffects>
+    </BirthEffects>
+
+    <WeaponPositions>
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+    </WeaponPositions>
+    <SkillPositions>
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+    </SkillPositions>
+
+    <BirthSound></BirthSound>
+
+    <DeathSound>Audio\Blast4</DeathSound>
+
+    <ExtraBoundingSphereRadius>1</ExtraBoundingSphereRadius>
+
+    <ModelCollision>false</ModelCollision>
+
+    <CollisionCheckLevel>1</CollisionCheckLevel>
+
+
+    <name></name>
+
+    
+  </Asset>
+</XnaContent>

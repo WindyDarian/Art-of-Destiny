@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 岩石,由大地无敌-范若余在1010年1月16日建立 -->
+  <Asset Type="AODGameLibrary.Ambient.DecorationType">
+    <Modelname>AODModelTypes\Rock1</Modelname>
+    <Name>小矿石</Name>
+    <MinScale>0.8</MinScale>
+    <MaxScale>2</MaxScale>
+    <ModelRotation>
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0 0 0 1
+    </ModelRotation>
+    <RandomModelRotation>true</RandomModelRotation>
+    <MaxShield>0</MaxShield>
+    <MaxArmor>1000</MaxArmor>
+    <Mass>15</Mass>
+    <FrictionForce>400</FrictionForce>
+    <AngularRate>1</AngularRate>
+    <ShieldRestoreTime>6</ShieldRestoreTime>
+    <ShieldRestoreRate>100</ShieldRestoreRate>
+    <ArmorRestoreRate>2</ArmorRestoreRate>
+
+    <Far>false</Far>
+    <Bounding>true</Bounding>
+    <Heavy>false</Heavy>
+  </Asset>
+</XnaContent>

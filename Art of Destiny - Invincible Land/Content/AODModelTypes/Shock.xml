@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 震波,由大地无敌-范若余在2009年6月13日改良. -->
+  <Asset Type="AODGameLibrary.Models.AODModelType">
+    <ChildModels>
+    </ChildModels>
+
+    <NormalEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\BlueMissile</AssetName>
+        <Position>0 0 0</Position>
+        <Scale>1</Scale>
+      </Item>
+    </NormalEffects>
+
+    <DeathEffects>
+    </DeathEffects>
+
+    <MovementEffects>
+    </MovementEffects>
+
+    <BirthEffects>
+    </BirthEffects>
+
+    <WeaponPositions>
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+    </WeaponPositions>
+    <SkillPositions>
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+    </SkillPositions>
+
+    <BirthSound>Audio\Blast4</BirthSound>
+
+    <DeathSound></DeathSound>
+
+
+    <ExtraBoundingSphereRadius>0</ExtraBoundingSphereRadius>
+
+    <ModelCollision>true</ModelCollision>
+
+    <CollisionCheckLevel>0</CollisionCheckLevel>
+
+
+    <name>幽灵导弹</name>
+
+  </Asset>
+</XnaContent>

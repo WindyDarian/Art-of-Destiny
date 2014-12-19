@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 啸叫，由大地无敌-范若余于2009年2月15日建立 -->
+  <Asset Type="AODGameLibrary.Units.UnitType">
+    <Modelname>AODModelTypes\Scream</Modelname>
+    <Name>黑暗咆哮</Name>
+    <Scale>3</Scale>
+    <ModelRotation>0 0 0</ModelRotation>
+    <MaxShield>8500</MaxShield>
+    <MaxArmor>5000</MaxArmor>
+    <Mass>56</Mass>
+    <MaxPower>180000</MaxPower>
+    <ThrustForce>6000</ThrustForce>
+    <FrictionForce>750</FrictionForce>
+    <AngularRate>180</AngularRate>
+    <ShieldRestoreTime>6</ShieldRestoreTime>
+    <ShieldRestoreRate>10</ShieldRestoreRate>
+    <ArmorRestoreRate>10</ArmorRestoreRate>
+    <Weapons>
+      <Item>WeaponTypes\X-D</Item>
+      <Item>WeaponTypes\PlanetaryAssaultGun</Item>
+      <Item></Item>
+      <Item></Item>
+    </Weapons>
+ 
+    <MissileWeapons>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </MissileWeapons>
+   
+    <Skills>
+      <Item>Skills\GraveBomb</Item>
+      
+      <Item>Skills\PowerBolt</Item>
+    </Skills>
+   
+    <AISettings>
+      <rangeOfView>900</rangeOfView>
+      <rangeOfAttack>89000</rangeOfAttack>
+      <rangeOfShot>950</rangeOfShot>
+      <rangeOfCycle>350</rangeOfCycle>
+      <minRange>10</minRange>
+      <shotJudgmentAngel>30</shotJudgmentAngel>
+      <updateTimeSpan>2.0</updateTimeSpan>
+      <isShotAble>true</isShotAble>
+      <isRotateAble>true</isRotateAble>
+      <isMoveAble>true</isMoveAble>
+      <isSmartShot>false</isSmartShot>
+      <isMissileLaunchable>true</isMissileLaunchable>
+      <MissileLaunchSpan>10</MissileLaunchSpan>
+      <MinMissileRange>200</MinMissileRange>
+      <MaxMissileRange>900</MaxMissileRange>
+      <isLoveDirectionChangeAble>true</isLoveDirectionChangeAble>
+      <isSwimable>false</isSwimable>
+      <isCycleAble>true</isCycleAble>
+      <isSkillUsable>true</isSkillUsable>
+      <isSkillSwitchable>true</isSkillSwitchable>
+    </AISettings>
+    <Bounding>true</Bounding>
+    <Heavy>true</Heavy>
+    <MaxWeaponNum>4</MaxWeaponNum>
+    <MaxMissileWeaponNum>4</MaxMissileWeaponNum>
+    <MaxSkillNum>3</MaxSkillNum>
+    <Loots>
+
+    </Loots>
+  </Asset>
+</XnaContent>

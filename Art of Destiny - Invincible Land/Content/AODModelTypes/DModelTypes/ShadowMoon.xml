@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <!-- 命运艺术中第一个用了贴图的飞机模型，由大地无敌-范若余于2010年1月24日加入 -->
+  <Asset Type="AODGameLibrary.Models.DModelType">
+    <model>models\ShadowMoon\Shadowmoon</model>
+    <dieTime>0.5</dieTime>
+    <name>影月</name>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 火焰弹，2010/4/19大地无敌 -->
+  <Asset Type="AODGameLibrary.Effects.ParticleEffectType">
+    <ParticleGroups>
+      <Item>ParticleGroupTypes\OrangeFireBullet</Item>
+    </ParticleGroups>
+    <CPUParticleGroups>
+
+    </CPUParticleGroups>
+    <Scale>2</Scale>
+ 
+    <name>火焰弹</name>
+  </Asset>
+</XnaContent>

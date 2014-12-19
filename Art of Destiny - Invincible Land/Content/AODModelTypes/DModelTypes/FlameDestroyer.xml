@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="AODGameLibrary.Models.DModelType">
+    <model>models\p2</model>
+    <dieTime>0.5</dieTime>
+    <name>火毁者</name>
+  </Asset>
+</XnaContent>

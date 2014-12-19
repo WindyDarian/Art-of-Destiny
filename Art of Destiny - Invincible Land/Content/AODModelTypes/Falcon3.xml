@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 苍隼,由大地无敌-范若余在2010年3月16日重绘 -->
+  <Asset Type="AODGameLibrary.Models.AODModelType">
+    <ChildModels>
+      <Item>
+        <DModel>
+          <model>models\Falcon\Falcon2</model>
+          <dieTime>0.5</dieTime>
+          <name>苍隼</name>
+        </DModel>
+        <Position>0 0 0</Position>
+        <Rotation>0 0 0</Rotation>
+        <Scale>1</Scale>
+        <Alpha>1</Alpha>
+      </Item>
+    </ChildModels>
+
+    <NormalEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\BlueBird</AssetName>
+        <Position>9.22 2.099 8.194</Position>
+        <Scale>0.3</Scale>
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\BlueBird</AssetName>
+        <Position>-9.22 2.099 8.194</Position>
+        <Scale>0.3</Scale>
+      </Item>
+    </NormalEffects>
+
+    <DeathEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>0 0 0</Position>
+        <Scale>1</Scale>
+      </Item>
+    </DeathEffects>
+
+    <MovementEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\Offgas</AssetName>
+        <Position>1.89 0.83 7.188</Position>
+        <Scale>1</Scale>
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\Offgas</AssetName>
+        <Position>-1.89 0.83 7.188</Position>
+        <Scale>1</Scale>
+      </Item>
+    </MovementEffects>
+
+    <BirthEffects>
+    </BirthEffects>
+
+    <WeaponPositions>
+      8.962 2 -2.64
+      -8.962 2 -2.64
+      1.321 1.12 -17.185
+      -1.321 1.12 17.185
+      0 0 -18
+      0 0 -18
+      0 0 0
+      0 0 0
+    </WeaponPositions>
+    <SkillPositions>
+      0 0 -18
+      0 0 -18
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+    </SkillPositions>
+
+    <BirthSound></BirthSound>
+
+    <DeathSound>Audio\Blast4</DeathSound>
+
+
+    <ExtraBoundingSphereRadius>0</ExtraBoundingSphereRadius>
+
+    <ModelCollision>true</ModelCollision>
+
+    <CollisionCheckLevel>1</CollisionCheckLevel>
+
+
+    <name>苍隼</name>
+
+
+  </Asset>
+</XnaContent>

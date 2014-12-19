@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 用于测试的模型,由大地无敌-范若余在2009年8月10日改良 -->
+  <Asset Type="AODGameLibrary.Models.AODModelType">
+    <ChildModels>
+      <Item>
+        <DModel>
+          <model>models\p2</model>
+          <dieTime>0.5</dieTime>
+          <name>火毁者</name>
+        </DModel>
+        <Position>0 0 0</Position>
+        <Rotation>0 0 0</Rotation>
+        <Scale>1.9</Scale>
+        <Alpha>1</Alpha>
+      </Item>
+    </ChildModels>
+
+    <NormalEffects>
+    </NormalEffects>
+
+    <DeathEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>0 0 0</Position>
+        <Scale>1</Scale>
+      </Item>
+    </DeathEffects>
+
+    <MovementEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\EnemyOffgas</AssetName>
+        <Position>4 4 20</Position>
+        <Scale>1</Scale>
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\EnemyOffgas</AssetName>
+        <Position>-4 4 20</Position>
+        <Scale>1</Scale>
+      </Item>
+    </MovementEffects>
+    
+    <BirthEffects>
+    </BirthEffects>
+
+    <WeaponPositions>
+      2 0 -8
+      -2 0 -8
+      2 0 -8
+      -2 0 -8
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+    </WeaponPositions>
+    <SkillPositions>
+      2 0 -8
+      -2 0 -8
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+      0 0 0
+    </SkillPositions>
+
+    <BirthSound></BirthSound>
+
+    <DeathSound>Audio\Blast4</DeathSound>
+
+    <ExtraBoundingSphereRadius>0</ExtraBoundingSphereRadius>
+
+    <ModelCollision>true</ModelCollision>
+
+    <CollisionCheckLevel>0</CollisionCheckLevel>
+
+
+    <name>测试用敌人模型</name>
+
+    <!--已废弃
+    <dModel1>DModelTypes\Test</dModel1>
+    <dModel1_scale>0.1</dModel1_scale>
+    <dModel1_rotation>
+      -1 0 0 0
+      0 1 0 0
+      0 0 -1 0
+      0 0 0 1
+    </dModel1_rotation>
+    <dModel1_position>0 0 0 </dModel1_position>
+    
+    <dModel2></dModel2>
+    <dModel2_scale>1.0</dModel2_scale>
+    <dModel2_rotation>
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0 0 0 1
+    </dModel2_rotation>
+    <dModel2_position>0 0 0 </dModel2_position>
+    
+    <dModel3></dModel3>
+    <dModel3_scale>1.0</dModel3_scale>
+    <dModel3_rotation>
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0 0 0 1
+    </dModel3_rotation>
+    <dModel3_position>0 0 0 </dModel3_position>
+    
+    <dModel4></dModel4>
+    <dModel4_scale>1.0</dModel4_scale>
+    <dModel4_rotation>
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0 0 0 1
+    </dModel4_rotation>
+    <dModel4_position>0 0 0 </dModel4_position>
+    
+    <dModel5></dModel5>
+    <dModel5_scale>1.0</dModel5_scale>
+    <dModel5_rotation>
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0 0 0 1
+    </dModel5_rotation>
+    <dModel5_position>0 0 0 </dModel5_position>
+
+    <pEffect1></pEffect1>
+    <pEffect1_position>2 2 -10</pEffect1_position>
+
+
+    <pEffect2></pEffect2>
+    <pEffect2_position>-2 2 -10</pEffect2_position>
+
+
+    <pEffect3></pEffect3>
+    <pEffect3_position>0 0 0</pEffect3_position>
+
+
+    <pEffect4></pEffect4>
+    <pEffect4_position>0 0 0</pEffect4_position>
+
+
+    <pEffect5></pEffect5>
+    <pEffect5_position>0 0 0</pEffect5_position>
+
+    <pEffect6></pEffect6>
+    <pEffect6_position>0 0 0</pEffect6_position>
+    
+    <pEffect7></pEffect7>
+    <pEffect7_position>0 0 0</pEffect7_position>
+
+    <pEffect8></pEffect8>
+    <pEffect8_position>0 0 0</pEffect8_position>
+
+    <pEffect9></pEffect9>
+    <pEffect9_position>0 0 0</pEffect9_position>
+
+    <pEffect10></pEffect10>
+    <pEffect10_position>0 0 0</pEffect10_position>
+
+    <deathEffect1>ParticleEffectTypes\Explosion</deathEffect1>
+    <deathEffect1_position>0 0 0</deathEffect1_position>
+
+    <deathEffect2></deathEffect2>
+    <deathEffect2_position>0 0 0</deathEffect2_position>
+
+    <moveEffect1>ParticleEffectTypes\Offgas</moveEffect1>
+    <moveEffect1_position>2 2 10</moveEffect1_position>
+
+    <moveEffect2>ParticleEffectTypes\Offgas</moveEffect2>
+    <moveEffect2_position>-2 2 10</moveEffect2_position>
+
+    <moveEffect3></moveEffect3>
+    <moveEffect3_position>0 0 0</moveEffect3_position>
+
+    <moveEffect4></moveEffect4>
+    <moveEffect4_position>0 0 0</moveEffect4_position>
+
+    <moveEffect5></moveEffect5>
+    <moveEffect5_position>0 0 0</moveEffect5_position>
+
+    <moveEffect6></moveEffect6>
+    <moveEffect6_position>0 0 0</moveEffect6_position>
+-->
+  </Asset>
+</XnaContent>

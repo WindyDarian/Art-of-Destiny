@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 蓝色子弹 -->
+  <Asset Type="AODGameLibrary.Effects.ParticleEffectType">
+    <ParticleGroups>
+      <Item>ParticleGroupTypes\BlueBullet</Item>
+    </ParticleGroups>
+    <CPUParticleGroups>
+
+    </CPUParticleGroups>
+    <Scale>1</Scale>
+ 
+    <name>蓝色子弹</name>
+  </Asset>
+</XnaContent>

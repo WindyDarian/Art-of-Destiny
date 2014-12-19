@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 表示一种技能或可使用的辅助物品,此类XML由大地无敌-范若余在2009年8月23日添加 -->
+  <Asset Type="CombatLibrary.Spells.Restorer">
+    <!--护盾增效器,由大地无敌-范若余在2010年3月20日加入-->
+    <!--技能名-->
+    <SkillName>护盾增效器</SkillName>
+    <!--技能说明-->
+    <SkillText>6秒内护盾回复600</SkillText>
+
+    <!--施法时间,秒,若为0则瞬间发动-->
+    <CastTime>0.5</CastTime>
+    <!--引导时间,秒-->
+    <ChannelTime>6</ChannelTime>
+    <!--冷却时间-->
+    <Cooldown>11</Cooldown>
+    <!--技能施放、检测距离-->
+    <Range>2000</Range>
+    <!--技能施放点序号-->
+    <SkillPointNum>0</SkillPointNum>
+    <!--技能伤害-->
+    <Damage>
+      <BasicDamage>0</BasicDamage>
+      <FoldShield>1</FoldShield>
+      <FoldArmor>1</FoldArmor>
+      <CrossValue>0.01</CrossValue>
+      <IsShieldUseless>false</IsShieldUseless>
+      <Fold>1</Fold>
+    </Damage>
+    <!--引导周期,只在引导技能上生效-->
+    <ChannelCycle>0.125</ChannelCycle>
+    <!--自定义的值，不同种技能有不同的意义-->
+    <FloatValues>
+      12.5 0
+    </FloatValues>
+    <AssetName>Skills\ShieldRestorer</AssetName>
+  </Asset>
+</XnaContent>

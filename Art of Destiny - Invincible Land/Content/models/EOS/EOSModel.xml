@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- 秩序之眼,由大地无敌-范若余在2010年6月7日制作 -->
+  <Asset Type="AODGameLibrary.Models.AODModelType">
+    <ChildModels>
+      <Item>
+        <DModel>
+          <model>Models\EOS\EOSM</model>
+          <dieTime>0.5</dieTime>
+          <name>秩序之眼</name>
+        </DModel>
+        <Position>0 0 0</Position>
+        <Rotation>0 0 0</Rotation>
+        <Scale>1</Scale>
+        <Alpha>1</Alpha>
+      </Item>
+    </ChildModels>
+
+    <NormalEffects>
+    </NormalEffects>
+
+    <DeathEffects>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>0 0 0</Position>
+        <Scale>4</Scale>
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>0 100 0</Position>
+        <Scale>2</Scale>
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>0 0 -262</Position>
+        <Scale>3</Scale>
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>0 -421 0</Position>
+        <Scale>2</Scale>
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>300 0 0</Position>
+        <Scale>2</Scale>
+      </Item>
+      <Item>
+        <AssetName>ParticleEffectTypes\Explosion</AssetName>
+        <Position>-203 100 0</Position>
+        <Scale>2</Scale>
+      </Item>
+
+
+    </DeathEffects>
+
+    <MovementEffects>
+    </MovementEffects>
+    
+    <BirthEffects>
+    </BirthEffects>
+
+    <WeaponPositions>
+      0 0 -407
+      0 0 -407
+      0 0 -407
+      0 0 -407
+      0 0 -407
+      0 0 -407
+      0 0 -407
+      0 0 -407
+    </WeaponPositions>
+    <SkillPositions>
+      0 0 -407
+      0 0 -407
+      0 0 -407
+      0 0 -407
+      0 0 -407
+      0 0 -407
+      0 0 -407
+      0 0 -407
+    </SkillPositions>
+
+    <BirthSound></BirthSound>
+
+    <DeathSound>Audio\Blast4</DeathSound>
+
+
+    <ExtraBoundingSphereRadius>0</ExtraBoundingSphereRadius>
+
+    <ModelCollision>true</ModelCollision>
+
+    <CollisionCheckLevel>0</CollisionCheckLevel>
+
+
+    <name>秩序之眼</name>
+
+    
+  </Asset>
+</XnaContent>

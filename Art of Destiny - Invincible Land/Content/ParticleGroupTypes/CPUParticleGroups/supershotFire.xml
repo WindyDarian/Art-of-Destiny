@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+    <!-- TODO: replace this Asset with your own XML asset data. -->
+    <Asset Type="AODGameLibrary.Effects.CPUParticleGroupType">
+    <texture>Textures\Offgas</texture>
+    <groupPosition>
+     0 0 0
+    </groupPosition>
+    <parLifetime>0.15</parLifetime>
+    <startColor>
+      255 255 255 255
+    </startColor>
+    <endColor>
+      255 255 255 0
+    </endColor>
+    <minInitialSpeed>1</minInitialSpeed>
+    <maxInitialSpeed>8</maxInitialSpeed>
+    <minScale>0.5</minScale>
+    <maxScale>1.5</maxScale>
+    <scaleRate>0.4</scaleRate>
+    <addParticleNum>3</addParticleNum>
+    <pointSize>4</pointSize>
+    <Deathtime>0.05</Deathtime>
+    <particleMoveWithGroup>true</particleMoveWithGroup>
+    <name>最佳状态射击火焰</name>
+  </Asset>
+</XnaContent>

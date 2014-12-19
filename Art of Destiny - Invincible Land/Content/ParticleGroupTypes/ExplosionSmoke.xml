@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="AODGameLibrary.Effects.ParticleSettings">
+    <!--由GPU负责运算的爆炸烟雾，由大地无敌在2009年8月5日建立-->
+    <TextureName>Textures\smoke</TextureName>
+    <MaxParticles>41</MaxParticles>
+    <Duration>PT2S</Duration>
+    <DurationRandomness>0.2</DurationRandomness>
+    <EmitterVelocitySensitivity>0</EmitterVelocitySensitivity>
+    <MinHorizontalVelocity>0</MinHorizontalVelocity>
+    <MaxHorizontalVelocity>0</MaxHorizontalVelocity>
+    <MinVerticalVelocity>0</MinVerticalVelocity>
+    <MaxVerticalVelocity>0</MaxVerticalVelocity>
+    <MinInitialVelocity>10</MinInitialVelocity>
+    <MaxInitialVelocity>200</MaxInitialVelocity>
+    <Gravity>0 0 0</Gravity>
+    <EndVelocity>0.05</EndVelocity>
+    <MinColor>200 200 200 155</MinColor>
+    <MaxColor>255 255 255 200</MaxColor>
+    <MinRotateSpeed>0.2</MinRotateSpeed>
+    <MaxRotateSpeed>3</MaxRotateSpeed>
+    <MinStartSize>100</MinStartSize>
+    <MaxStartSize>150</MaxStartSize>
+    <MinEndSize>250</MinEndSize>
+    <MaxEndSize>750</MaxEndSize>
+    <SourceBlend>SourceAlpha</SourceBlend>
+    <DestinationBlend>One</DestinationBlend>
+    <MinStartVelocity>0 0 0</MinStartVelocity>
+    <MaxStartVelocity>0 0 0</MaxStartVelocity>
+    <AddParSpan>0.075</AddParSpan>
+    <AddParTime>0.75</AddParTime>
+    <IsSticking>false</IsSticking>
+  </Asset>
+</XnaContent>
