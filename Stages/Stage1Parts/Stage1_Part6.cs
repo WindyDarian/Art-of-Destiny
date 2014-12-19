@@ -60,10 +60,10 @@ namespace Stages.Stage1Parts
             je.RiderName = "普雷斯.杰斐逊";
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon"), 1, destination + new Vector3(-100, 100, 100));
             Variables.Unit[7] = Variables.LastCreatedUnit;
-            Variables.LastCreatedUnit.RiderName = "玛莲娜.林风";
+            Variables.LastCreatedUnit.RiderName = "Maria Woodwind";
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon3"), 1, destination + new Vector3(100, -200, 100));
             Variables.Unit[8] = Variables.LastCreatedUnit;
-            Variables.LastCreatedUnit.RiderName = "马克斯.派恩";
+            Variables.LastCreatedUnit.RiderName = "Maks Payne";
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon3"), 1, destination + new Vector3(100, 100, -200));
             Variables.Unit[9] = Variables.LastCreatedUnit;
             Variables.LastCreatedUnit.RiderName = "乔治.灰炮";
@@ -71,21 +71,21 @@ namespace Stages.Stage1Parts
             Variables.Unit[10] = Variables.LastCreatedUnit;
             Variables.LastCreatedUnit.RiderName = "蒙托尔.雷诺";
 
-            Stage.AddGameMessage(@"比尔：鲁道夫，很高兴“再次”见到你。", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"比尔：我的骄傲的第三舰队呢？只剩下这些了么？", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"指挥官鲁道夫：比尔？你已经被除名了！", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"杰诺：这里没有派对吗？", Color.LightGreen, 4);
-            Stage.AddGameMessage(@"指挥官鲁道夫：哼。这些脆弱的家伙……我的舰队刚刚将它们击退。", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"战士杰斐逊：老大，这次是一次绝密的军事行动，我们只带了轻型舰只。", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"战士杰斐逊：然后来了一大批敌人，抢走了运输船上的东西。", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"指挥官鲁道夫：够了！我才是你老大！", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"杰诺：看来我是来错地方了，如果没有别的事，那我就先离开了。", Color.LightGreen, 3);
-            Stage.AddGameMessage(@"比尔：只是抢走东西，这不像是机器的作风，它们抢走了什么？", Color.CornflowerBlue, 3);
-            Stage.AddGameMessage(@"指挥官鲁道夫：这根本不重要。", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"战士杰斐逊：是的，当它受到冲击时，只是发出了很小的波动……", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"战士杰斐逊：然后整个星域的通讯都瘫痪了那么一小下……", Color.CornflowerBlue, 3);
-            Stage.AddGameMessage(@"指挥官鲁道夫：傻瓜！我没有让你说！", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"比尔：看来你丢了一件重要的东西。", Color.CornflowerBlue, 3);
+            Stage.AddGameMessage(@"Bill: 鲁道夫，很高兴“再次”见到你。", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Bill: 我的骄傲的第三舰队呢？只剩下这些了么？", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Rudolf the Commander: 比尔？你已经被除名了！", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Zero: 这里没有派对吗？", Color.LightGreen, 4);
+            Stage.AddGameMessage(@"Rudolf the Commander: 哼。这些脆弱的家伙……我的舰队刚刚将它们击退。", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Jeffsion the Warrior: 老大，这次是一次绝密的军事行动，我们只带了轻型舰只。", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Jeffsion the Warrior: 然后来了一大批敌人，抢走了运输船上的东西。", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Rudolf the Commander: 够了！我才是你老大！", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Zero: 看来我是来错地方了，如果没有别的事，那我就先离开了。", Color.LightGreen, 3);
+            Stage.AddGameMessage(@"Bill: 只是抢走东西，这不像是机器的作风，它们抢走了什么？", Color.CornflowerBlue, 3);
+            Stage.AddGameMessage(@"Rudolf the Commander: 这根本不重要。", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Jeffsion the Warrior: 是的，当它受到冲击时，只是发出了很小的波动……", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Jeffsion the Warrior: 然后整个星域的通讯都瘫痪了那么一小下……", Color.CornflowerBlue, 3);
+            Stage.AddGameMessage(@"Rudolf the Commander: 傻瓜！我没有让你说！", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Bill: 看来你丢了一件重要的东西。", Color.CornflowerBlue, 3);
             t1 = Stage.CreateTimer(10);
             base.Initialize();
         }
@@ -100,7 +100,7 @@ namespace Stages.Stage1Parts
             bill = Variables.Unit[2];
             bill.IsInvincible = true;
 
-            bill.RiderName = "比尔.沃顿";
+            bill.RiderName = "Bill Warden";
             //Stage.Player.GetWeapon(@"WeaponTypes\Blav", 25);
             base.StartFormThis();
         }
@@ -114,16 +114,16 @@ namespace Stages.Stage1Parts
                 if (Stage.AliveUnitsInUnitGroup(2).Count <= 0)
                 {
                     Stage.StopMusic();
-                    Stage.AddGameMessage(@"比尔：第三舰队，重整队形！", Color.CornflowerBlue, 3);
-                    Stage.AddGameMessage(@"比尔：看来形势越来越严峻了。我们必须活着返回附近的避难所！", Color.CornflowerBlue, 4);
-                    Stage.AddGameMessage(@"指挥官鲁道夫：比尔，我再警告你一次，这里只有我才是长官。", Color.CornflowerBlue, 4);
-                    Stage.AddGameMessage(@"阿莉西亚：丢掉“遗迹”想掩盖事实的人还敢自称“长官”？", Color.Yellow, 4);
-                    Stage.AddGameMessage(@"比尔：什么？谁在说话？所以你把“遗迹”丢了，鲁道夫？", Color.CornflowerBlue, 3);
-                    Stage.AddGameMessage(@"指挥官鲁道夫：是的！“遗迹”丢了！这原本是一次秘密的运送任务！", Color.CornflowerBlue, 4);
-                    Stage.AddGameMessage(@"战士杰斐逊：是“遗迹”？你个老家伙为什么到现在告诉我们？", Color.CornflowerBlue, 3);
-                    Stage.AddGameMessage(@"指挥官鲁道夫：管他呢，事实上我们都不知道它的作用不是吗？", Color.CornflowerBlue, 3);
-                    Stage.AddGameMessage(@"指挥官鲁道夫：这东西只是联邦拿来鼓舞人心的没用的东西，我们谁也不说就是了。", Color.CornflowerBlue, 4);
-                    Stage.AddGameMessage(@"比尔：鲁道夫，你在拿人类的未来开玩笑。", Color.CornflowerBlue, 3);
+                    Stage.AddGameMessage(@"Bill: 第三舰队，重整队形！", Color.CornflowerBlue, 3);
+                    Stage.AddGameMessage(@"Bill: 看来形势越来越严峻了。我们必须活着返回附近的避难所！", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage(@"Rudolf the Commander: 比尔，我再警告你一次，这里只有我才是长官。", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage(@"Alicia: 丢掉“遗迹”想掩盖事实的人还敢自称“长官”？", Color.Yellow, 4);
+                    Stage.AddGameMessage(@"Bill: 什么？谁在说话？所以你把“遗迹”丢了，鲁道夫？", Color.CornflowerBlue, 3);
+                    Stage.AddGameMessage(@"Rudolf the Commander: 是的！“遗迹”丢了！这原本是一次秘密的运送任务！", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage(@"Jeffsion the Warrior: 是“遗迹”？你个老家伙为什么到现在告诉我们？", Color.CornflowerBlue, 3);
+                    Stage.AddGameMessage(@"Rudolf the Commander: 管他呢，事实上我们都不知道它的作用不是吗？", Color.CornflowerBlue, 3);
+                    Stage.AddGameMessage(@"Rudolf the Commander: 这东西只是联邦拿来鼓舞人心的没用的东西，我们谁也不说就是了。", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage(@"Bill: 鲁道夫，你在拿人类的未来开玩笑。", Color.CornflowerBlue, 3);
                     m = Stage.AddPositionMark(destination);
                     b2 = true;
                     t2 = Stage.CreateTimer(10);
@@ -164,11 +164,11 @@ namespace Stages.Stage1Parts
                 Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\FlameDestroyer"), 2, destination + new Vector3(0, 0, -4200));
                 Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\GhostMist"), 2, destination + new Vector3(0, 0, -10000));
                 b1 = true;
-                Stage.AddGameMessage(@"指挥官鲁道夫：又来了！还有比这更糟的吗？", Color.CornflowerBlue, 3);
-                Stage.AddGameMessage(@"战士杰斐逊：朋友们，放轻松……秩序之眼的另一支小队……", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"比尔：第三舰队，准备战斗！", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Rudolf the Commander: 又来了！还有比这更糟的吗？", Color.CornflowerBlue, 3);
+                Stage.AddGameMessage(@"Jeffsion the Warrior: 朋友们，放轻松……秩序之眼的另一支小队……", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: 第三舰队，准备战斗！", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"鬼雾：凡人，是向秩序之眼效忠，还是接受可悲的死亡命运？", Color.Red, 4);
-                Stage.AddGameMessage(@"杰诺：开始摇滚吧！", Color.LightGreen, 3);
+                Stage.AddGameMessage(@"Zero: 开始摇滚吧！", Color.LightGreen, 3);
             }
             base.Event_TimerRing(timer);
         }

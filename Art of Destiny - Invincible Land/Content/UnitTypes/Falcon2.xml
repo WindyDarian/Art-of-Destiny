@@ -3,11 +3,11 @@
   <!-- 测试用单位，于2009年8月8日在UnitType重写后建立 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>AODModelTypes\Falcon2</Modelname>
-    <Name>苍隼指挥舰</Name>
+    <Name>Falcon Commander Issue</Name>
     <Scale>1</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>1400</MaxShield>
-    <MaxArmor>1200</MaxArmor>
+    <MaxArmor>1800</MaxArmor>
     <Mass>15</Mass>
     <MaxPower>120000</MaxPower>
     <ThrustForce>2500</ThrustForce>

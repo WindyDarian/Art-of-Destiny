@@ -120,19 +120,19 @@ namespace Stages.Stage4Parts
         {
             if (timer == t)
             {
-                Stage.AddGameMessage(@"杰诺：全部破坏掉了！", Color.LightGreen, 2);
-                Stage.AddGameMessage(@"比尔：秩序之环的能量正在消失……", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"比尔：很快，我们将面对秩序之眼的本体。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Zero: 全部破坏掉了！", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"Bill: 秩序之环的能量正在消失……", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: 很快，我们将面对秩序之眼的本体。", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"玛莲娜.林风：抱歉，我们和盖亚号失去了联系。", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"普雷斯.杰斐逊：秩序之眼和“遗迹”产生了某些感应，干扰了周围的磁场。", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"比尔：奇怪的是……我们的通话并没有受到干扰。", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"杰诺：到达秩序之环的中心后，把“遗迹”扔到能量堆中就可以了吧。", Color.LightGreen, 2);
-                Stage.AddGameMessage(@"比尔：希望如此——", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"阿莉西亚：不要这样做……", Color.Yellow, 4);
-                Stage.AddGameMessage(@"杰诺：阿莉西亚，是你吗？", Color.LightGreen, 2);
-                Stage.AddGameMessage(@"阿莉西亚：不要……", Color.Yellow, 4);
-                Stage.AddGameMessage(@"阿莉西亚：杰诺……我发现……这是一个圈套……", Color.Yellow, 4);
-                Stage.AddGameMessage(@"比尔：这是什么意思——", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: 奇怪的是……我们的通话并没有受到干扰。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Zero: 到达秩序之环的中心后，把“遗迹”扔到能量堆中就可以了吧。", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"Bill: 希望如此——", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Alicia: 不要这样做……", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Zero: 阿莉西亚，是你吗？", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"Alicia: 不要……", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 杰诺……我发现……这是一个圈套……", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Bill: 这是什么意思——", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"玛莲娜.林风：是教会！散开！", Color.CornflowerBlue, 4);
                 
                 b = true;

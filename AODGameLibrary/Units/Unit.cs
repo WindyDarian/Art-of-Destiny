@@ -786,7 +786,7 @@ namespace AODGameLibrary.Units
                         }
                     }
                 }
-                if (InputState.IsKeyPressed(Keys.D2) || (pad && InputState.IsPadButtonPressed(Buttons.DPadDown)))
+                if (InputState.IsKeyPressed(Keys.D2) || (pad && InputState.IsPadButtonPressed(Buttons.DPadRight)))
                 {
 
                     if (SkillControlUnit)
@@ -805,7 +805,7 @@ namespace AODGameLibrary.Units
                         }
                     }
                 }
-                if (InputState.IsKeyPressed(Keys.D3) || (pad && InputState.IsPadButtonPressed(Buttons.DPadRight)))
+                if (InputState.IsKeyPressed(Keys.D3) || (pad && InputState.IsPadButtonPressed(Buttons.DPadDown)))
                 {
 
 
@@ -857,15 +857,22 @@ namespace AODGameLibrary.Units
                 }
                 #endregion
 
-                if (InputState.IsKeyPressed(Keys.W) || (pad && InputState.IsPadButtonPressed(Buttons.B)))
+                if (InputState.IsKeyPressed(Keys.W) || (pad && InputState.IsPadButtonPressed(Buttons.LeftStick)))
                 {
                     keepEngineOn = !keepEngineOn;
                 }
 
-                bool engineBlock = InputState.IsKeyDown(Keys.S) || InputState.IsPadButtonDown(Buttons.A);
+                bool engineBlock = false;
+
+                if (InputState.IsKeyDown(Keys.S) || InputState.IsPadButtonDown(Buttons.B))
+                {
+                    engineBlock = true;
+                }
+
 
                 if (keepEngineOn && !engineBlock) EngineOnFlame();
-
+                else if (engineBlock)
+                    SetFictionForceFrame(unitType.ThrustForce);
                 
 
 
@@ -886,7 +893,7 @@ namespace AODGameLibrary.Units
                 playerRollValue = 0;
 
                 //旋转
-                if (InputState.IsKeyDown(Keys.Space) || (pad && InputState.IsPadButtonDown(Buttons.LeftStick)))
+                if (InputState.IsKeyDown(Keys.Space) || (pad && InputState.IsPadButtonDown(Buttons.A)))
                 {
                     if (gameWorld.PlayerLockedTarget != null)
                     {

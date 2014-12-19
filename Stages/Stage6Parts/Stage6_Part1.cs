@@ -69,8 +69,8 @@ namespace Stages.Stage6Parts
                 Stage.AddGameMessage(@"威克多：这不是我想要的结果！", Color.Red, 2);
                 Stage.AddGameMessage(@"威克多：全军，杀掉这几个叛徒！", Color.Red, 2);
 
-                Stage.AddGameMessage(@"比尔：威克多，你被逮捕了，", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"比尔：让我们护送盖亚号回法庭吧。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: 威克多，你被逮捕了，", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: 让我们护送盖亚号回法庭吧。", Color.CornflowerBlue, 4);
 
                 Stage.AddGameMessage(@"威克多：我，才是最高指挥官！", Color.Red, 2);
                 Stage.AddGameMessage(@"威克多：我，才是世界的主宰！", Color.Red, 2);

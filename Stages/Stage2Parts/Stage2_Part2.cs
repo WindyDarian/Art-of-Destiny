@@ -27,17 +27,17 @@ namespace Stages.Stage2Parts
         {
             Variables.Unit[2].IsInvincible = true;
             Stage.PlayMusic(@"Audio\Kai_Engel_-_Beneath_The_Stronghold", true, 2);
-            Stage.AddGameMessage(@"杰诺：比尔？", Color.LightGreen, 2);
-            Stage.AddGameMessage(@"比尔：你一个人可应付不了这些敌人。", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"杰诺：看来我不能独自拯救世界了。", Color.LightGreen, 3);
-            Stage.AddGameMessage(@"比尔：听我说，虫洞很快就消失了，第三舰队没能跟上来。", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Zero: 比尔？", Color.LightGreen, 2);
+            Stage.AddGameMessage(@"Bill: 你一个人可应付不了这些敌人。", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Zero: 看来我不能独自拯救世界了。", Color.LightGreen, 3);
+            Stage.AddGameMessage(@"Bill: 听我说，虫洞很快就消失了，第三舰队没能跟上来。", Color.CornflowerBlue, 4);
           
-            Stage.AddGameMessage(@"杰诺：这是什么该死的地方？", Color.LightGreen, 3);
-            Stage.AddGameMessage(@"比尔：我们现在在外围星域，看来这里完全被教会控制了。", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"杰诺：“伊瓦”教会，我听说过。", Color.LightGreen, 3);
-            Stage.AddGameMessage(@"比尔：我已经搜索到这附近的一个星门，我们只能通过星门返回休斯星域。", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"比尔：在这之前，我会设法与一个老朋友取得联系，看来他的计划险些泡汤。", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"比尔：我想你听说过他——地球联盟舰队总指挥官威克多.杰克逊。", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Zero: 这是什么该死的地方？", Color.LightGreen, 3);
+            Stage.AddGameMessage(@"Bill: 我们现在在外围星域，看来这里完全被教会控制了。", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Zero: “伊瓦”教会，我听说过。", Color.LightGreen, 3);
+            Stage.AddGameMessage(@"Bill: 我已经搜索到这附近的一个星门，我们只能通过星门返回休斯星域。", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Bill: 在这之前，我会设法与一个老朋友取得联系，看来他的计划险些泡汤。", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Bill: 我想你听说过他——地球联盟舰队总指挥官威克多.杰克逊。", Color.CornflowerBlue, 4);
 
             base.Initialize();
         }

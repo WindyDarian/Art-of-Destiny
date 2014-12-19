@@ -109,10 +109,10 @@ namespace Stages.Stage4Parts
                 if (Unit.Distance(Stage.Player, Variables.Unit[3]) < 1000)
                 {
 
-                    Stage.AddGameMessage(@"比尔：杰斐逊，很高兴能看到你们。", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage(@"Bill: 杰斐逊，很高兴能看到你们。", Color.CornflowerBlue, 4);
                     Stage.AddGameMessage(@"玛莲娜.林风：第三舰队支援组报到！", Color.CornflowerBlue, 4);
                     Stage.AddGameMessage(@"普雷斯.杰斐逊：老大！杰诺！比比谁的火力更强大吧！", Color.CornflowerBlue, 4);
-                    Stage.AddGameMessage(@"杰诺：那么，一起摇滚吧。", Color.LightGreen, 2);
+                    Stage.AddGameMessage(@"Zero: 那么，一起摇滚吧。", Color.LightGreen, 2);
                       m = true;
                 }
             }

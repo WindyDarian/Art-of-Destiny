@@ -47,13 +47,13 @@ namespace Stages
             LoadPlayer(1, Vector3.Zero);
 
             Player = Variables.LastCreatedUnit;
-            Player.RiderName = "杰诺";
+            Player.RiderName = "Zero";
             Player.IsAIControlling = false;
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon"), 1, Vector3.Zero);
             Variables.Unit[2] = Variables.LastCreatedUnit;
             //Variables.Unit[2].IsInvincible = true;
             Variables.Unit[2].SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.Unit[2].unitAI).settings, Player));
-            Variables.LastCreatedUnit.RiderName = "比尔.沃顿";
+            Variables.LastCreatedUnit.RiderName = "Bill Warden";
             bill = new UnitInf(GameWorld);
             GameWorld.AddUI(bill);
             bill.Target = Variables.Unit[2];
@@ -160,7 +160,7 @@ namespace Stages
                             AddRealtimeGameMessage(@"比尔：该死！", Color.CornflowerBlue, 2);
                             break;
                         case 4:
-                            AddRealtimeGameMessage(@"杰诺：比尔，你要挂了，赶快闪！", Color.LightGreen, 2);
+                            AddRealtimeGameMessage(@"Zero: 比尔，你要挂了，赶快闪！", Color.LightGreen, 2);
                             break;
                     }
                 }
@@ -186,7 +186,7 @@ namespace Stages
                             AddRealtimeGameMessage(@"比尔：恢复战斗，一切正常。", Color.CornflowerBlue, 2);
                             break;
                         case 3:
-                            AddRealtimeGameMessage(@"战士杰斐逊：刚才真是危险啊，老大。", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Jeffsion the Warrior: 刚才真是危险啊，老大。", Color.CornflowerBlue, 2);
                             break;
                     }
                 }
@@ -195,7 +195,7 @@ namespace Stages
                 Variables.Unit[2] = Variables.LastCreatedUnit;
                 //Variables.Unit[2].IsInvincible = true;
                 Variables.Unit[2].SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.Unit[2].unitAI).settings, Player));
-                Variables.LastCreatedUnit.RiderName = "比尔.沃顿";
+                Variables.LastCreatedUnit.RiderName = "Bill Warden";
                 bill.Target = Variables.Unit[2];
                 Variables.Unit[2].Velocity = Player.Velocity;
                 Variables.Unit[2].Armor = 400;

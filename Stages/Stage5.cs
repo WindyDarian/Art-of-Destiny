@@ -53,13 +53,13 @@ namespace Stages
             LoadPlayer(1, new Vector3(0, 0, 3000));
             //CreatePlayerUnit(Content.Load<UnitType>(@"UnitTypes\Falcon"), 1, new Vector3(0, 0, 3000));
             Player = Variables.LastCreatedUnit;
-            Player.RiderName = "杰诺";
+            Player.RiderName = "Zero";
             Player.IsAIControlling = false;
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon"), 1, new Vector3(-40, 10, 2950));
             Variables.Unit[2] = Variables.LastCreatedUnit;
             //Variables.Unit[2].IsInvincible = true;
             Variables.Unit[2].SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.Unit[2].unitAI).settings, Player));
-            Variables.LastCreatedUnit.RiderName = "比尔.沃顿";
+            Variables.LastCreatedUnit.RiderName = "Bill Warden";
             bill = new UnitInf(GameWorld);
             GameWorld.AddUI(bill);
             bill.Target = Variables.Unit[2];
@@ -73,7 +73,7 @@ namespace Stages
             Variables.Unit[3].SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.Unit[3].unitAI).settings, Player));
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon3"), 1, new Vector3(40, 10, 2950));
          
-            Variables.LastCreatedUnit.RiderName = "玛莲娜.林风";
+            Variables.LastCreatedUnit.RiderName = "Maria Woodwind";
             Variables.Unit[4] = Variables.LastCreatedUnit;
             Variables.Unit[4].SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.Unit[4].unitAI).settings, Player));
 
@@ -136,7 +136,7 @@ namespace Stages
                             AddRealtimeGameMessage(@"比尔：该死！", Color.CornflowerBlue, 2);
                             break;
                         case 4:
-                            AddRealtimeGameMessage(@"杰诺：比尔，你要挂了，赶快闪！", Color.LightGreen, 2);
+                            AddRealtimeGameMessage(@"Zero: 比尔，你要挂了，赶快闪！", Color.LightGreen, 2);
                             break;
                     }
                 }
@@ -219,7 +219,7 @@ namespace Stages
                 Variables.Unit[2] = Variables.LastCreatedUnit;
                 //Variables.Unit[2].IsInvincible = true;
                 Variables.Unit[2].SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.Unit[2].unitAI).settings, Player));
-                Variables.LastCreatedUnit.RiderName = "比尔.沃顿";
+                Variables.LastCreatedUnit.RiderName = "Bill Warden";
                 bill.Target = Variables.Unit[2];
                 Variables.Unit[2].Velocity = Player.Velocity;
                 Variables.Unit[2].Armor = 400;
@@ -281,7 +281,7 @@ namespace Stages
                 Variables.Unit[4] = Variables.LastCreatedUnit;
                 //Variables.Unit[2].IsInvincible = true;
                 Variables.Unit[4].SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.Unit[4].unitAI).settings, Player));
-                Variables.LastCreatedUnit.RiderName = "玛莲娜.林风";
+                Variables.LastCreatedUnit.RiderName = "Maria Woodwind";
                 ma.Target = Variables.Unit[4];
                 Variables.Unit[4].Velocity = Player.Velocity;
                 Variables.Unit[4].Armor = 400;

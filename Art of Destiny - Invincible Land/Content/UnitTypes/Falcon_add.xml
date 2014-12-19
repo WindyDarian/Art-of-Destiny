@@ -3,7 +3,7 @@
   <!-- 测试用单位，于2009年8月8日在UnitType重写后建立 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>AODModelTypes\Player</Modelname>
-    <Name>苍隼无人机</Name>
+    <Name>Falcon Drone</Name>
     <Scale>1</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>250</MaxShield>

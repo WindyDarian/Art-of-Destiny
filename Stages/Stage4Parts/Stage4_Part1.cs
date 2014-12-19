@@ -92,10 +92,10 @@ namespace Stages.Stage4Parts
         {
             if (timer == t)
             {
-                Stage.AddGameMessage(@"杰诺：这就是秩序之环……", Color.LightGreen, 2);
-                Stage.AddGameMessage(@"比尔：秩序之眼的核心。", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"比尔：盖亚号的轨道弹射系统已经成功将我们弹射到了秩序之环的外围。", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"杰诺：只要将“遗迹”向秩序之环中心的能量源抛出去就能解决一切了吧。", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"Zero: 这就是秩序之环……", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"Bill: 秩序之眼的核心。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: 盖亚号的轨道弹射系统已经成功将我们弹射到了秩序之环的外围。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Zero: 只要将“遗迹”向秩序之环中心的能量源抛出去就能解决一切了吧。", Color.LightGreen, 2);
                 Stage.AddGameMessage(@"威克多：杰诺、比尔，秩序之环现在由一个能量护盾保护着。", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"威克多：必须毁掉六个力场发生器才能进入秩序之环的内部。", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"威克多：盖亚号遇到了另一波敌人，稍后才能抵达。", Color.CornflowerBlue, 4);

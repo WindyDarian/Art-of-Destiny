@@ -84,10 +84,10 @@ namespace Stages.Stage2Parts
             u4 = Variables.LastCreatedUnit;
             u4.IsInvincible = true;
             u4.IsAIControlling = false;
-            Stage.AddGameMessage(@"比尔：我们正在接近星际之门。", Color.CornflowerBlue, 3);
-            Stage.AddGameMessage(@"杰诺：而且有人想挡我们的路。", Color.LightGreen, 3);
+            Stage.AddGameMessage(@"Bill: 我们正在接近星际之门。", Color.CornflowerBlue, 3);
+            Stage.AddGameMessage(@"Zero: 而且有人想挡我们的路。", Color.LightGreen, 3);
             Stage.AddGameMessage(@"克雷斯：真是白送上虎口的小绵羊……", Color.Red, 4);
-            Stage.AddGameMessage(@"阿莉西亚：小心，教会的敌人看起来早有准备。", Color.Yellow, 3);
+            Stage.AddGameMessage(@"Alicia: 小心，教会的敌人看起来早有准备。", Color.Yellow, 3);
             t0 = Stage.CreateTimer(2);
             t1 = Stage.CreateTimer(18);
             t2 = Stage.CreateTimer(35);
@@ -194,11 +194,11 @@ namespace Stages.Stage2Parts
                     u1.IsAIControlling = true;
                     
                     Stage.AddGameMessage(@"克雷斯：让祭祀开始吧！", Color.Red, 3);
-                    Stage.AddGameMessage(@"比尔：牵制住旁边的敌人！", Color.CornflowerBlue, 2);
-                    Stage.AddGameMessage(@"杰诺：该死！“遗迹”开始不稳定了！", Color.LightGreen, 3);
-                    Stage.AddGameMessage(@"阿莉西亚：这是一个陷阱！", Color.Yellow, 3);
-                    Stage.AddGameMessage(@"阿莉西亚：空间正在坍塌，克雷斯在尝试引发“遗迹”的共振！", Color.Yellow, 4);
-                    Stage.AddGameMessage(@"阿莉西亚：在你被压扁之前解决掉他！", Color.Yellow, 3);
+                    Stage.AddGameMessage(@"Bill: 牵制住旁边的敌人！", Color.CornflowerBlue, 2);
+                    Stage.AddGameMessage(@"Zero: 该死！“遗迹”开始不稳定了！", Color.LightGreen, 3);
+                    Stage.AddGameMessage(@"Alicia: 这是一个陷阱！", Color.Yellow, 3);
+                    Stage.AddGameMessage(@"Alicia: 空间正在坍塌，克雷斯在尝试引发“遗迹”的共振！", Color.Yellow, 4);
+                    Stage.AddGameMessage(@"Alicia: 在你被压扁之前解决掉他！", Color.Yellow, 3);
                     cs[0].BeginToDie();
                 }
                 if (timer == t2)
@@ -206,7 +206,7 @@ namespace Stages.Stage2Parts
                     u2.IsInvincible = false;
                     u2.IsAIControlling = true;
                     Stage.AddRealtimeGameMessage(@"克雷斯：火焰燃起来了。", Color.Red, 4);
-                    Stage.AddRealtimeGameMessage(@"比尔：更多的教徒投入战斗了，小心应付！", Color.CornflowerBlue, 4);
+                    Stage.AddRealtimeGameMessage(@"Bill: 更多的教徒投入战斗了，小心应付！", Color.CornflowerBlue, 4);
                     cs[1].BeginToDie();
                 }
                 if (timer == t3)
@@ -214,8 +214,8 @@ namespace Stages.Stage2Parts
                     u3.IsInvincible = false;
                     u3.IsAIControlling = true;
                     Stage.AddRealtimeGameMessage(@"克雷斯：让它更加混乱吧！", Color.Red, 4);
-                    Stage.AddRealtimeGameMessage(@"阿莉西亚：……撑得住吗？", Color.Yellow, 4);
-                    Stage.AddRealtimeGameMessage(@"阿莉西亚：没有了教徒的保护，黑骑士越来越容易受到伤害。", Color.Yellow, 4);
+                    Stage.AddRealtimeGameMessage(@"Alicia: ……撑得住吗？", Color.Yellow, 4);
+                    Stage.AddRealtimeGameMessage(@"Alicia: 没有了教徒的保护，黑骑士越来越容易受到伤害。", Color.Yellow, 4);
                     cs[2].BeginToDie();
                 }
                 if (timer == t4)
@@ -223,13 +223,13 @@ namespace Stages.Stage2Parts
                     u4.IsInvincible = false;
                     u4.IsAIControlling = true;
                     Stage.AddRealtimeGameMessage(@"克雷斯：混乱风暴！蒙克依，你是最后一个祭品！", Color.Red, 4);
-                    Stage.AddRealtimeGameMessage(@"杰诺：又一个，可恶！", Color.LightGreen, 3);
+                    Stage.AddRealtimeGameMessage(@"Zero: 又一个，可恶！", Color.LightGreen, 3);
                     cs[3].BeginToDie();
                 }
                 if (timer == t5)
                 {
                     Stage.AddRealtimeGameMessage(@"克雷斯：那么我亲自来终结这风暴吧。", Color.Red, 4);
-                    Stage.AddRealtimeGameMessage(@"阿莉西亚：空间坍塌非常严重！", Color.Yellow, 4);
+                    Stage.AddRealtimeGameMessage(@"Alicia: 空间坍塌非常严重！", Color.Yellow, 4);
                     ((RegularAI)boss.unitAI).settings.isMoveAble = true;
                     
                 
@@ -259,13 +259,13 @@ namespace Stages.Stage2Parts
                 Stage.ClearMessages();
                 Stage.ScreenEffectManager.Blink(Color.White, 2);
                 Stage.ScreenEffectManager.KeepColor(Color.Black, null);
-                Stage.AddGameMessage(@"阿莉西亚：致命的一击！", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 致命的一击！", Color.Yellow, 4);
                 Stage.AddGameMessage(@"克雷斯：可恶……咳……咳……", Color.Red, 4);
                 Stage.AddGameMessage(@"克雷斯：那么，我们……下次再见吧！", Color.Red, 4);
-                Stage.AddGameMessage(@"比尔：我已经接收到坐标，正在校准星际之门参数。", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"阿莉西亚：杰诺，“遗迹”依然不稳定！", Color.Yellow, 4);
-                Stage.AddGameMessage(@"杰诺：我正在尝试冷却它！", Color.LightGreen, 3);
-                Stage.AddGameMessage(@"比尔：空间校准完毕，就位！准备弹射！", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: 我已经接收到坐标，正在校准星际之门参数。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Alicia: 杰诺，“遗迹”依然不稳定！", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Zero: 我正在尝试冷却它！", Color.LightGreen, 3);
+                Stage.AddGameMessage(@"Bill: 空间校准完毕，就位！准备弹射！", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"…………", Color.White, 3);
                 Stage.Player.isPlayerControlling = false;
                 Stage.Player.IsAIControlling = false;

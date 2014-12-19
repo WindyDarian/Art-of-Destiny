@@ -348,7 +348,7 @@ namespace AODGameLibrary.GamePlay
                     CurrentStagePart.Stage = this;
                     if (part>0)
                     {
-                        GameWorld.InstantMessages.Add(new AODText(GameWorld, "检查点", 3, Color.White, new Vector2(Game.GraphicsDevice.Viewport.Width / 2,
+                        GameWorld.InstantMessages.Add(new AODText(GameWorld, "Checkpoint", 3, Color.White, new Vector2(Game.GraphicsDevice.Viewport.Width / 2,
 Game.GraphicsDevice.Viewport.Height / 2 - 30), FadeOutState.HalfFade, Vector2.Zero, true, 1.2f));
                     }
             

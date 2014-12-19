@@ -88,13 +88,13 @@ namespace AOD
             }
             gameWorld = null;
             pauseMenu = new Menu(Game);
-            pauseMenu.Items.Add(new MenuButton("继续战斗", true, "继续"));
+            pauseMenu.Items.Add(new MenuButton("Continue", true, "继续"));
             pauseMenu.Position = new Vector2(100, 100);
             List<string> s = new List<string>(2);
             s.Add("否");
             s.Add("是");
-            pauseMenu.Items.Add(new MenuButton("从最近检查点重新开始", true, "检查点", s, 0));
-            pauseMenu.Items.Add(new MenuButton("结束游戏并返回主菜单", true, "主菜单", s, 0));
+            pauseMenu.Items.Add(new MenuButton("Restart from checkpoint", true, "检查点", s, 0));
+            pauseMenu.Items.Add(new MenuButton("Return to title", true, "主菜单", s, 0));
             pauseMenu.EscIndex = 0;
             pauseMenu.Click += new EventHandler(pauseMenu_Click);
             endTimePast = 0;
@@ -399,7 +399,7 @@ namespace AOD
             if (!((Game1)Game).EnabledStages.Contains(i))
             {
                 ((Game1)Game).EnabledStages.Add(i);
-                ((Game1)Game).textManager.AddText(new AODGameLibrary.Texts.AODText(Game, "已激活新关卡", 5f, Color.Gold, new Vector2(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height / 2), AODGameLibrary.Texts.FadeOutState.Normal, AODGameLibrary.Helpers.RandomHelper.RandomDirection2() * 20, true));
+                ((Game1)Game).textManager.AddText(new AODGameLibrary.Texts.AODText(Game, "New chapter available", 5f, Color.Gold, new Vector2(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height / 2), AODGameLibrary.Texts.FadeOutState.Normal, AODGameLibrary.Helpers.RandomHelper.RandomDirection2() * 20, true));
            
             }
             //try
@@ -419,7 +419,7 @@ namespace AOD
             //try
             //{
                   AODSaver.SaveData(PlayerSaver, GameConsts.GameSaveDirectory + @"\" + "Player.aod");
-                  ((Game1)Game).textManager.AddText(new AODGameLibrary.Texts.AODText(Game, "战机信息已保存", 5f, Color.Gold, new Vector2(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height / 2), AODGameLibrary.Texts.FadeOutState.Normal, AODGameLibrary.Helpers.RandomHelper.RandomDirection2() * 20, true));
+                  ((Game1)Game).textManager.AddText(new AODGameLibrary.Texts.AODText(Game, "Player data saved", 5f, Color.Gold, new Vector2(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height / 2), AODGameLibrary.Texts.FadeOutState.Normal, AODGameLibrary.Helpers.RandomHelper.RandomDirection2() * 20, true));
               
             //}
             //catch
@@ -435,19 +435,19 @@ namespace AOD
         {
             if (MissionPlayerSaver.Exist)
             {
-                ((Game1)Game).textManager.AddText(new AODGameLibrary.Texts.AODText(Game, "已读取检查点数据", 5f, Color.Gold, new Vector2(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height / 2), AODGameLibrary.Texts.FadeOutState.Normal, AODGameLibrary.Helpers.RandomHelper.RandomDirection2() * 20, true));
+                ((Game1)Game).textManager.AddText(new AODGameLibrary.Texts.AODText(Game, "Checkpoint loaded", 5f, Color.Gold, new Vector2(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height / 2), AODGameLibrary.Texts.FadeOutState.Normal, AODGameLibrary.Helpers.RandomHelper.RandomDirection2() * 20, true));
            
                 return LoadSavedUnit(MissionPlayerSaver, Group, Player, position);
             }
             else if (PlayerSaver.Exist)
             {
-                ((Game1)Game).textManager.AddText(new AODGameLibrary.Texts.AODText(Game, "已读取战机数据", 5f, Color.Gold, new Vector2(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height / 2), AODGameLibrary.Texts.FadeOutState.Normal, AODGameLibrary.Helpers.RandomHelper.RandomDirection2() * 20, true));
+                ((Game1)Game).textManager.AddText(new AODGameLibrary.Texts.AODText(Game, "Player data loaded", 5f, Color.Gold, new Vector2(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height / 2), AODGameLibrary.Texts.FadeOutState.Normal, AODGameLibrary.Helpers.RandomHelper.RandomDirection2() * 20, true));
            
                 return LoadSavedUnit(PlayerSaver, Group, Player, position);
             }
             else
             {
-                ((Game1)Game).textManager.AddText(new AODGameLibrary.Texts.AODText(Game, "新建战机数据", 5f, Color.Gold, new Vector2(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height / 2), AODGameLibrary.Texts.FadeOutState.Normal, AODGameLibrary.Helpers.RandomHelper.RandomDirection2() * 20, true));
+                ((Game1)Game).textManager.AddText(new AODGameLibrary.Texts.AODText(Game, "New player data", 5f, Color.Gold, new Vector2(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height / 2), AODGameLibrary.Texts.FadeOutState.Normal, AODGameLibrary.Helpers.RandomHelper.RandomDirection2() * 20, true));
               
                 Unit u = gameWorld.CreatePlayerUnit(Game.Content.Load<UnitType>(@"UnitTypes\Falcon"), Group, position);
                 u.skills.Clear();

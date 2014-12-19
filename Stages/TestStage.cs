@@ -34,7 +34,7 @@ namespace Stages
             //CreatePlayerUnit(Content.Load<UnitType>(@"UnitTypes\Falcon"), 1, Vector3.Zero +);
             //Variables.LastCreatedUnit.IsInvincible = true;
             Player = Variables.LastCreatedUnit;
-            Player.RiderName = "杰诺";
+            Player.RiderName = "Zero";
             LoadAmbient(@"Ambient\testStageAmbient2");
             //LoadAmbient(@"Ambient\Stage2Ambient");
             base.Initialize();

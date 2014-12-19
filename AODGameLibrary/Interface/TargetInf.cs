@@ -45,7 +45,7 @@ namespace AODGameLibrary.Interface
                 if (Target!= null)
                     if (gameWorld.PlayerLockedTarget == null)
                     {
-                        string s3 = "锁定目标：Q";
+                        string s3 = "Q(Y): Lock";
                         sb.Begin();
                         sb.DrawString(gameWorld.GameFont, s3, position + new Vector2(0, 100), Color.White, 0, Vector2.Zero, 1f, SpriteEffects.None, 0.35f);
                         sb.End();
@@ -56,7 +56,7 @@ namespace AODGameLibrary.Interface
                     }
                     else if (Target == gameWorld.PlayerLockedTarget)
                     {
-                        string s3 = "按住空格追踪目标";
+                        string s3 = "Space(A): Auto-aim";
                         sb.Begin();
                         sb.DrawString(gameWorld.GameFont, s3, position + new Vector2(0, 100), Color.White, 0, Vector2.Zero, 1f, SpriteEffects.None, 0.35f);
                         sb.End();

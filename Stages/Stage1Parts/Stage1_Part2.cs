@@ -46,11 +46,13 @@ namespace Stages.Stage1Parts
         {
             if (timer == t)
             {
-                Stage.AddTooltipMessage(@"转动鼠标移动视角,按W打开/关闭引擎", Color.LightYellow, 8);
-                Stage.AddTooltipMessage(@"按住鼠标右键进行瞄准", Color.LightYellow, 8);
-                Stage.AddTooltipMessage(@"按住鼠标左键射击", Color.LightYellow, 8);
-                Stage.AddTooltipMessage(@"按下F键发射导弹", Color.LightYellow, 8);
+                Stage.AddTooltipMessage(@"Tap W(LS) to turn off/on engine.", Color.LightYellow, 8);
+                Stage.AddTooltipMessage(@"Press right mouse (LT) button to aim", Color.LightYellow, 8);
+                Stage.AddTooltipMessage(@"Press left mouse (RT) button to shoot", Color.LightYellow, 8);
+                Stage.AddTooltipMessage(@"Press F(RB) to launch missile (less effective for energy shield) ", Color.LightYellow, 8);
                 Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\FlameDestroyer"), 2, new Vector3(0, 2000, -7250));
+                Stage.AddTooltipMessage(@"Hold S(B) to brake.", Color.LightYellow, 8);
+                Stage.AddTooltipMessage(@"Hold Space(A) to auto-aim. Press Q(Y) to lock on a target.", Color.LightYellow, 8);
                 Stage.PlayMusic(@"Audio\Marcello_Morgese_-_Sounds_Of_The_Night", true, 2);
                 firstEnemy = Variables.LastCreatedUnit;
             }
@@ -65,7 +67,8 @@ namespace Stages.Stage1Parts
             if (deadUnit== firstEnemy)
             {
                 t2 = Stage.CreateTimer(4);
-                Stage.AddTooltipMessage(@"靠近敌人战机残留的发光物可以回收一些可利用的东西。", Color.LightYellow, 8);
+                //Stage.AddTooltipMessage(@"靠近敌人战机残留的发光物可以回收一些可利用的东西。", Color.LightYellow, 8);
+                Stage.AddTooltipMessage(@"Approach glowing remains to loot.", Color.LightYellow, 8);
               
             }
             base.Event_UnitDied(deadUnit);

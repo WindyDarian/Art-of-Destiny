@@ -69,20 +69,20 @@ namespace Stages.Stage5Parts
         {
             if (timer == t)
             {
-                Stage.AddGameMessage(@"阿莉西亚：……好吧，如果你们执意要这样的话。", Color.Yellow, 4);
-                Stage.AddGameMessage(@"阿莉西亚：因为程序的限制，我不能和自己的另一部分交战。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: ……好吧，如果你们执意要这样的话。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 因为程序的限制，我不能和自己的另一部分交战。", Color.Yellow, 4);
                 
-                Stage.AddGameMessage(@"阿莉西亚：秩序之眼现在不受我的控制，", Color.Yellow, 4);
-                Stage.AddGameMessage(@"阿莉西亚：所以，都靠你们了。", Color.Yellow, 4);
-                Stage.AddGameMessage(@"杰诺：大干一场。", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"Alicia: 秩序之眼现在不受我的控制，", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 所以，都靠你们了。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Zero: 大干一场。", Color.LightGreen, 2);
                 Stage.AddGameMessage(@"…………", Color.White, 4);
                 Stage.AddGameMessage(@"威克多：杰诺、比尔，刚才教会干扰了通信，舰队联系不上你们！", Color.CornflowerBlue, 4);
 
                 Stage.AddGameMessage(@"威克多：盖亚号现在被一支行动迅速的秩序之眼小队纠缠着，", Color.CornflowerBlue, 2);
                 Stage.AddGameMessage(@"威克多：需要更长的时间才能会合。", Color.CornflowerBlue, 2);
-                Stage.AddGameMessage(@"杰诺：一切正常，威克多。我们已经接近秩序之眼的本体了。", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"Zero: 一切正常，威克多。我们已经接近秩序之眼的本体了。", Color.LightGreen, 2);
                 Stage.AddGameMessage(@"玛莲娜.林风：非常接近。", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"比尔：威克多，告诉我们该干什么。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: 威克多，告诉我们该干什么。", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"普雷斯.杰斐逊：上膛吧！", Color.CornflowerBlue, 4);
                 b = true;
             }

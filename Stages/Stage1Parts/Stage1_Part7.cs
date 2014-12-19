@@ -64,8 +64,8 @@ namespace Stages.Stage1Parts
             {
                 je = Variables.Unit[4];
             }
-            Stage.AddGameMessage(@"指挥官鲁道夫：又来了！它们始终就没有放弃过进攻！", Color.CornflowerBlue, 3);
-            Stage.AddGameMessage(@"比尔：我们被包围了，小心四周！", Color.CornflowerBlue, 3);
+            Stage.AddGameMessage(@"Rudolf the Commander: 又来了！它们始终就没有放弃过进攻！", Color.CornflowerBlue, 3);
+            Stage.AddGameMessage(@"Bill: 我们被包围了，小心四周！", Color.CornflowerBlue, 3);
 
             Stage.CreateNPCUnit(Stage.Content.Load<UnitType>(@"UnitTypes\ShadowSlain"), 2, Stage.Player.Position + new Vector3(0, 0, -6000));
             Stage.CreateNPCUnit(Stage.Content.Load<UnitType>(@"UnitTypes\ShadowSlain"), 2, Stage.Player.Position + new Vector3(0, 0, 6200));
@@ -87,7 +87,7 @@ namespace Stages.Stage1Parts
             Variables.Unit[2] = Variables.LastCreatedUnit;
             bill = Variables.Unit[2];
             bill.IsInvincible = true;
-            bill.RiderName = "比尔.沃顿";
+            bill.RiderName = "Bill Warden";
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon2"), 1, destination + new Vector3(100, 100, 100));
             rudolf = Variables.LastCreatedUnit;
             Variables.Unit[3] = Variables.LastCreatedUnit;
@@ -100,10 +100,10 @@ namespace Stages.Stage1Parts
             je.IsInvincible = true;
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon"), 1, destination + new Vector3(-100, 100, 100));
             Variables.Unit[7] = Variables.LastCreatedUnit;
-            Variables.LastCreatedUnit.RiderName = "玛莲娜.林风";
+            Variables.LastCreatedUnit.RiderName = "Maria Woodwind";
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon3"), 1, destination + new Vector3(100, -200, 100));
             Variables.Unit[8] = Variables.LastCreatedUnit;
-            Variables.LastCreatedUnit.RiderName = "马克斯.派恩";
+            Variables.LastCreatedUnit.RiderName = "Maks Payne";
 
             //Stage.Player.GetWeapon(@"WeaponTypes\Blav", 25);
             Stage.Player.AddSkill(@"Skills\Thruster");
@@ -179,7 +179,7 @@ namespace Stages.Stage1Parts
                                 if (s.IsSkillUsable && boss.IsUsingSkill == false)
                                 {
                                     boss.CastSkill(s);
-                                    Stage.AddRealtimeGameMessage("末日：轨道炮，充能完毕。", Color.Red, 2);
+                                    Stage.AddRealtimeGameMessage("Doom: Railgun, full recharge.", Color.Red, 2);
                                     if (phase3On)
                                     {
 
@@ -200,7 +200,7 @@ namespace Stages.Stage1Parts
                                     if (Unit.Distance(boss, u) > 2300 && u.Group != boss.Group)
                                     {
                                         boss.CastSkill(g, u);
-                                        Stage.AddRealtimeGameMessage("末日：直面末日吧！", Color.Red, 2);
+                                        Stage.AddRealtimeGameMessage("Doom: Face your doom!", Color.Red, 2);
                                         break;
                                     }
                                 }
@@ -219,10 +219,10 @@ namespace Stages.Stage1Parts
                             boss.IsInvincible = true;
                             ((RegularAI)boss.unitAI).settings.isMoveAble = false;
                             Stage.ClearMessages();
-                            Stage.AddRealtimeGameMessage("末日：检测到目标对本系统构成威胁。", Color.Red, 3);
-                            Stage.AddRealtimeGameMessage("末日：释放防御力场产生器，防御模式启动中……", Color.Red, 3);
-                            Stage.AddRealtimeGameMessage(@"阿莉西亚：这些东西构成了一个坚固的护盾……", Color.Yellow, 3);
-                            Stage.AddRealtimeGameMessage(@"阿莉西亚：最简单的办法是击垮它们。", Color.Yellow, 3);
+                            Stage.AddRealtimeGameMessage("Doom: 检测到目标对本系统构成威胁。", Color.Red, 3);
+                            Stage.AddRealtimeGameMessage("Doom: 释放防御力场产生器，防御模式启动中……", Color.Red, 3);
+                            Stage.AddRealtimeGameMessage(@"Alicia: 这些东西构成了一个坚固的护盾……", Color.Yellow, 3);
+                            Stage.AddRealtimeGameMessage(@"Alicia: 最简单的办法是击垮它们。", Color.Yellow, 3);
                             phase1On = false;
                             phase2On = true;
                             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\DoomShield"), 3, new Vector3(500, 0, 0) + boss.Position);
@@ -244,8 +244,8 @@ namespace Stages.Stage1Parts
                         if (adds.Count == 0)
                         {
                             Stage.PlayMusic(@"Audio\Antti_Martikainen_-_Through_Enemy_Lines", true, 5);
-                            Stage.AddRealtimeGameMessage("末日：防御力场被破坏，防御模式关闭，狂暴模式启动中……", Color.Red, 3);
-                            Stage.AddRealtimeGameMessage(@"阿莉西亚：那么，现在就火力全开吧。", Color.Yellow, 3);
+                            Stage.AddRealtimeGameMessage("Doom: 防御力场被破坏，防御模式关闭，狂暴模式启动中……", Color.Red, 3);
+                            Stage.AddRealtimeGameMessage(@"Alicia: 那么，现在就火力全开吧。", Color.Yellow, 3);
                             phase2On = false;
                             phase3On = true;
                             ((RegularAI)boss.unitAI).settings.isMoveAble = true;
@@ -299,13 +299,13 @@ namespace Stages.Stage1Parts
             }
             if (timer==x)
             {
-                Stage.AddGameMessage(@"阿莉西亚：傻瓜，你们根本不知道怎样对付这个家伙，现在没人能伤到它。", Color.Yellow, 4);
-                Stage.AddGameMessage(@"杰诺：难道你知道怎么对付它？小女孩？", Color.LightGreen, 3);
-                Stage.AddGameMessage(@"阿莉西亚：我不是什么小女孩，我叫阿莉西亚，附近星域的黑客。", Color.Yellow, 4);
-                Stage.AddGameMessage(@"阿莉西亚：“遗迹”就在那个大家伙里面，它现在干扰了几乎所有的正常通信。", Color.Yellow, 4);
-                Stage.AddGameMessage(@"阿莉西亚：我正在使用一个特殊的频道和你联系。只有你能听见我说话。", Color.Yellow, 4);
-                Stage.AddGameMessage(@"阿莉西亚：靠近它，不要犹豫。照我说的做，然后打败它。", Color.Yellow, 4);
-                Stage.AddGameMessage(@"阿莉西亚：它的防御系统基本上已经被我破解，再过几秒就可以被普通武器损伤了。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 傻瓜，你们根本不知道怎样对付这个家伙，现在没人能伤到它。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Zero: 难道你知道怎么对付它？小女孩？", Color.LightGreen, 3);
+                Stage.AddGameMessage(@"Alicia: 我不是什么小女孩，我叫阿莉西亚，附近星域的黑客。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: “遗迹”就在那个大家伙里面，它现在干扰了几乎所有的正常通信。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 我正在使用一个特殊的频道和你联系。只有你能听见我说话。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 靠近它，不要犹豫。照我说的做，然后打败它。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 它的防御系统基本上已经被我破解，再过几秒就可以被普通武器损伤了。", Color.Yellow, 4);
            
             }
             if (timer == bossStart)
@@ -318,7 +318,7 @@ namespace Stages.Stage1Parts
                 ((RegularAI)boss.unitAI).TargetChangeAble = false;
                 //boss.CastSkill("末日之雷");
                 ti1 = Stage.CreateTimer(12.5f);
-                Stage.AddRealtimeGameMessage("末日：末日降临！", Color.Red, 3);
+                Stage.AddRealtimeGameMessage("Doom: 末日降临！", Color.Red, 3);
                 foreach (Unit u in Stage.AliveUnitsInUnitGroup(1))
                 {
                     if (u!=Stage.Player)
@@ -329,7 +329,7 @@ namespace Stages.Stage1Parts
 
                 battleBegin = true;
                 phase1On = true;
-                Stage.AddRealtimeGameMessage(@"阿莉西亚：它注意到你了，避开它的头部。", Color.Yellow, 4);
+                Stage.AddRealtimeGameMessage(@"Alicia: 它注意到你了，避开它的头部。", Color.Yellow, 4);
                 railgun = Stage.CreateTimer(9);
 
             }
@@ -339,19 +339,19 @@ namespace Stages.Stage1Parts
                 if (b.IsSkillUsable && boss.IsUsingSkill == false)
                 {
                     boss.CastSkill(b);
-                    Stage.AddRealtimeGameMessage("末日：末-日-之-雷！", Color.Red, 2);
+                    Stage.AddRealtimeGameMessage("Doom: Thunder-of-Doom!", Color.Red, 2);
 
 
                 }
             }
             if (timer == t3)
             {
-                Stage.AddGameMessage(@"指挥官鲁道夫：这是怎么回事？", Color.CornflowerBlue, 2);
-                Stage.AddGameMessage(@"战士杰斐逊：看来抢走你所运送的“遗迹”的那个大家伙想你了……", Color.CornflowerBlue, 3);
-                Stage.AddGameMessage(@"比尔：一艘战列舰，载有轨道炮，我们几乎不可能在它面前活过一分钟。", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"杰诺：奇怪——它们好像在自相残杀？", Color.LightGreen, 2);
-                Stage.AddGameMessage(@"末日：接受命令——毁灭一切——", Color.Red, 4);
-                Stage.AddGameMessage(@"指挥官鲁道夫：不！我们没有希望了！", Color.CornflowerBlue, 3);
+                Stage.AddGameMessage(@"Rudolf the Commander: 这是怎么回事？", Color.CornflowerBlue, 2);
+                Stage.AddGameMessage(@"Jeffsion the Warrior: 看来抢走你所运送的“遗迹”的那个大家伙想你了……", Color.CornflowerBlue, 3);
+                Stage.AddGameMessage(@"Bill: 一艘战列舰，载有轨道炮，我们几乎不可能在它面前活过一分钟。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Zero: 奇怪——它们好像在自相残杀？", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"Doom: 接受命令——毁灭一切——", Color.Red, 4);
+                Stage.AddGameMessage(@"Rudolf the Commander: 不！我们没有希望了！", Color.CornflowerBlue, 3);
                 Stage.AddGameMessage(@"……信号受到强烈干扰，无法通信……", Color.White, 4);
             }
             base.Event_TimerRing(timer);
@@ -365,7 +365,7 @@ namespace Stages.Stage1Parts
             if (deadUnit == boss)
             {
                 Stage.ClearMessages();
-                Stage.AddGameMessage("末日：计算……偏差……系统……崩溃", Color.Red, 3);
+                Stage.AddGameMessage("Doom: 计算……偏差……系统……崩溃", Color.Red, 3);
                 
                 Stage.ScreenEffectManager.Blink(Color.White, 2);
                 Stage.ScreenEffectManager.KeepColor(Color.Black, null);
@@ -380,22 +380,22 @@ namespace Stages.Stage1Parts
                     rudolf.BeginToDie();
                 }
 
-                Stage.AddGameMessage(@"阿莉西亚：你做到了！", Color.Yellow, 3);
-                Stage.AddGameMessage(@"比尔：通讯暂时恢复了，杰诺，你带领我们击败了它。", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"战士杰斐逊：呼叫第三舰队指挥部，首席指挥官鲁道夫阵亡，已确认。", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"杰诺：等等，这光芒，看来遗迹的能量越来越不稳定了", Color.LightGreen, 3);
-                Stage.AddGameMessage(@"阿莉西亚：你说对了，杰诺，赶快回收它。在“遗迹”变得无法控制之前。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 你做到了！", Color.Yellow, 3);
+                Stage.AddGameMessage(@"Bill: 通讯暂时恢复了，杰诺，你带领我们击败了它。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Jeffsion the Warrior: 呼叫第三舰队指挥部，首席指挥官鲁道夫阵亡，已确认。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Zero: 等等，这光芒，看来遗迹的能量越来越不稳定了", Color.LightGreen, 3);
+                Stage.AddGameMessage(@"Alicia: 你说对了，杰诺，赶快回收它。在“遗迹”变得无法控制之前。", Color.Yellow, 4);
                 Stage.AddGameMessage(@"……信号异常，空间异常……", Color.White, 4);
-                Stage.AddGameMessage(@"杰诺：可恶，这是什么东西，虫洞？", Color.LightGreen, 3);
-                Stage.AddGameMessage(@"阿莉西亚：“遗迹”的不稳定能量开启了虫洞……", Color.Yellow, 4);
-                Stage.AddGameMessage(@"阿莉西亚：糟糕！“遗迹”已经被吸入虫洞里了！", Color.Yellow, 4);
-                Stage.AddGameMessage(@"比尔：该死！必须把那个东西拿回来！", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"阿莉西亚：否则人类就玩完了。", Color.Yellow, 4);
-                Stage.AddGameMessage(@"杰诺：交给我了，在虫洞还没有关闭之前……", Color.LightGreen, 3);
-                Stage.AddGameMessage(@"阿莉西亚：你是对的，杰诺，回收“遗迹”，将它装进你的战机……", Color.Yellow, 4);
-                Stage.AddGameMessage(@"阿莉西亚：我知道地球联盟现在有一个关于“遗迹”的大计划……", Color.Yellow, 4);
-                Stage.AddGameMessage(@"阿莉西亚：你和别人不同，杰诺……", Color.Yellow, 4);
-                Stage.AddGameMessage(@"阿莉西亚：到那时，你的命运将会真正揭开……", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Zero: 可恶，这是什么东西，虫洞？", Color.LightGreen, 3);
+                Stage.AddGameMessage(@"Alicia: “遗迹”的不稳定能量开启了虫洞……", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 糟糕！“遗迹”已经被吸入虫洞里了！", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Bill: 该死！必须把那个东西拿回来！", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Alicia: 否则人类就玩完了。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Zero: 交给我了，在虫洞还没有关闭之前……", Color.LightGreen, 3);
+                Stage.AddGameMessage(@"Alicia: 你是对的，杰诺，回收“遗迹”，将它装进你的战机……", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 我知道地球联盟现在有一个关于“遗迹”的大计划……", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 你和别人不同，杰诺……", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 到那时，你的命运将会真正揭开……", Color.Yellow, 4);
 
                 won = true;
 

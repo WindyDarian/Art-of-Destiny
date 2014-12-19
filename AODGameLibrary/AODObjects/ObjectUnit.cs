@@ -255,6 +255,30 @@ namespace AODGameLibrary.AODObjects
         {
             this.thrust += th;
         }
+
+
+        float addictionalFictionForce = 0;
+        bool ignoreNormalFiction = false;
+
+        /// <summary>
+        /// 加额外摩擦力
+        /// </summary>
+        /// <param name="force"></param>
+        protected void AddFictionForceFrame(float force)
+        {
+            addictionalFictionForce += force;
+        }
+
+        /// <summary>
+        /// 设置摩擦力，并忽视内置摩擦力
+        /// </summary>
+        /// <param name="force"></param>
+        protected void SetFictionForceFrame(float force)
+        {
+            addictionalFictionForce += force;
+            ignoreNormalFiction = true;
+        }
+
         /// <summary>
         /// 施加一个瞬时冲量
         /// </summary>
@@ -284,18 +308,22 @@ namespace AODGameLibrary.AODObjects
                     Vector3 frictionDirection = Vector3.Zero;
                     Vector3 acceleration = Vector3.Zero;
                     Vector3 friction = Vector3.Zero;
+                    float totalFiction;
+                    if (!ignoreNormalFiction) totalFiction = addictionalFictionForce + FrictionForce;
+                    else totalFiction = addictionalFictionForce;
                     if (Velocity.Length() != 0)
                     {
-                        if (Velocity.Length() <= FrictionForce * elapsedTime)
+                        if (Velocity.Length() * Mass <= totalFiction * elapsedTime)
                         {
                             frictionDirection = (Vector3.Normalize(Velocity)) * (-1);
-                            friction = Velocity.Length() * Mass * frictionDirection;
+                            if (elapsedTime > 0)
+                                friction = (Velocity.Length() * Mass) / elapsedTime * frictionDirection;
 
                         }
                         else
                         {
                             frictionDirection = (Vector3.Normalize(Velocity)) * (-1);
-                            friction = FrictionForce * frictionDirection;
+                            friction = totalFiction * frictionDirection;
 
                         }
 
@@ -321,7 +349,9 @@ namespace AODGameLibrary.AODObjects
             }
             impulse = Vector3.Zero;
             thrust = Vector3.Zero;
-            
+
+            addictionalFictionForce = 0;
+            ignoreNormalFiction = false;
         }
         /// <summary>
         /// 超级更新

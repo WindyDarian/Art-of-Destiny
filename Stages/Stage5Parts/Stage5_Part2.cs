@@ -154,11 +154,11 @@ namespace Stages.Stage5Parts
                 Stage.AddGameMessage(@"威克多：听着，秩序之眼由一层坚固的外壳保护着。", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"威克多：打破外壳，然后马上把“遗迹”扔进去。", Color.CornflowerBlue, 2);
                 Stage.AddGameMessage(@"威克多：尽快行动，秩序之眼察觉到了你们的存在。", Color.CornflowerBlue, 2);
-                Stage.AddGameMessage(@"杰诺：交给我了！", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"Zero: 交给我了！", Color.LightGreen, 2);
                 Stage.AddGameMessage(@"威克多：只要“遗迹”接触到秩序之眼，一切就成功了！", Color.CornflowerBlue, 2);
                 Stage.AddGameMessage(@"………………", Color.White, 4);
                 Stage.AddGameMessage(@"秩序之眼：秩序之眼启动……消灭——侵略——者——", Color.Red, 4);
-                Stage.AddGameMessage(@"阿莉西亚：小心，它不受我的控制了！", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 小心，它不受我的控制了！", Color.Yellow, 4);
                 Stage.AddRealtimeGameMessage(@"秩序之眼：紧急防御系统初始化……武器准备……", Color.Red, 4);
                 Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\EOS"), 2, new Vector3(0, 0, 0));
                 Variables.LastCreatedUnit.SetMoveState(Vector3.Zero, new Vector3(0, 180, 0));
@@ -193,8 +193,8 @@ namespace Stages.Stage5Parts
                 if (timer == t1)
                 {
                     Stage.PlayMusic(@"Audio\Antti_Martikainen_-_The_Chase", true, 2);
-                    Stage.AddGameMessage(@"阿莉西亚：糟糕，秩序之眼正在启动内置的战略轨道炮！", Color.Yellow, 4);
-                    Stage.AddGameMessage(@"阿莉西亚：我已经没有权限阻止了，不要正面攻击它！", Color.Yellow, 4);
+                    Stage.AddGameMessage(@"Alicia: 糟糕，秩序之眼正在启动内置的战略轨道炮！", Color.Yellow, 4);
+                    Stage.AddGameMessage(@"Alicia: 我已经没有权限阻止了，不要正面攻击它！", Color.Yellow, 4);
                     Stage.AddGameMessage(@"秩序之眼：紧急防御系统初始化完毕……轨道炮激活……", Color.Red, 4);
                     Stage.AddGameMessage(@"秩序之眼：轨道炮激活完毕……紧急防御系统第二阶段初始化中", Color.Red, 4);
                     Stage.AddGameMessage(@"威克多：通告！侦测到轨道炮，盖亚号，开启轨道偏转护盾！", Color.CornflowerBlue, 2);
@@ -241,12 +241,12 @@ namespace Stages.Stage5Parts
                 Stage.AddGameMessage(@"威克多：盖亚号马上就可以赶到！", Color.Red, 2);
                 Stage.AddGameMessage(@"………………", Color.White, 4);
                 Stage.AddGameMessage(@"威克多：怎么还没有反应？杰诺！你干了什么？", Color.Red, 2);
-                Stage.AddGameMessage(@"杰诺：还没有准备好呢！稍微等一下吧。", Color.LightGreen, 2);
-                Stage.AddGameMessage(@"阿莉西亚：杰诺……谢谢你。", Color.Yellow, 4);
-                Stage.AddGameMessage(@"阿莉西亚：秩序之眼自毁程序，启动。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Zero: 还没有准备好呢！稍微等一下吧。", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"Alicia: 杰诺……谢谢你。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 秩序之眼自毁程序，启动。", Color.Yellow, 4);
                 Stage.AddGameMessage(@"威克多：可恶！你们都干了些什么！？", Color.Red, 2);
-                Stage.AddGameMessage(@"比尔：任务完成了，威克多。", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"比尔：秩序之眼已经不再威胁人类了。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: 任务完成了，威克多。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: 秩序之眼已经不再威胁人类了。", Color.CornflowerBlue, 4);
                 foreach (Unit u in Stage.AliveUnitsInUnitGroup(2))
                 {
                     u.BeginToDie();

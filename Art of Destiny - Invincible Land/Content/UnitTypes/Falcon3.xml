@@ -3,11 +3,11 @@
   <!-- 测试用单位，于2009年8月8日在UnitType重写后建立 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>AODModelTypes\Falcon3</Modelname>
-    <Name>苍隼CI</Name>
+    <Name>CI Falcon</Name>
     <Scale>1</Scale>
     <ModelRotation>0 0 0</ModelRotation>
-    <MaxShield>1200</MaxShield>
-    <MaxArmor>800</MaxArmor>
+    <MaxShield>1600</MaxShield>
+    <MaxArmor>1200</MaxArmor>
     <Mass>15</Mass>
     <MaxPower>120000</MaxPower>
     <ThrustForce>4000</ThrustForce>

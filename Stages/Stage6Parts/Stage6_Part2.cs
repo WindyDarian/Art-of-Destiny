@@ -80,8 +80,8 @@ namespace Stages.Stage6Parts
                     {
                         Stage.AddRealtimeGameMessage(@"威克多：如果你们不想一起死在秩序之眼的爆炸中，", Color.Red, 2);
                         Stage.AddRealtimeGameMessage(@"威克多：就把“遗迹”交给我！", Color.Red, 2);
-                        Stage.AddRealtimeGameMessage(@"阿莉西亚：没关系的，你会比秩序之眼先爆炸。", Color.Yellow, 4);
-                        Stage.AddRealtimeGameMessage(@"阿莉西亚：这将是秩序之眼最后一次维护真正的秩序。", Color.Yellow, 4);
+                        Stage.AddRealtimeGameMessage(@"Alicia: 没关系的，你会比秩序之眼先爆炸。", Color.Yellow, 4);
+                        Stage.AddRealtimeGameMessage(@"Alicia: 这将是秩序之眼最后一次维护真正的秩序。", Color.Yellow, 4);
                         Stage.AddRealtimeGameMessage(@"威克多：有趣。", Color.Red, 2);
                         Stage.ScreenEffectManager.Blink(Color.Orange, 10);
 
@@ -171,10 +171,10 @@ namespace Stages.Stage6Parts
             {
                 Stage.PlayMusic(@"Audio\Kai_Engel_-_Beneath_The_Stronghold", true, 5);
                 Stage.AddGameMessage(@"威克多：哈哈哈哈！你们无法撼动盖亚号！", Color.Red, 2);
-                Stage.AddGameMessage(@"阿莉西亚：是吗？", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 是吗？", Color.Yellow, 4);
                 Stage.AddGameMessage(@"威克多：怎……怎么会！？", Color.Red, 2);
-                Stage.AddGameMessage(@"阿莉西亚：看来你的护盾好像已经被我重写的“遗迹”发出的信号解除了。", Color.Yellow, 4);
-                Stage.AddGameMessage(@"阿莉西亚：再次瘫痪吧！这次可没有什么能保护盖亚号了！", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 看来你的护盾好像已经被我重写的“遗迹”发出的信号解除了。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 再次瘫痪吧！这次可没有什么能保护盖亚号了！", Color.Yellow, 4);
                 boss.IsInvincible = false;
                 boss.Stop();
             }
@@ -182,10 +182,10 @@ namespace Stages.Stage6Parts
             {
                 Stage.PlayMusic(@"Audio\Antti_Martikainen_-_The_Chase", true, 5);
                  Stage.AddGameMessage(@"威克多：死吧！", Color.Red, 2);
-                Stage.AddGameMessage(@"阿莉西亚：正在激活末日级，钥匙：遗迹。", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: 正在激活末日级，钥匙：遗迹。", Color.Yellow, 4);
                 Stage.AddGameMessage(@"威克多：什么？", Color.Red, 2);
-                 Stage.AddGameMessage(@"阿莉西亚：末日，隐形模式关闭，攻击模式开启。", Color.Yellow, 4);
-                 Stage.AddGameMessage(@"阿莉西亚：杰诺，准备好了就按下发射钮吧。", Color.Yellow, 4);
+                 Stage.AddGameMessage(@"Alicia: 末日，隐形模式关闭，攻击模式开启。", Color.Yellow, 4);
+                 Stage.AddGameMessage(@"Alicia: 杰诺，准备好了就按下发射钮吧。", Color.Yellow, 4);
                  Stage.AddGameMessage(@"威克多：就算是末日，也阻挡不了我！", Color.Red, 2);
                  Stage.AddGameMessage(@"普雷斯.杰斐逊：威克多，你的轨道偏转装置，刚才已经被我破坏了哦！", Color.CornflowerBlue, 4);
                  Stage.AddGameMessage(@"威克多：不！叛徒，死吧！这个世界属于我！", Color.Red, 2);
@@ -234,7 +234,7 @@ namespace Stages.Stage6Parts
                 Stage.ScreenEffectManager.KeepColor(Color.Black,null);
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage(@"………………", Color.White);
-                Stage.AddFlyingMessage(@"比尔：……结束了吗？", Color.CornflowerBlue);
+                Stage.AddFlyingMessage(@"Bill: ……结束了吗？", Color.CornflowerBlue);
                 Stage.AddFlyingMessage(@"普雷斯.杰斐逊：开启星际之门吧。", Color.CornflowerBlue);
                 Stage.AddFlyingMessage(@"………………", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
@@ -245,7 +245,7 @@ namespace Stages.Stage6Parts
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage(@"………………", Color.White);
                 Stage.AddFlyingMessage(@"普雷斯.杰斐逊：地球联盟需要一位新的指挥官。", Color.CornflowerBlue);
-                Stage.AddFlyingMessage(@"比尔：那当然是你。我得走了，再见。", Color.CornflowerBlue);
+                Stage.AddFlyingMessage(@"Bill: 那当然是你。我得走了，再见。", Color.CornflowerBlue);
                 Stage.AddFlyingMessage(@"玛莲娜.林风：那么，再见，比尔。", Color.CornflowerBlue);
                 Stage.AddFlyingMessage(@"………………", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
@@ -256,10 +256,10 @@ namespace Stages.Stage6Parts
                 Stage.AddFlyingMessage("", Color.White);
 
                 Stage.AddFlyingMessage(@"………………", Color.White);
-                Stage.AddFlyingMessage(@"杰诺：终于完成了。本游侠现在貌似暂时没事可干了。", Color.LightGreen);
-                Stage.AddFlyingMessage(@"阿莉西亚：再也没有秩序之眼了，你也没有战斗的对手了吧。", Color.Yellow);
-                Stage.AddFlyingMessage(@"杰诺：对了，你现在想去哪里，阿莉西亚？", Color.LightGreen);
-                Stage.AddFlyingMessage(@"阿莉西亚：由你决定，杰诺。", Color.Yellow);
+                Stage.AddFlyingMessage(@"Zero: 终于完成了。本游侠现在貌似暂时没事可干了。", Color.LightGreen);
+                Stage.AddFlyingMessage(@"Alicia: 再也没有秩序之眼了，你也没有战斗的对手了吧。", Color.Yellow);
+                Stage.AddFlyingMessage(@"Zero: 对了，你现在想去哪里，阿莉西亚？", Color.LightGreen);
+                Stage.AddFlyingMessage(@"Alicia: 由你决定，杰诺。", Color.Yellow);
                 Stage.AddFlyingMessage(@"………………", Color.White);
 
                 Stage.AddFlyingMessage("", Color.White);
@@ -352,7 +352,7 @@ namespace Stages.Stage6Parts
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
 
-                Stage.AddFlyingMessage(@"阿莉西亚：那么……回家吧，杰诺。", Color.Yellow);
+                Stage.AddFlyingMessage(@"Alicia: 那么……回家吧，杰诺。", Color.Yellow);
 
                 win = true;
             }
@@ -363,12 +363,12 @@ namespace Stages.Stage6Parts
                     Stage.StopMusic();
 
                     mori = Stage.CreateTimer(10);
-                    Stage.AddGameMessage(@"杰诺：该死……", Color.LightGreen, 2);
-                    Stage.AddGameMessage(@"比尔：无路可退了。", Color.CornflowerBlue, 2);
-                    Stage.AddGameMessage(@"阿莉西亚：需要帮助吗，游侠？", Color.Yellow, 4);
-                    Stage.AddGameMessage(@"阿莉西亚：这次该我救你了。", Color.Yellow, 4);
+                    Stage.AddGameMessage(@"Zero: 该死……", Color.LightGreen, 2);
+                    Stage.AddGameMessage(@"Bill: 无路可退了。", Color.CornflowerBlue, 2);
+                    Stage.AddGameMessage(@"Alicia: 需要帮助吗，游侠？", Color.Yellow, 4);
+                    Stage.AddGameMessage(@"Alicia: 这次该我救你了。", Color.Yellow, 4);
 
-                    Stage.AddGameMessage(@"阿莉西亚：上船吧，杰诺。", Color.Yellow, 4);
+                    Stage.AddGameMessage(@"Alicia: 上船吧，杰诺。", Color.Yellow, 4);
 
                 }
                 else

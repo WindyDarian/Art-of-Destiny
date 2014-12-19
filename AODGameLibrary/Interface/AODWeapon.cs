@@ -28,6 +28,7 @@ namespace AODGameLibrary.Interface
         public Vector2 weaponInfPosition = new Vector2(10, 10);
         public Vector2 missileInfPosition = new Vector2(45, 101);
         public Vector2 skillInfPosition = new Vector2(69, 141);
+        string[] dpadShotcut = { "(↑)", "(→)", "(↓)", "(←)" };
 
         public AODWeaponUI(GameWorld gameWorld)
         {
@@ -57,16 +58,19 @@ namespace AODGameLibrary.Interface
                         {
                             for (int i = 1; i <= u.maxWeaponNum; i++)
                             {
+                                string k = i.ToString();
+                                if (i <= 4) k = k + dpadShotcut[i - 1];
+
                                 if (i == u.CurrentWeaponNumber + 1)
                                 {
-                                    spriteBatch.DrawString(gameWorld.GameFont, i.ToString(), position + weaponInfPosition + new Vector2(10 * i, -10), Color.Yellow, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
+                                    spriteBatch.DrawString(gameWorld.GameFont, k, position + weaponInfPosition + new Vector2(40 * i, -10), Color.Yellow, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
                                 }
                                 else if (i <= u.weapons.Count)
                                 {
-                                    spriteBatch.DrawString(gameWorld.GameFont, i.ToString(), position + weaponInfPosition + new Vector2(10 * i, -10), Color.White, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
+                                    spriteBatch.DrawString(gameWorld.GameFont, k, position + weaponInfPosition + new Vector2(40 * i, -10), Color.White, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
 
                                 }
-                                else spriteBatch.DrawString(gameWorld.GameFont, i.ToString(), position + weaponInfPosition + new Vector2(10 * i, -10), Color.Gray, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
+                                else spriteBatch.DrawString(gameWorld.GameFont, k, position + weaponInfPosition + new Vector2(40 * i, -10), Color.Gray, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
 
                             }
                             spriteBatch.DrawString(gameWorld.GameFont, u.CurrentWeapon.name, position + weaponInfPosition + new Vector2(10, 0), Color.White, 0, Vector2.Zero, 1, SpriteEffects.None, 0.3f);
@@ -75,16 +79,16 @@ namespace AODGameLibrary.Interface
                         }
                         if (u.CurrentMissileWeapon != null)
                         {
-                            spriteBatch.DrawString(gameWorld.GameFont, "(F)" + u.CurrentMissileWeapon.missileWeaponType.name, position + missileInfPosition, Color.White, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
-                            spriteBatch.DrawString(gameWorld.GameFont, u.CurrentMissileWeapon.Num.ToString(), position + missileInfPosition + new Vector2(85, 0), Color.White, 0, Vector2.Zero, 1.1f, SpriteEffects.None, 0.3f);
+                            spriteBatch.DrawString(gameWorld.GameFont, "(F/RB)" + u.CurrentMissileWeapon.missileWeaponType.name, position + missileInfPosition, Color.White, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
+                            spriteBatch.DrawString(gameWorld.GameFont, u.CurrentMissileWeapon.Num.ToString(), position + missileInfPosition + new Vector2(115, 0), Color.White, 0, Vector2.Zero, 1.1f, SpriteEffects.None, 0.3f);
 
                         }
                         if (u.CurrentSkill != null)
                         {
-                            spriteBatch.DrawString(gameWorld.GameFont, "(R)" + u.CurrentSkill.SkillName, position + skillInfPosition, Color.White, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
+                            spriteBatch.DrawString(gameWorld.GameFont, "(R/LB)" + u.CurrentSkill.SkillName, position + skillInfPosition, Color.White, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
                             if (u.CurrentSkill.CooldownRemain > 0)
                             {
-                                spriteBatch.DrawString(gameWorld.GameFont, Math.Round(u.CurrentSkill.CooldownRemain, 1).ToString() + " / " + Math.Round(u.CurrentSkill.Cooldown, 1).ToString(), position + skillInfPosition + new Vector2(70, 0), Color.White, 0, Vector2.Zero, 1.1f, SpriteEffects.None, 0.3f);
+                                spriteBatch.DrawString(gameWorld.GameFont, Math.Round(u.CurrentSkill.CooldownRemain, 1).ToString() + " / " + Math.Round(u.CurrentSkill.Cooldown, 1).ToString(), position + skillInfPosition + new Vector2(85, 0), Color.White, 0, Vector2.Zero, 1.1f, SpriteEffects.None, 0.3f);
 
                             }
                         }
@@ -119,7 +123,7 @@ namespace AODGameLibrary.Interface
 
                         if (u.CurrentMissileWeapon != null)
                         {
-                            spriteBatch.DrawString(gameWorld.GameFont, "(F)" + u.CurrentMissileWeapon.missileWeaponType.name, position + missileInfPosition, Color.White, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
+                            spriteBatch.DrawString(gameWorld.GameFont, "(F/RB)" + u.CurrentMissileWeapon.missileWeaponType.name, position + missileInfPosition, Color.White, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
                             spriteBatch.DrawString(gameWorld.GameFont, u.CurrentMissileWeapon.Num.ToString(), position + missileInfPosition + new Vector2(85, 0), Color.White, 0, Vector2.Zero, 1.1f, SpriteEffects.None, 0.3f);
 
                         }

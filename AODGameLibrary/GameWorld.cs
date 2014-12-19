@@ -1016,7 +1016,7 @@ namespace AODGameLibrary
                             b= "main weapon";
                             WeaponType source = Content.Load<WeaponType>(loot.LootSettings.ObjectName);
                             c = source.weaponName;
-                            lootTipInf = "Press E to destroy current " + b + " and equip " + c;
+                            lootTipInf = "Press E(X) to destroy current " + b + " and equip " + c;
                         }
                         break;
                     case LootType.MissileWeapon:
@@ -1024,7 +1024,7 @@ namespace AODGameLibrary
                             b= "side weapon";
                             MissileWeaponType source = Content.Load<MissileWeaponType>(loot.LootSettings.ObjectName);
                             c = source.name;
-                            lootTipInf = "Press E to destroy current " + b + " and equip " + c;
+                            lootTipInf = "Press E(X) to destroy current " + b + " and equip " + c;
                         }
                         break;
                     case LootType.SkillItem:
@@ -1032,7 +1032,7 @@ namespace AODGameLibrary
                             b = "module";
                             Skill source = Content.Load<Skill>(loot.LootSettings.ObjectName);
                             c = source.SkillName;
-                            lootTipInf = "Press E to destroy current " + b + " and equip " + c;
+                            lootTipInf = "Press E(X) to destroy current " + b + " and equip " + c;
                         }
                         break;
                     case LootType.QuestItem:
@@ -1078,7 +1078,7 @@ namespace AODGameLibrary
         {
             if (u == Variables.Player)
             {
-                string s = "得到";
+                string s = "Get ";
                 switch (loot.LootSettings.LootType)
                 {
                     case LootType.Weapon:
@@ -1096,7 +1096,7 @@ namespace AODGameLibrary
                     case LootType.SkillItem:
                         {
                             Skill source = Content.Load<Skill>(loot.LootSettings.ObjectName);
-                            s = s + "特殊装置" + source.SkillName;
+                            s = s + "module " + source.SkillName;
                         }
                         break;
                     case LootType.QuestItem:

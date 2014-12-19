@@ -35,10 +35,10 @@ namespace Stages.Stage1Parts
         /// </summary>
         public override void Initialize()
         {
-            Stage.AddGameMessage(@"比尔：看来暂时是清理干净了。", Color.CornflowerBlue, 3);
-            Stage.AddGameMessage(@"杰诺：还有更大的派对在后面。", Color.LightGreen, 3);
-            Stage.AddGameMessage(@"比尔：看来你也收到了求救信息，这里离信号发出的地点还有一段距离。", Color.CornflowerBlue, 4);
-            Stage.AddGameMessage(@"比尔：我先赶去，你准备好了就跟上。", Color.CornflowerBlue, 3);
+            Stage.AddGameMessage(@"Bill: 看来暂时是清理干净了。", Color.CornflowerBlue, 3);
+            Stage.AddGameMessage(@"Zero: 还有更大的派对在后面。", Color.LightGreen, 3);
+            Stage.AddGameMessage(@"Bill: 看来你也收到了求救信息，这里离信号发出的地点还有一段距离。", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Bill: 我先赶去，你准备好了就跟上。", Color.CornflowerBlue, 3);
             Stage.PlayMusic(@"Audio\Marcello_Morgese_-_Space_Travel", true, 9);
             if (Variables.Unit[2] != null)
             {
@@ -58,7 +58,7 @@ namespace Stages.Stage1Parts
             Variables.Unit[2] = Variables.LastCreatedUnit;
             bill = Variables.Unit[2];
             bill.IsInvincible = true;
-            bill.RiderName = "比尔.沃顿";
+            bill.RiderName = "Bill Warden";
             //Stage.Player.GetWeapon(@"WeaponTypes\Blav", 20);
             base.StartFormThis();
         }
@@ -118,8 +118,8 @@ namespace Stages.Stage1Parts
                 bill.MoveTo(destination);
                 bill.IsAIControlling = false;
                 m = Stage.AddPositionMark(destination);
-                Stage.AddGameMessage(@"比尔：那么，让我开始前进吧。再见！", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"比尔：事实上，我很喜欢看到鲁道夫这个老顽固被打得屁滚尿流的样子。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: 那么，让我开始前进吧。再见！", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: 事实上，我很喜欢看到鲁道夫这个老顽固被打得屁滚尿流的样子。", Color.CornflowerBlue, 4);
 
             }
             base.Event_TimerRing(timer);

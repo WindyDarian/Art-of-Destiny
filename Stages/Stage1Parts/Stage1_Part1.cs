@@ -28,7 +28,7 @@ namespace Stages.Stage1Parts
         {
             Stage.Player.skills.Clear();
             //Stage.GameWorld.InstantMessages.Add(new AODText(Stage.GameWorld, "第一章-诸神的黄昏", 3, Color.White, new Vector2(Stage.Game.GraphicsDevice.Viewport.Width / 2,
-            Stage.GameWorld.InstantMessages.Add(new AODText(Stage.GameWorld, "Chapter 1 - The Twilight of Gods", 3, Color.White, new Vector2(Stage.Game.GraphicsDevice.Viewport.Width / 2,
+            Stage.GameWorld.InstantMessages.Add(new AODText(Stage.GameWorld, "Chapter 1 - Twilight of Gods", 3, Color.White, new Vector2(Stage.Game.GraphicsDevice.Viewport.Width / 2,
             
             Stage.Game.GraphicsDevice.Viewport.Height / 3 ), FadeOutState.HalfFade, Vector2.Zero, true, 2));
             Stage.Player.isPlayerControlling = false;
@@ -80,15 +80,15 @@ namespace Stages.Stage1Parts
 
                 if (t1.IsEnd && b1 == false)
                 {
-                    Stage.AddRealtimeGameMessage(@"指挥官鲁道夫：呼叫附近星域的各单位，我们正在受到攻击！", Color.CornflowerBlue, 4);
-                    Stage.AddRealtimeGameMessage(@"指挥官鲁道夫：我是第三舰队指挥官鲁道夫.巴特尔，", Color.CornflowerBlue, 3);
-                    Stage.AddRealtimeGameMessage(@"指挥官鲁道夫：我们正在受到秩序之眼的攻击！", Color.CornflowerBlue, 3);
-                    Stage.AddRealtimeGameMessage(@"指挥官鲁道夫：重复，我们正在受到秩序之眼的攻击！", Color.CornflowerBlue, 4);
-                    Stage.AddRealtimeGameMessage(@"指挥官鲁道夫：损失惨重，请求支援！", Color.CornflowerBlue, 2);
-                    Stage.AddRealtimeGameMessage(@"指挥官鲁道夫：该死，它们在攻击运输船！", Color.CornflowerBlue, 3);
-                    Stage.AddRealtimeGameMessage(@"指挥官鲁道夫：重整队形，保护运输船！第三舰队重整队形！", Color.CornflowerBlue, 3);
-                    Stage.AddRealtimeGameMessage(@"指挥官鲁道夫：它们摧毁了运输机！我们被包围了", Color.CornflowerBlue, 3);
-                    Stage.AddRealtimeGameMessage(@"指挥官鲁道夫：那是什么？不！", Color.CornflowerBlue, 3);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: 呼叫附近星域的各单位，我们正在受到攻击！", Color.CornflowerBlue, 4);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: 我是第三舰队指挥官鲁道夫.巴特尔，", Color.CornflowerBlue, 3);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: 我们正在受到秩序之眼的攻击！", Color.CornflowerBlue, 3);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: 重复，我们正在受到秩序之眼的攻击！", Color.CornflowerBlue, 4);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: 损失惨重，请求支援！", Color.CornflowerBlue, 2);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: 该死，它们在攻击运输船！", Color.CornflowerBlue, 3);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: 重整队形，保护运输船！第三舰队重整队形！", Color.CornflowerBlue, 3);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: 它们摧毁了运输机！我们被包围了", Color.CornflowerBlue, 3);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: 那是什么？不！", Color.CornflowerBlue, 3);
                     Stage.AddRealtimeGameMessage(@"…… …… ……", Color.White, 2);
                     Stage.AddRealtimeGameMessage(@"苍隼系统信息：与目标失去联系。", Color.White, 4);
                     b1 = true;

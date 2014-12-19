@@ -29,8 +29,8 @@ namespace Stages.Stage1Parts
         public override void Initialize()
         {
 
-            Stage.AddGameMessage(@"杰诺：看来一场大的派对在等着我……", Color.LightGreen, 3);
-            Stage.AddGameMessage(@"杰诺：在本游侠赶到之前，你们这些“正规军”就先继续撑着吧！", Color.LightGreen, 4);
+            Stage.AddGameMessage(@"Zero: 看来一场大的派对在等着我……", Color.LightGreen, 3);
+            Stage.AddGameMessage(@"Zero: 在本游侠赶到之前，你们这些“正规军”就先继续撑着吧！", Color.LightGreen, 4);
             
             base.Initialize();
         }

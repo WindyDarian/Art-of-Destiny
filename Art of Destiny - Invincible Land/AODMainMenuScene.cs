@@ -92,7 +92,7 @@ namespace AOD
                 switch (currentTextNum)
                 {
                     case 0:
-
+                        /*
                         texts.AddText(new AODText(Game, "这是一个黑暗的时代。", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
                         texts.AddText(new AODText(Game, "人类在星际中", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
                         texts.AddText(new AODText(Game, "迷失了。", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
@@ -104,11 +104,27 @@ namespace AOD
                         texts.AddText(new AODText(Game, "为了掌握命运而战斗着的人们，", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
                         texts.AddText(new AODText(Game, "并召集所有心中的火焰尚未泯灭的战士，", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero, false));
                         texts.AddText(new AODText(Game, "将命运的艺术，进行到底……", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
-                        texts.AddText(new AODText(Game, "——第三舰队前指挥官比尔.沃顿", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero, false));
+                        texts.AddText(new AODText(Game, "——第三舰队前指挥官Bill Warden", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero, false));
                         texts.AddText(new AODText(Game, "——一段在星际中广为流传的电波", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero, false));
+                         */
+                        texts.AddText(new AODText(Game, "This is an age of darkness。", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "The human gets lost", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "in the stars.", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "The destiny.", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "No, not like that,", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "The endliss night", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "shall not be our fate.", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "To all the warriors", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "who fights for their own destiny.", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "Fight, and", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero, false));
+                        texts.AddText(new AODText(Game, "wield your destiny", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, " -Bill Warden, Commander of the 3rd Fleet", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero, false));
+                        texts.AddText(new AODText(Game, "(A radio spreading in the space)", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero, false));
+
 
                         break;
                     case 1:
+                        /*
                         texts.AddText(new AODText(Game, "黑夜……", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
                         texts.AddText(new AODText(Game, "在这漫无边际的黑夜中，", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
                         texts.AddText(new AODText(Game, "噩梦正在吞噬一切……", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
@@ -124,8 +140,20 @@ namespace AOD
                         texts.AddText(new AODText(Game, "Not yet.", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
                         texts.AddText(new AODText(Game, "Our destiny awaits.", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
 
+                         */
+                        texts.AddText(new AODText(Game, "Darkness...", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "It never ends.", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "The nightmare has come.", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "If this shall be our fate today,", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "then in this world", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "there would be no tomorrow", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "But, all is not lost.", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "At least not for now", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "wield it.", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero, false));
+           
                         break;
                     case 2:
+                        /*
                         texts.AddText(new AODText(Game, "挽歌，", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
                         texts.AddText(new AODText(Game, "我们不需要挽歌。", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
                         texts.AddText(new AODText(Game, "因为我们的旅程尚未结束。", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
@@ -139,9 +167,19 @@ namespace AOD
                         texts.AddText(new AODText(Game, "", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
                         texts.AddText(new AODText(Game, "", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
                         texts.AddText(new AODText(Game, "", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                         */
+
+                        texts.AddText(new AODText(Game, "Elegy，", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero, false));
+                        texts.AddText(new AODText(Game, "we don't need elegy,", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "for we are still on our journey/", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "At the end of the legend,", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        texts.AddText(new AODText(Game, "the triumph awaits.", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+
+
 
                         break;
                     case 3:
+                        /*
                         texts.AddText(new AODText(Game, "Art of Destiny –", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
                         texts.AddText(new AODText(Game, "With your Destiny,", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
                         texts.AddText(new AODText(Game, "Wield Your Destiny!", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
@@ -155,7 +193,12 @@ namespace AOD
                         texts.AddText(new AODText(Game, "", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
                         texts.AddText(new AODText(Game, "", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
                         texts.AddText(new AODText(Game, "", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero,false));
+                        */
+                        texts.AddText(new AODText(Game, "Art of Destiny –", 28, Color.LightYellow, new Vector2(50, 60 + y++ * 40), FadeOutState.OneFourth, Vector2.Zero, false));
+                        
 
+
+                        //don't ask me why I wrote these, now I don't know why I did this 5 years ago...
                         break;
                     default:
                         break;
@@ -220,7 +263,10 @@ namespace AOD
                 Texture2D tx = help[educateMenu.ButtonFromKeyword("翻页").SelectedIndex];
                 spriteBatch.Draw(tx, new Vector2(w, h) / 2, null, Color.White, 0, new Vector2(tx.Width / 2, tx.Height / 2), 1, SpriteEffects.None, 0.15f);
             }
-            spriteBatch.DrawString((SpriteFont)Game.Services.GetService(typeof(SpriteFont)), "BY大地无敌@http://www.agrp.info 2011-12-25 转换至 XNA 4.0", new Vector2(30, GraphicsDevice.Viewport.Height - 30), new Color(Color.CornflowerBlue.R, Color.CornflowerBlue.G, Color.CornflowerBlue.B, 225), 0, Vector2.Zero, 0.8f, SpriteEffects.None, 0.1f);
+            //spriteBatch.DrawString((SpriteFont)Game.Services.GetService(typeof(SpriteFont)), "BY大地无敌@http://www.agrp.info 2011-12-25 转换至 XNA 4.0", new Vector2(30, GraphicsDevice.Viewport.Height - 30), new Color(Color.CornflowerBlue.R, Color.CornflowerBlue.G, Color.CornflowerBlue.B, 225), 0, Vector2.Zero, 0.8f, SpriteEffects.None, 0.1f);
+
+            spriteBatch.DrawString((SpriteFont)Game.Services.GetService(typeof(SpriteFont)), "originally developed by Windy Darian(http://windy.moe) in 2009-2010, translated to English in Dec 2014", new Vector2(30, GraphicsDevice.Viewport.Height - 30), new Color(Color.CornflowerBlue.R, Color.CornflowerBlue.G, Color.CornflowerBlue.B, 225), 0, Vector2.Zero, 0.8f, SpriteEffects.None, 0.1f);
+
 
             spriteBatch.End();
 
@@ -330,20 +376,26 @@ namespace AOD
             #region 添加菜单
             mainMenu = new Menu(Game);
             mainMenu.Position = new Vector2(Game.GraphicsDevice.Viewport.Width - 280, 100);
-            mainMenu.Items.Add(new MenuButton("开始游戏",true,"单人游戏"));
+            //mainMenu.Items.Add(new MenuButton("开始游戏",true,"单人游戏"));
+            mainMenu.Items.Add(new MenuButton("Campaign", true, "单人游戏"));
 
-            mainMenu.Items.Add(new MenuButton("设置",true,"设置"));
+            //mainMenu.Items.Add(new MenuButton("设置",true,"设置"));
+            mainMenu.Items.Add(new MenuButton("Options", true, "设置"));
+
 
             //mainMenu.Items.Add(new MenuButton("制作者", true,"制作者"));
 
-            mainMenu.Items.Add(new MenuButton("结束",true, "结束"));
+            //mainMenu.Items.Add(new MenuButton("结束",true, "结束"));
+            mainMenu.Items.Add(new MenuButton("Exit", true, "结束"));
+            
             mainMenu.EscIndex = 2;//需改?
             mainMenu.Click += new EventHandler(mainMenu_Click);
             menus.Add(mainMenu);
             settingMenu = new Menu(Game);
             settingMenu.Position = new Vector2(200, 100);
             List<string> a = new List<string>();
-            a.Add("自动适应");
+            //a.Add("自动适应");
+            a.Add("Auto");
             a.Add("1024x768");
             a.Add("1280x1024");
             a.Add("1280x960");
@@ -353,13 +405,13 @@ namespace AOD
             a.Add("1600x1200");
             a.Add("1680x1050");
             a.Add("1920x1200");
-            settingMenu.Items.Add(new MenuButton("分辨率：", true, "分辨率", a,settings.SettingFromKeyword("分辨率").SettingValue));
+            settingMenu.Items.Add(new MenuButton("Resolution：", true, "分辨率", a,settings.SettingFromKeyword("分辨率").SettingValue));
             List<string> b = new List<string>();
             b.Add("Off");
             b.Add("On");
-            settingMenu.Items.Add(new MenuButton("全屏幕：", true, "全屏幕", b, settings.SettingFromKeyword("全屏幕").SettingValue));
+            settingMenu.Items.Add(new MenuButton("Fullscreen：", true, "全屏幕", b, settings.SettingFromKeyword("全屏幕").SettingValue));
 
-            settingMenu.Items.Add(new MenuButton("Bloom泛光效果：", true, "Bloom", b, settings.SettingFromKeyword("Bloom").SettingValue));
+            settingMenu.Items.Add(new MenuButton("Bloom：", true, "Bloom", b, settings.SettingFromKeyword("Bloom").SettingValue));
 
             
             settingMenu.Items.Add(new MenuButton("Invert Mouse Y", true, "invertMouseY", b, settings.SettingFromKeyword("invertMouseY").SettingValue));
@@ -367,8 +419,9 @@ namespace AOD
             settingMenu.Items.Add(new MenuButton("Invert Xbox Controller Y", true, "invertPadY", b, settings.SettingFromKeyword("invertPadY").SettingValue));
 
             List<string> ss= new List<string> ();
-            ss.Add("关");
-             ss.Add("I");
+            //ss.Add("关");
+            ss.Add("Off");
+            ss.Add("I");
              ss.Add("II");
              ss.Add("III");
              ss.Add("IIII");
@@ -378,12 +431,20 @@ namespace AOD
              ss.Add("IIIIIIII");
              ss.Add("IIIIIIIII");
             ss.Add("IIIIIIIIII");
-            settingMenu.Items.Add(new MenuButton("音乐音量", true, "音乐", ss, settings.SettingFromKeyword("音乐").SettingValue));
-            settingMenu.Items.Add(new MenuButton("音效音量", true, "音效", ss, settings.SettingFromKeyword("音效").SettingValue));
+            //settingMenu.Items.Add(new MenuButton("音乐音量", true, "音乐", ss, settings.SettingFromKeyword("音乐").SettingValue));
+            //settingMenu.Items.Add(new MenuButton("音效音量", true, "音效", ss, settings.SettingFromKeyword("音效").SettingValue));
             
-            settingMenu.Items.Add(new MenuButton("完成", true, "完成"));
+            //settingMenu.Items.Add(new MenuButton("完成", true, "完成"));
             
-            settingMenu.Items.Add(new MenuButton("取消",true,"取消"));
+            //settingMenu.Items.Add(new MenuButton("取消",true,"取消"));
+
+            settingMenu.Items.Add(new MenuButton("Music Volume", true, "音乐", ss, settings.SettingFromKeyword("音乐").SettingValue));
+            settingMenu.Items.Add(new MenuButton("Sfx Volume", true, "音效", ss, settings.SettingFromKeyword("音效").SettingValue));
+
+            settingMenu.Items.Add(new MenuButton("Confirm", true, "完成"));
+
+            settingMenu.Items.Add(new MenuButton("Cancel",true,"取消"));
+
             settingMenu.EscIndex = 8;
             settingMenu.Click += new EventHandler(settingMenu_Click);
             menus.Add(settingMenu);
@@ -393,22 +454,30 @@ namespace AOD
             if (((Game1)Game).CurrentStage != 0)
             {
 
-                singleGameMenu.Items.Add(new MenuButton("继续", true, "继续"));
+                //singleGameMenu.Items.Add(new MenuButton("继续", true, "继续"));
+                singleGameMenu.Items.Add(new MenuButton("Continue", true, "继续"));
             }
             else
             {
-                singleGameMenu.Items.Add(new MenuButton("继续", false, "继续"));
+                //singleGameMenu.Items.Add(new MenuButton("继续", false, "继续"));
+                singleGameMenu.Items.Add(new MenuButton("Continue", false, "继续"));
             }
-            singleGameMenu.Items.Add(new MenuButton("新游戏",true,"新游戏"));
-            singleGameMenu.Items.Add(new MenuButton("选择关卡",true,"选择关卡"));
-            singleGameMenu.Items.Add(new MenuButton("战斗手册", true, "战斗手册"));
-            singleGameMenu.Items.Add(new MenuButton("取消", true, "取消"));
+            
+            //singleGameMenu.Items.Add(new MenuButton("新游戏",true,"新游戏"));
+            //singleGameMenu.Items.Add(new MenuButton("选择关卡",true,"选择关卡"));
+            //singleGameMenu.Items.Add(new MenuButton("战斗手册", true, "战斗手册"));
+            //singleGameMenu.Items.Add(new MenuButton("取消", true, "取消"));
+            singleGameMenu.Items.Add(new MenuButton("New Game", true, "新游戏"));
+            singleGameMenu.Items.Add(new MenuButton("Select Chapter", true, "选择关卡"));
+            singleGameMenu.Items.Add(new MenuButton("Manual (Untranslated)", true, "战斗手册"));
+            singleGameMenu.Items.Add(new MenuButton("Cancel", true, "取消"));
             singleGameMenu.EscIndex = 4;//!
             menus.Add(singleGameMenu);
             stageSelectMenu = new Menu(Game);
             stageSelectMenu.Position = settingMenu.Position;
             stageSelectMenu.Click += new EventHandler(stageSelectMenu_Click);
             List<int> l = ((Game1)Game).EnabledStages;
+            /*
             if (l.Contains(1))
             stageSelectMenu.Items.Add(new MenuButton("第一章-诸神的黄昏", true, "1"));
             else stageSelectMenu.Items.Add(new MenuButton("第一章-??", false, "1"));
@@ -431,6 +500,31 @@ namespace AOD
                 stageSelectMenu.Items.Add(new MenuButton("BOSS战测试关卡-末日", true, "11"));
             else stageSelectMenu.Items.Add(new MenuButton("??", false , "11"));
             stageSelectMenu.Items.Add(new MenuButton("取消", true, "取消"));
+             */
+            if (l.Contains(1))
+                stageSelectMenu.Items.Add(new MenuButton("Chapter 1 - Dawn of Gods", true, "1"));
+            else stageSelectMenu.Items.Add(new MenuButton("Chapter 1 - ??", false, "1"));
+            if (l.Contains(2))
+                stageSelectMenu.Items.Add(new MenuButton("Chapter 2 - The moon", true, "2"));
+            else stageSelectMenu.Items.Add(new MenuButton("Chapter 2 - ??", false, "2"));
+            if (l.Contains(3))
+                stageSelectMenu.Items.Add(new MenuButton("Chapter 3 - Flowing light", true, "3"));
+            else stageSelectMenu.Items.Add(new MenuButton("Chapter 4 - ??", false, "3"));
+            if (l.Contains(4))
+                stageSelectMenu.Items.Add(new MenuButton("Chapter 4 - Ring of Midnight", true, "4"));
+            else stageSelectMenu.Items.Add(new MenuButton("Chapter 4 - ??", false, "4"));
+            if (l.Contains(5))
+                stageSelectMenu.Items.Add(new MenuButton("Chapter 5 - Art of Destiny", true, "5"));
+            else stageSelectMenu.Items.Add(new MenuButton("Chapter 5 - ??", false, "5"));
+            if (l.Contains(6))
+                stageSelectMenu.Items.Add(new MenuButton("Chapter 6 - Reforge", true, "6"));
+            else stageSelectMenu.Items.Add(new MenuButton("Chapter 6 - ??", false, "6"));
+            if (l.Contains(11))
+                stageSelectMenu.Items.Add(new MenuButton("BOSS fight test", true, "11"));
+            else stageSelectMenu.Items.Add(new MenuButton("??", false, "11"));
+            stageSelectMenu.Items.Add(new MenuButton("Cancel", true, "取消"));
+
+
             stageSelectMenu.EscIndex = 7;
             menus.Add(stageSelectMenu);
             educateMenu = new Menu(Game);

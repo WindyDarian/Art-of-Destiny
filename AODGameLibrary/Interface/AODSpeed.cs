@@ -41,6 +41,8 @@ namespace AODGameLibrary.Interface
         public override void Draw(GameTime gameTime)
         {
             linkedUnit = gameWorld.Variables.Player;
+
+            if (linkedUnit==null)return;
             spriteBatch = gameWorld.spriteBatch;
           
             spriteBatch.Begin(0,BlendState.NonPremultiplied);
@@ -50,11 +52,13 @@ namespace AODGameLibrary.Interface
 
                 spriteBatch.Draw(front, position, new Color(255, 255, 255, (byte)(MathHelper.Clamp(linkedUnit.Speed / linkedUnit.MaxSpeed, 0, 1) * 255)));
             }
-            spriteBatch.DrawString(gameWorld.GameFont, "速度:", position + new Vector2(0, 50), Color.White, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
+            spriteBatch.DrawString(gameWorld.GameFont, "Speed:", position + new Vector2(-20, 50), Color.White, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
             string s = ((int)linkedUnit.Speed).ToString();
             Vector2 o = gameWorld.GameFont.MeasureString(s)/2;
             spriteBatch.DrawString(gameWorld.GameFont,s , position + new Vector2(64, 64), Color.White, 0, o, 1.2f, SpriteEffects.None, 0.3f);
             spriteBatch.DrawString(gameWorld.GameFont, "m/s", position + new Vector2(100, 65), Color.White, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
+            spriteBatch.DrawString(gameWorld.GameFont, "W(LS): Engine On/off\n S(B):Brake", position + new Vector2(-8, 90), Color.White, 0, Vector2.Zero, 0.6f, SpriteEffects.None, 0.3f);
+            
             spriteBatch.End();
         }
     }

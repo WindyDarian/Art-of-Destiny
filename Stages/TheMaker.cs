@@ -37,7 +37,7 @@ namespace Stages
             LoadAmbient(@"Ambient\testStageAmbient2");
             GameWorld.PlayMusic(@"Audio\Moreno_Visintin_-_Mdnel-Inn",true,5);
             Player.IsInvincible = true;
-            Player.RiderName = "杰诺";
+            Player.RiderName = "Zero";
             
             Player.GetWeapon(@"WeaponTypes\Blav", 25);
             this.HideUI = true;

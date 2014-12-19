@@ -42,7 +42,7 @@ namespace Stages
            LoadPlayer(1, Vector3.Zero);
             Player = Variables.LastCreatedUnit;
             
-            Player.RiderName = "杰诺";
+            Player.RiderName = "Zero";
             LoadAmbient(@"Ambient\Stage1Ambient");
 
             base.Initialize();

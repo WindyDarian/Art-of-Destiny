@@ -35,17 +35,17 @@ namespace Stages.OtherParts
         {
             
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon"), 1, Vector3.Zero + new Vector3(0, 0, -100));
-            Variables.LastCreatedUnit.RiderName = "比尔.沃顿";
+            Variables.LastCreatedUnit.RiderName = "Bill Warden";
             Variables.LastCreatedUnit.IsInvincible = true;
             Variables.LastCreatedUnit.EndlessBullets = false;
             //Stage.Player.IsInvincible = true;
 
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon3"), 1, Vector3.Zero + new Vector3(0, 0, -200));
-            Variables.LastCreatedUnit.RiderName = "玛莲娜.林风";
+            Variables.LastCreatedUnit.RiderName = "Maria Woodwind";
             Variables.LastCreatedUnit.EndlessBullets = false;
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon"), 1, Vector3.Zero + new Vector3(0, 0, -300));
             Variables.LastCreatedUnit.EndlessBullets = false;
-            Variables.LastCreatedUnit.RiderName = "马克斯.派恩";
+            Variables.LastCreatedUnit.RiderName = "Maks Payne";
 
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Doom"), 3, new Vector3(0, 0, -2000));
             boss = Variables.LastCreatedUnit;
@@ -53,7 +53,7 @@ namespace Stages.OtherParts
             ((RegularAI)boss.unitAI).Target = Variables.Player;
             ((RegularAI)boss.unitAI).TargetChangeAble = false;
             ti1 = Stage.CreateTimer(12.5f);
-            Stage.AddGameMessage("末日：末日降临！", Color.Red, 3);
+            Stage.AddGameMessage("Doom: 末日降临！", Color.Red, 3);
             Stage.PlayMusic(@"Audio\Antti_Martikainen_-_The_Chase", true, 5);
             battleBegin = true;
             phase1On = true;
@@ -90,7 +90,7 @@ namespace Stages.OtherParts
                         if (s.IsSkillUsable && boss.IsUsingSkill == false)
                         {
                             boss.CastSkill(s);
-                            Stage.AddRealtimeGameMessage("末日：轨道炮，充能完毕。", Color.Red, 2);
+                            Stage.AddRealtimeGameMessage("Doom: Railgun, full recharge.", Color.Red, 2);
                             if (phase3On)
                             {
 
@@ -109,7 +109,7 @@ namespace Stages.OtherParts
                                 if (Unit.Distance(boss, u) > 2300 && u.Group != boss.Group)
                                 {
                                     boss.CastSkill(g, u);
-                                    Stage.AddRealtimeGameMessage("末日：直面末日吧！", Color.Red, 2);
+                                    Stage.AddRealtimeGameMessage("Doom: Face your doom!", Color.Red, 2);
                                     break;
                                 }
                             }
@@ -126,8 +126,8 @@ namespace Stages.OtherParts
                         boss.IsInvincible = true;
                         ((RegularAI)boss.unitAI).settings.isMoveAble = false;
                         Stage.ClearMessages();
-                        Stage.AddRealtimeGameMessage("末日：检测到目标对本系统构成威胁。", Color.Red, 3);
-                        Stage.AddRealtimeGameMessage("末日：释放防御力场产生器，防御模式启动中……", Color.Red, 3);
+                        Stage.AddRealtimeGameMessage("Doom: 检测到目标对本系统构成威胁。", Color.Red, 3);
+                        Stage.AddRealtimeGameMessage("Doom: 释放防御力场产生器，防御模式启动中……", Color.Red, 3);
                         phase1On = false;
                         phase2On = true;
                         Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\DoomShield"), 3, new Vector3(500, 0, 0) + boss.Position);
@@ -149,7 +149,7 @@ namespace Stages.OtherParts
                     if (adds.Count == 0)
                     {
                         Stage.PlayMusic(@"Audio\Antti_Martikainen_-_Through_Enemy_Lines", true, 5);
-                        Stage.AddRealtimeGameMessage("末日：防御力场被破坏，防御模式关闭，狂暴模式启动中……", Color.Red, 3);
+                        Stage.AddRealtimeGameMessage("Doom: 防御力场被破坏，防御模式关闭，狂暴模式启动中……", Color.Red, 3);
                         phase2On = false;
                         phase3On = true;
                         ((RegularAI)boss.unitAI).settings.isMoveAble = true;
@@ -172,7 +172,7 @@ namespace Stages.OtherParts
                 if (b.IsSkillUsable && boss.IsUsingSkill == false)
                 {
                     boss.CastSkill(b);
-                    Stage.AddRealtimeGameMessage("末日：末-日-之-雷！", Color.Red, 2);
+                    Stage.AddRealtimeGameMessage("Doom: Thunder-of-Doom!", Color.Red, 2);
 
 
                 }
@@ -186,7 +186,7 @@ namespace Stages.OtherParts
             }
             if (deadUnit == boss)
             {
-                Stage.AddRealtimeGameMessage("末日：计算……偏差……系统……崩溃", Color.Red, 3);
+                Stage.AddRealtimeGameMessage("Doom: 计算……偏差……系统……崩溃", Color.Red, 3);
                 Stage.ScreenEffectManager.Blink(Color.Orange, 2);
                 Stage.Victory("胜利！！");
                 Stage.SavePlayer();
