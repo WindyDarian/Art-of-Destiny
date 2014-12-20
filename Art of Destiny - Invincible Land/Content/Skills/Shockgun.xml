@@ -4,7 +4,7 @@
   <Asset Type="CombatLibrary.Spells.Shockgun">
     <!--由大地无敌-范若余在2010年6月14日加入-->
     <!--技能名-->
-    <SkillName>震波炮</SkillName>
+    <SkillName>Shockgun</SkillName>
     <!--技能说明-->
     <SkillText>使用震波炮攻击目标，毁灭一切</SkillText>
     <!--施法时间,秒,若为0则瞬间发动-->

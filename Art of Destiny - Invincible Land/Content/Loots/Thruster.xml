@@ -4,7 +4,7 @@
   
   <Asset Type="AODGameLibrary.Units.LootSettings">
     <!--名字-->
-    <Name>强力推进器</Name>
+    <Name>Afterburner</Name>
     <!--可拾取物件类别-->
     <LootType>SkillItem</LootType>
     <!--得到的武器或技能或任务物品的AssetName(含目录)-->

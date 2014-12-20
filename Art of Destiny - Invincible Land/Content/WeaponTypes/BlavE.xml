@@ -4,8 +4,8 @@
   <!--由大地无敌-范若余在2010年5月23日创建，NPC用Blav重炮-->
   <!--炮弹结构的特殊性使得该武器对于有护盾的目标也可造成优秀的伤害，最新数据证明该武器对有护盾目标的伤害可达无护盾相同类型目标的50%-->
   <Asset Type="AODGameLibrary.Weapons.WeaponType">
-    <weaponName>Blav重炮</weaponName>
-    <ammoName>Blav穿透弹</ammoName>
+    <weaponName>Blav Cannon</weaponName>
+    <ammoName>Blav Penetrating Ammo</ammoName>
     <maxAmmo>25</maxAmmo>
     <basicDamage>181</basicDamage>
     <foldShield>1</foldShield>

@@ -3,7 +3,7 @@
   <!-- BOSS1末日级，于2009年8月8日在UnitType重写后建立 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>AODModelTypes\Doom</Modelname>
-    <Name>末日</Name>
+    <Name>Doom</Name>
     <Scale>1</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>18000</MaxShield>

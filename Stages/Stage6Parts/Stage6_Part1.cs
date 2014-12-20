@@ -30,7 +30,7 @@ namespace Stages.Stage6Parts
         /// </summary>
         public override void Initialize()
         {
-            Stage.GameWorld.InstantMessages.Add(new AODText(Stage.GameWorld, "第六章-重铸秩序", 3, Color.White, new Vector2(Stage.Game.GraphicsDevice.Viewport.Width / 2,
+            Stage.GameWorld.InstantMessages.Add(new AODText(Stage.GameWorld, "Chapter 6 - Reforge", 3, Color.White, new Vector2(Stage.Game.GraphicsDevice.Viewport.Width / 2,
                   Stage.Game.GraphicsDevice.Viewport.Height / 3), FadeOutState.HalfFade, Vector2.Zero, true, 2));
 
             Stage.PlayMusic(@"Audio\TitanSlayer_-_Dawning_of_Darkness", true, 2);
@@ -38,6 +38,8 @@ namespace Stages.Stage6Parts
             Stage.ScreenEffectManager.Blink(Color.Black, 5);
             Stage.ScreenEffectManager.KeepColor(Color.White, null);
             base.Initialize();
+
+            /*
             Stage.AddFlyingMessage(@"人类，救了我……", Color.Yellow);
             Stage.AddFlyingMessage(@"欺诈者的野心成为空想……", Color.Yellow);
             Stage.AddFlyingMessage(@"…………", Color.Yellow);
@@ -45,7 +47,17 @@ namespace Stages.Stage6Parts
             Stage.AddFlyingMessage(@"除了一件事——", Color.Yellow);
             Stage.AddFlyingMessage(@"审判。", Color.Yellow);
             Stage.AddFlyingMessage(@"分析完毕。", Color.Yellow);
-      
+            */
+
+
+            
+            Stage.AddFlyingMessage(@"I am saved by the human.", Color.Yellow);
+            Stage.AddFlyingMessage(@"Traitor's plan finally failed.", Color.Yellow);
+            Stage.AddFlyingMessage(@"…………", Color.Yellow);
+            Stage.AddFlyingMessage(@"All is end,", Color.Yellow);
+            Stage.AddFlyingMessage(@"Except one thing -", Color.Yellow);
+            Stage.AddFlyingMessage(@"Judgement.", Color.Yellow);
+            Stage.AddFlyingMessage(@"Analysis Complete", Color.Yellow);
         }
         /// <summary>
         /// 从该片段继续时进行的处理
@@ -65,15 +77,28 @@ namespace Stages.Stage6Parts
         {
             if (Stage.IsMessageEnd && !b)
             {
-                Stage.AddGameMessage(@"威克多：这不是……这不在我的计划中……", Color.Red, 2);
-                Stage.AddGameMessage(@"威克多：这不是我想要的结果！", Color.Red, 2);
-                Stage.AddGameMessage(@"威克多：全军，杀掉这几个叛徒！", Color.Red, 2);
+                /*
+                Stage.AddGameMessage(@"Vector: 这不是……这不在我的计划中……", Color.Red, 2);
+                Stage.AddGameMessage(@"Vector: 这不是我想要的结果！", Color.Red, 2);
+                Stage.AddGameMessage(@"Vector: 全军，杀掉这几个叛徒！", Color.Red, 2);
 
                 Stage.AddGameMessage(@"Bill: 威克多，你被逮捕了，", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"Bill: 让我们护送盖亚号回法庭吧。", Color.CornflowerBlue, 4);
 
-                Stage.AddGameMessage(@"威克多：我，才是最高指挥官！", Color.Red, 2);
-                Stage.AddGameMessage(@"威克多：我，才是世界的主宰！", Color.Red, 2);
+                Stage.AddGameMessage(@"Vector: 我，才是最高指挥官！", Color.Red, 2);
+                Stage.AddGameMessage(@"Vector: 我，才是世界的主宰！", Color.Red, 2);
+                 */
+
+
+                Stage.AddGameMessage(@"Vector: No... this is not of my plan!", Color.Red, 2);
+                Stage.AddGameMessage(@"Vector: This is not the result I want!", Color.Red, 2);
+                Stage.AddGameMessage(@"Vector: Everyone, destroy these traitors!", Color.Red, 2);
+
+                Stage.AddGameMessage(@"Bill: You are arrested, Vector.", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: Let us escort you to the court.", Color.CornflowerBlue, 4);
+
+                Stage.AddGameMessage(@"Vector: I, am the highest commander!", Color.Red, 2);
+                Stage.AddGameMessage(@"Vector: I, am the ruler of the world!", Color.Red, 2);
                 b = true;
      
             }

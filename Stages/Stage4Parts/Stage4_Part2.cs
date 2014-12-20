@@ -67,20 +67,20 @@ namespace Stages.Stage4Parts
          
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon2"), 1, new Vector3(0, 20000, 0));
             Variables.LastCreatedUnit.IsInvincible = true;
-            Variables.LastCreatedUnit.RiderName = "普雷斯.杰斐逊 <第三舰队指挥官>";
+            Variables.LastCreatedUnit.RiderName = "Price Jeffsion <3rd Fleet Commander>";
             Variables.Unit[3] = Variables.LastCreatedUnit;
             Variables.LastCreatedUnit.MoveTo(new Vector3(0, 6000, 0));
 
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon3"), 1, new Vector3(0, 20000, 0));
             Variables.LastCreatedUnit.IsInvincible = true;
-            Variables.LastCreatedUnit.RiderName = "玛莲娜.林风 <第三舰队>";
+            Variables.LastCreatedUnit.RiderName = "Maria Woodwind <3rd Fleet>";
             Variables.Unit[4] = Variables.LastCreatedUnit;
             Variables.LastCreatedUnit.SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.LastCreatedUnit.unitAI).settings, Variables.Unit[3]));
            
 
             te = new AODText(Stage.GameWorld, "", 0, Color.White, new Vector2(Stage.GameWorld.game.GraphicsDevice.Viewport.Width / 2, 130), FadeOutState.None, Vector2.Zero, true);
             Stage.GameWorld.InstantMessages.Add(te);
-            te.Text = "力场护盾发生器已破坏：" + (6 - n) + "/" + "6";
+            te.Text = "Field Generator Destroyed: " + (6 - n) + "/" + "6";
             Stage.PlayMusic(@"Audio\Marcello_Morgese_-_Sounds_Of_The_Night", true, 4);
             base.Initialize();
         }
@@ -109,10 +109,10 @@ namespace Stages.Stage4Parts
                 if (Unit.Distance(Stage.Player, Variables.Unit[3]) < 1000)
                 {
 
-                    Stage.AddGameMessage(@"Bill: 杰斐逊，很高兴能看到你们。", Color.CornflowerBlue, 4);
-                    Stage.AddGameMessage(@"玛莲娜.林风：第三舰队支援组报到！", Color.CornflowerBlue, 4);
-                    Stage.AddGameMessage(@"普雷斯.杰斐逊：老大！杰诺！比比谁的火力更强大吧！", Color.CornflowerBlue, 4);
-                    Stage.AddGameMessage(@"Zero: 那么，一起摇滚吧。", Color.LightGreen, 2);
+                    Stage.AddGameMessage(@"Bill: Jeffsion, nice to see you all.", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage(@"Maria Woodwind: Support team of 3rd Fleet is here.", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage(@"Price Jeffsion: Boss! Zero! Let's see who is better in this field.", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage(@"Zero: Yeah, just roll it.", Color.LightGreen, 2);
                       m = true;
                 }
             }
@@ -122,7 +122,7 @@ namespace Stages.Stage4Parts
             if (shields.Contains(deadUnit))
             {
                 n -= 1;
-                te.Text = "力场护盾发生器已破坏：" + (6 - n) + "/" + "6";
+                te.Text = "Field Generator Destroyed: " + (6 - n) + "/" + "6";
                 if (n >= 2)
                 {
                     if (Stage.Player.Position != Vector3.Zero)

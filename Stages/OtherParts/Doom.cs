@@ -53,7 +53,7 @@ namespace Stages.OtherParts
             ((RegularAI)boss.unitAI).Target = Variables.Player;
             ((RegularAI)boss.unitAI).TargetChangeAble = false;
             ti1 = Stage.CreateTimer(12.5f);
-            Stage.AddGameMessage("Doom: 末日降临！", Color.Red, 3);
+            Stage.AddGameMessage("Doom: The Doom has come!", Color.Red, 3);
             Stage.PlayMusic(@"Audio\Antti_Martikainen_-_The_Chase", true, 5);
             battleBegin = true;
             phase1On = true;
@@ -186,7 +186,7 @@ namespace Stages.OtherParts
             }
             if (deadUnit == boss)
             {
-                Stage.AddRealtimeGameMessage("Doom: 计算……偏差……系统……崩溃", Color.Red, 3);
+                Stage.AddRealtimeGameMessage("Doom: System... fail...", Color.Red, 3);
                 Stage.ScreenEffectManager.Blink(Color.Orange, 2);
                 Stage.Victory("胜利！！");
                 Stage.SavePlayer();

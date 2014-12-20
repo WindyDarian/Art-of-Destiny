@@ -4,7 +4,7 @@
   <Asset Type="CombatLibrary.Spells.Thruster">
     <!--强力推进器,由大地无敌-范若余在2010年3月20日加入-->
     <!--技能名-->
-    <SkillName>强力推进器</SkillName>
+    <SkillName>Afterburner</SkillName>
     <!--技能说明-->
     <SkillText>加速!!!!!</SkillText>
 

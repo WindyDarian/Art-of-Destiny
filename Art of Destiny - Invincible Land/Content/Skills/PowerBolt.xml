@@ -4,7 +4,7 @@
   <Asset Type="CombatLibrary.Spells.SpecialMissile">
     <!--由大地无敌-范若余在2009年8月23日加入-->
     <!--技能名-->
-    <SkillName>充能弹</SkillName>
+    <SkillName>Energy Bolt</SkillName>
     <!--技能说明-->
     <SkillText>发射多颗能量弹攻击目标，造成大量伤害</SkillText>
 

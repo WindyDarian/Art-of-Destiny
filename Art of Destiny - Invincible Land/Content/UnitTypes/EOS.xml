@@ -3,7 +3,7 @@
   <!-- 与末日的战斗中出现的力场产生器 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>Models\EOS\EOSModel</Modelname>
-    <Name>秩序之眼</Name>
+    <Name>Eye of Cosmos</Name>
     <Scale>0.5</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>50000</MaxShield>

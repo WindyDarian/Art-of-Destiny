@@ -3,7 +3,7 @@
   <!-- 攻击秩序之环中出现的力场产生器 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>AODModelTypes\Shield</Modelname>
-    <Name>秩序之环力场产生器</Name>
+    <Name>Invincible Field Generator</Name>
     <Scale>4</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>2500</MaxShield>

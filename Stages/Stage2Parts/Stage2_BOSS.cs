@@ -64,7 +64,7 @@ namespace Stages.Stage2Parts
            // Stage.PlayMusic(@"Audio\CR_TourneyBattle02UniWalk", true, 5);
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Scream_BOSS"), 4, new Vector3(0, 0, -29000));
             boss = Variables.LastCreatedUnit;
-            boss.RiderName = "黑骑士克雷斯";
+            boss.RiderName = "Chris the Dark Knight ";
             ((RegularAI)boss.unitAI).settings.isMoveAble = false;
             boss.IsInvincible = true;
             boss.IsAIControlling = false;
@@ -84,10 +84,20 @@ namespace Stages.Stage2Parts
             u4 = Variables.LastCreatedUnit;
             u4.IsInvincible = true;
             u4.IsAIControlling = false;
+
+            /*
             Stage.AddGameMessage(@"Bill: 我们正在接近星际之门。", Color.CornflowerBlue, 3);
             Stage.AddGameMessage(@"Zero: 而且有人想挡我们的路。", Color.LightGreen, 3);
-            Stage.AddGameMessage(@"克雷斯：真是白送上虎口的小绵羊……", Color.Red, 4);
+            Stage.AddGameMessage(@"Chris: 真是白送上虎口的小绵羊……", Color.Red, 4);
             Stage.AddGameMessage(@"Alicia: 小心，教会的敌人看起来早有准备。", Color.Yellow, 3);
+            */
+
+            Stage.AddGameMessage(@"Bill: We are approaching the Star Gate.", Color.CornflowerBlue, 3);
+            Stage.AddGameMessage(@"Zero: And someone is in our way.", Color.LightGreen, 3);
+            Stage.AddGameMessage(@"Chris: Welcome to my trap, kids.", Color.Red, 4);
+            Stage.AddGameMessage(@"Alicia: Watch out, the Church are well prepared.", Color.Yellow, 3);
+            
+
             t0 = Stage.CreateTimer(2);
             t1 = Stage.CreateTimer(18);
             t2 = Stage.CreateTimer(35);
@@ -168,11 +178,20 @@ namespace Stages.Stage2Parts
             {
                 if (timer == t0)
                 {
+                    /*
+                    Stage.AddGameMessage(@"Chris: 欢迎来到灵魂的狂欢派对！", Color.Red, 4);
+                    Stage.AddGameMessage(@"Chris: 我看到了“遗迹”，看到神谕，你们拿着它，却手足无措。", Color.Red, 4);
+                    Stage.AddGameMessage(@"Chris: 为了防止那个阴谋破坏主神的秩序，教会将收回这个东西。", Color.Red, 4);
+                    Stage.AddGameMessage(@"Chris: 而“遗迹”的力量将会毁掉你。", Color.Red, 4);
                     
-                    Stage.AddGameMessage(@"克雷斯：欢迎来到灵魂的狂欢派对！", Color.Red, 4);
-                    Stage.AddGameMessage(@"克雷斯：我看到了“遗迹”，看到神谕，你们拿着它，却手足无措。", Color.Red, 4);
-                    Stage.AddGameMessage(@"克雷斯：为了防止那个阴谋破坏主神的秩序，教会将收回这个东西。", Color.Red, 4);
-                    Stage.AddGameMessage(@"克雷斯：而“遗迹”的力量将会毁掉你。", Color.Red, 4);
+                     */
+
+                    Stage.AddGameMessage(@"Chris: Welcome to my soul party!", Color.Red, 4);
+                    Stage.AddGameMessage(@"Chris: Only the Church knows how the Relic is valuable.", Color.Red, 4);
+                    Stage.AddGameMessage(@"Chris: And we will collect it from your wreckage.", Color.Red, 4);
+                    Stage.AddGameMessage(@"Chris: To protect you from... conspiracy...", Color.Red, 4);
+                    
+
                     Stage.GameWorld.ReleaseCamera();
                     Stage.Player.SetMoveState(new Vector3(0,0,-200), Vector3.Zero);
                     Variables.Unit[2].SetMoveState(new Vector3(0, 0, -300), Vector3.Zero);
@@ -193,43 +212,79 @@ namespace Stages.Stage2Parts
                     u1.IsInvincible = false;
                     u1.IsAIControlling = true;
                     
-                    Stage.AddGameMessage(@"克雷斯：让祭祀开始吧！", Color.Red, 3);
+                    /*
+                    Stage.AddGameMessage(@"Chris: 让祭祀开始吧！", Color.Red, 3);
                     Stage.AddGameMessage(@"Bill: 牵制住旁边的敌人！", Color.CornflowerBlue, 2);
                     Stage.AddGameMessage(@"Zero: 该死！“遗迹”开始不稳定了！", Color.LightGreen, 3);
                     Stage.AddGameMessage(@"Alicia: 这是一个陷阱！", Color.Yellow, 3);
                     Stage.AddGameMessage(@"Alicia: 空间正在坍塌，克雷斯在尝试引发“遗迹”的共振！", Color.Yellow, 4);
                     Stage.AddGameMessage(@"Alicia: 在你被压扁之前解决掉他！", Color.Yellow, 3);
+                    
+                     */
+
+                    Stage.AddGameMessage(@"Chris: Let it begin!", Color.Red, 3);
+                    Stage.AddGameMessage(@"Bill: Watch out!", Color.CornflowerBlue, 2);
+                    Stage.AddGameMessage(@"Zero: Damn, the Relic is unstable again!", Color.LightGreen, 3);
+                    Stage.AddGameMessage(@"Alicia: It is a trap!", Color.Yellow, 3);
+                    Stage.AddGameMessage(@"Alicia: Chris is triggering the resonance of the Relic.", Color.Yellow, 4);
+                    Stage.AddGameMessage(@"Alicia: The space is going to collapse! Make it quick!", Color.Yellow, 3);
+                    
+
                     cs[0].BeginToDie();
                 }
                 if (timer == t2)
                 {
                     u2.IsInvincible = false;
                     u2.IsAIControlling = true;
-                    Stage.AddRealtimeGameMessage(@"克雷斯：火焰燃起来了。", Color.Red, 4);
+                    /*
+                    Stage.AddRealtimeGameMessage(@"Chris: 火焰燃起来了。", Color.Red, 4);
                     Stage.AddRealtimeGameMessage(@"Bill: 更多的教徒投入战斗了，小心应付！", Color.CornflowerBlue, 4);
+                    
+                     */
+                    Stage.AddRealtimeGameMessage(@"Chris: The fire burns.", Color.Red, 4);
+                    Stage.AddRealtimeGameMessage(@"Bill: More of them!", Color.CornflowerBlue, 4);
+                    
+                    
                     cs[1].BeginToDie();
                 }
                 if (timer == t3)
                 {
                     u3.IsInvincible = false;
                     u3.IsAIControlling = true;
-                    Stage.AddRealtimeGameMessage(@"克雷斯：让它更加混乱吧！", Color.Red, 4);
+                    /*
+                    Stage.AddRealtimeGameMessage(@"Chris: 让它更加混乱吧！", Color.Red, 4);
                     Stage.AddRealtimeGameMessage(@"Alicia: ……撑得住吗？", Color.Yellow, 4);
                     Stage.AddRealtimeGameMessage(@"Alicia: 没有了教徒的保护，黑骑士越来越容易受到伤害。", Color.Yellow, 4);
+                    
+                     */
+                    Stage.AddRealtimeGameMessage(@"Chris: Chaos, more chaos!", Color.Red, 4);
+                    Stage.AddRealtimeGameMessage(@"Alicia: ...can you?", Color.Yellow, 4);
+                    Stage.AddRealtimeGameMessage("Alicia: Without the protection of his followers, the Dark would be\nmore vulnerable.", Color.Yellow, 4);
+                    
                     cs[2].BeginToDie();
                 }
                 if (timer == t4)
                 {
                     u4.IsInvincible = false;
                     u4.IsAIControlling = true;
-                    Stage.AddRealtimeGameMessage(@"克雷斯：混乱风暴！蒙克依，你是最后一个祭品！", Color.Red, 4);
+                    /*
+                    Stage.AddRealtimeGameMessage(@"Chris: 混乱风暴！蒙克依，你是最后一个祭品！", Color.Red, 4);
                     Stage.AddRealtimeGameMessage(@"Zero: 又一个，可恶！", Color.LightGreen, 3);
+                     */
+
+                    Stage.AddRealtimeGameMessage(@"Chris: Chaos Storm! Monkie, you are the last to go!", Color.Red, 4);
+                    Stage.AddRealtimeGameMessage(@"Zero: Another!", Color.Yellow, 4);
                     cs[3].BeginToDie();
                 }
                 if (timer == t5)
                 {
-                    Stage.AddRealtimeGameMessage(@"克雷斯：那么我亲自来终结这风暴吧。", Color.Red, 4);
-                    Stage.AddRealtimeGameMessage(@"Alicia: 空间坍塌非常严重！", Color.Yellow, 4);
+                    //Stage.AddRealtimeGameMessage(@"Chris: 那么我亲自来终结这风暴吧。", Color.Red, 4);
+                    //Stage.AddRealtimeGameMessage(@"Alicia: 空间坍塌非常严重！", Color.Yellow, 4);
+
+                    Stage.AddRealtimeGameMessage(@"Chris: I'll put an end to this, myself.", Color.Red, 4);
+                    Stage.AddRealtimeGameMessage(@"Alicia: The space are deforming!", Color.Yellow, 4);
+                    
+                    
                     ((RegularAI)boss.unitAI).settings.isMoveAble = true;
                     
                 
@@ -259,14 +314,30 @@ namespace Stages.Stage2Parts
                 Stage.ClearMessages();
                 Stage.ScreenEffectManager.Blink(Color.White, 2);
                 Stage.ScreenEffectManager.KeepColor(Color.Black, null);
+
+                /*
                 Stage.AddGameMessage(@"Alicia: 致命的一击！", Color.Yellow, 4);
-                Stage.AddGameMessage(@"克雷斯：可恶……咳……咳……", Color.Red, 4);
-                Stage.AddGameMessage(@"克雷斯：那么，我们……下次再见吧！", Color.Red, 4);
+                Stage.AddGameMessage(@"Chris: 可恶……咳……咳……", Color.Red, 4);
+                Stage.AddGameMessage(@"Chris: 那么，我们……下次再见吧！", Color.Red, 4);
                 Stage.AddGameMessage(@"Bill: 我已经接收到坐标，正在校准星际之门参数。", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"Alicia: 杰诺，“遗迹”依然不稳定！", Color.Yellow, 4);
                 Stage.AddGameMessage(@"Zero: 我正在尝试冷却它！", Color.LightGreen, 3);
                 Stage.AddGameMessage(@"Bill: 空间校准完毕，就位！准备弹射！", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"…………", Color.White, 3);
+                
+                 */
+
+                Stage.AddGameMessage(@"Alicia: A critical hit!", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Chris: Damn...", Color.Red, 4);
+                Stage.AddGameMessage(@"Chris: We will meet, again.", Color.Red, 4);
+                Stage.AddGameMessage(@"Bill: I have received the coordinate, uploading it to Star Gate.", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Alicia: Zero, the Relic is still unstable!", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Zero: I am trying to cool it down.", Color.LightGreen, 3);
+                Stage.AddGameMessage(@"Bill: Coordinate confirmed, let's go.", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@".............", Color.White, 3);
+                
+
+
                 Stage.Player.isPlayerControlling = false;
                 Stage.Player.IsAIControlling = false;
                 Stage.Player.IsInvincible = true;

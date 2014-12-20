@@ -4,8 +4,8 @@
   <!--能量重炮X-B，由大地无敌-范若余在2009年9月30日创建-->
   <!--力量恐怖的能量重炮-->
   <Asset Type="AODGameLibrary.Weapons.WeaponType">
-    <weaponName>X-B重炮</weaponName>
-    <ammoName>X-B能量弹</ammoName>
+    <weaponName>X-B AS Cannon</weaponName>
+    <ammoName>X-B Powerbolt</ammoName>
     <maxAmmo>100</maxAmmo>
     <basicDamage>275</basicDamage>
     <foldShield>1</foldShield>

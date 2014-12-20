@@ -5,7 +5,7 @@
     <maxNum>20</maxNum>
     <cooldown>3.0</cooldown>
     <missileTypeName>MissileTypes\Ghost</missileTypeName>
-    <name>幽灵导弹</name>
+    <name>Ghost Missile</name>
     <positionIndex1>2</positionIndex1>
     <positionIndex2>3</positionIndex2>
     <AssetName>MissileWeaponTypes\Ghost</AssetName>

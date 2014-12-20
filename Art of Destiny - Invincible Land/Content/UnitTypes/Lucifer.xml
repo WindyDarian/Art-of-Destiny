@@ -3,7 +3,7 @@
   <!-- EOTO的导弹攻击舰路西法，由大地无敌-范若余于2010年4月17日制作 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>AODModelTypes\Lucifer</Modelname>
-    <Name>炽天使</Name>
+    <Name>Lucifer</Name>
     <Scale>1</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>2800</MaxShield>

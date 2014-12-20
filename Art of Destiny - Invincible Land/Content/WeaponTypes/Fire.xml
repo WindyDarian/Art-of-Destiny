@@ -2,8 +2,8 @@
 <XnaContent>
   <!-- TODO: replace this Asset with your own XML asset data. -->
   <Asset Type="AODGameLibrary.Weapons.WeaponType">
-    <weaponName>熔甲烈焰发射器</weaponName>
-    <ammoName>态化氢燃料</ammoName>
+    <weaponName>Anti-Armor Flamegun</weaponName>
+    <ammoName>F Fuel</ammoName>
     <maxAmmo>3000</maxAmmo>
     <basicDamage>3</basicDamage>
     <foldShield>0.8</foldShield>

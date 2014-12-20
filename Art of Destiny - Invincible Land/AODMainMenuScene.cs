@@ -218,7 +218,7 @@ namespace AOD
             {
                 b1 = true;
                 mainMenu.Open();
-                Game.Content.Load<SoundEffect>(@"Audio\Blast4").Play();
+                //Game.Content.Load<SoundEffect>(@"Audio\Blast4").Play();
             }
             if (reseting)
             {
@@ -469,9 +469,9 @@ namespace AOD
             //singleGameMenu.Items.Add(new MenuButton("取消", true, "取消"));
             singleGameMenu.Items.Add(new MenuButton("New Game", true, "新游戏"));
             singleGameMenu.Items.Add(new MenuButton("Select Chapter", true, "选择关卡"));
-            singleGameMenu.Items.Add(new MenuButton("Manual (Untranslated)", true, "战斗手册"));
+            //singleGameMenu.Items.Add(new MenuButton("Manual (Untranslated)", true, "战斗手册"));
             singleGameMenu.Items.Add(new MenuButton("Cancel", true, "取消"));
-            singleGameMenu.EscIndex = 4;//!
+            singleGameMenu.EscIndex = 3;//!
             menus.Add(singleGameMenu);
             stageSelectMenu = new Menu(Game);
             stageSelectMenu.Position = settingMenu.Position;
@@ -502,13 +502,13 @@ namespace AOD
             stageSelectMenu.Items.Add(new MenuButton("取消", true, "取消"));
              */
             if (l.Contains(1))
-                stageSelectMenu.Items.Add(new MenuButton("Chapter 1 - Dawn of Gods", true, "1"));
+                stageSelectMenu.Items.Add(new MenuButton("Chapter 1 - Twilight of Gods", true, "1"));
             else stageSelectMenu.Items.Add(new MenuButton("Chapter 1 - ??", false, "1"));
             if (l.Contains(2))
-                stageSelectMenu.Items.Add(new MenuButton("Chapter 2 - The moon", true, "2"));
+                stageSelectMenu.Items.Add(new MenuButton("Chapter 2 - The Moon", true, "2"));
             else stageSelectMenu.Items.Add(new MenuButton("Chapter 2 - ??", false, "2"));
             if (l.Contains(3))
-                stageSelectMenu.Items.Add(new MenuButton("Chapter 3 - Flowing light", true, "3"));
+                stageSelectMenu.Items.Add(new MenuButton("Chapter 3 - Flowing Light", true, "3"));
             else stageSelectMenu.Items.Add(new MenuButton("Chapter 4 - ??", false, "3"));
             if (l.Contains(4))
                 stageSelectMenu.Items.Add(new MenuButton("Chapter 4 - Ring of Midnight", true, "4"));

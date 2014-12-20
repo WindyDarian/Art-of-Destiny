@@ -52,7 +52,7 @@ namespace Stages.Stage1Parts
             */
             Stage.AddFlyingMessage(@"Time goes fast...", Color.White);
             Stage.AddFlyingMessage(@"We develop, we prevail, and we vanish……", Color.White);
-            Stage.AddFlyingMessage(@"Eye of Order - the super computer controlled the defense system of the Empire.", Color.White);
+            Stage.AddFlyingMessage(@"Eye of Cosmos - the super computer controlled the defense system of the Empire.", Color.White);
             Stage.AddFlyingMessage(@"And we all know what it had cost.", Color.White);
             Stage.AddFlyingMessage(@"", Color.White);
             Stage.AddFlyingMessage(@"Darkness has come.", Color.White);
@@ -60,7 +60,7 @@ namespace Stages.Stage1Parts
             Stage.AddFlyingMessage("As long as the Relic still belongs to us mankind,\nthey are unable to destroy our homeland.", Color.White);
             Stage.AddFlyingMessage(@"", Color.White);
             Stage.AddFlyingMessage(@"Now", Color.White);
-            Stage.AddFlyingMessage(@"Zero the spacehunter, are on his way to the source of a SOS message.", Color.White);
+            Stage.AddFlyingMessage(@"Zero the Spacehunter, are on his way to the source of a SOS message.", Color.White);
             Stage.AddFlyingMessage(@"And this is the beginning of our story.", Color.White);
 
 
@@ -80,6 +80,7 @@ namespace Stages.Stage1Parts
 
                 if (t1.IsEnd && b1 == false)
                 {
+                    /*
                     Stage.AddRealtimeGameMessage(@"Rudolf the Commander: 呼叫附近星域的各单位，我们正在受到攻击！", Color.CornflowerBlue, 4);
                     Stage.AddRealtimeGameMessage(@"Rudolf the Commander: 我是第三舰队指挥官鲁道夫.巴特尔，", Color.CornflowerBlue, 3);
                     Stage.AddRealtimeGameMessage(@"Rudolf the Commander: 我们正在受到秩序之眼的攻击！", Color.CornflowerBlue, 3);
@@ -91,6 +92,19 @@ namespace Stages.Stage1Parts
                     Stage.AddRealtimeGameMessage(@"Rudolf the Commander: 那是什么？不！", Color.CornflowerBlue, 3);
                     Stage.AddRealtimeGameMessage(@"…… …… ……", Color.White, 2);
                     Stage.AddRealtimeGameMessage(@"苍隼系统信息：与目标失去联系。", Color.White, 4);
+                    
+                     */
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: Mayday, mayday! We are under attack!", Color.CornflowerBlue, 4);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: I am Rudolf Barter, commander of the 3rd Fleet.", Color.CornflowerBlue, 3);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: We are under attack by the EoC", Color.CornflowerBlue, 3);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: Repeat, we are under attack by the Eye of Cosmos!", Color.CornflowerBlue, 4);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: We need some aid, immediately!", Color.CornflowerBlue, 2);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: Damn, they are attacking the transport ship!", Color.CornflowerBlue, 3);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: Regroup! Protect the transport!", Color.CornflowerBlue, 3);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: Wait... what is that thing?", Color.CornflowerBlue, 3);
+                    Stage.AddRealtimeGameMessage(@"Rudolf the Commander: No!", Color.CornflowerBlue, 3);
+                    Stage.AddRealtimeGameMessage(@"................", Color.White, 2);
+                    Stage.AddRealtimeGameMessage(@"System: Connection lost.", Color.White, 4);
                     b1 = true;
                 }
             }

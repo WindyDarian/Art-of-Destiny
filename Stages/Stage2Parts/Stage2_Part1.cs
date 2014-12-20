@@ -27,7 +27,7 @@ namespace Stages.Stage2Parts
         /// </summary>
         public override void Initialize()
         {
-            Stage.GameWorld.InstantMessages.Add(new AODText(Stage.GameWorld, "第二章-斜月沉沉", 3, Color.CornflowerBlue, new Vector2(Stage.Game.GraphicsDevice.Viewport.Width / 2,
+            Stage.GameWorld.InstantMessages.Add(new AODText(Stage.GameWorld, "Chapter 2 - The Moon", 3, Color.CornflowerBlue, new Vector2(Stage.Game.GraphicsDevice.Viewport.Width / 2,
                Stage.Game.GraphicsDevice.Viewport.Height / 3), FadeOutState.HalfFade, Vector2.Zero, true, 2));
            
             bill = Variables.Unit[2];
@@ -51,6 +51,8 @@ namespace Stages.Stage2Parts
             
             Stage.GameWorld.SetCamera(new Camera(Stage.Game, new Vector3(20, 2080, -4000),t, Vector3.Up));
             Stage.ScreenEffectManager.Blink(Color.White, 20);
+
+            /*
             Stage.AddFlyingMessage(@"杰诺和第三舰队共同战斗，", Color.Yellow);
             Stage.AddFlyingMessage(@"从秩序之眼的手中夺回了“遗迹”，", Color.Yellow);
             Stage.AddFlyingMessage(@"但因为“遗迹”的不稳定力量，被困于一个遥远星域。", Color.Yellow);
@@ -58,6 +60,14 @@ namespace Stages.Stage2Parts
             Stage.AddFlyingMessage(@"谜底，尚待揭晓……", Color.Yellow);
             Stage.AddFlyingMessage(@"……", Color.Yellow);
             Stage.AddFlyingMessage(@"分析完毕。", Color.Yellow);
+            */
+            Stage.AddFlyingMessage(@"Zero fighted together with the 3rd Fleet,", Color.Yellow);
+            Stage.AddFlyingMessage(@"And retrived the Relic,", Color.Yellow);
+            Stage.AddFlyingMessage(@"But because of its unstable power, they are stuck in a barren space", Color.Yellow);
+            Stage.AddFlyingMessage(@"His fate will go on.", Color.Yellow);
+            Stage.AddFlyingMessage(@"All is going to be unveiled", Color.Yellow);
+            Stage.AddFlyingMessage(@"......", Color.Yellow);
+            Stage.AddFlyingMessage(@"Analysis complete.", Color.Yellow);
             base.Initialize();
         }
         /// <summary>

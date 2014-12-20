@@ -60,12 +60,12 @@ namespace Stages.Stage4Parts
 
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon2"), 1, new Vector3(0, 20000, 0));
             Variables.LastCreatedUnit.IsInvincible = true;
-            Variables.LastCreatedUnit.RiderName = "普雷斯.杰斐逊 <第三舰队指挥官>";
+            Variables.LastCreatedUnit.RiderName = "Price Jeffsion <3rd Fleet Commander>";
             Variables.Unit[3] = Variables.LastCreatedUnit;
 
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon3"), 1, new Vector3(0, 20000, 0));
             Variables.LastCreatedUnit.IsInvincible = true;
-            Variables.LastCreatedUnit.RiderName = "玛莲娜.林风 <第三舰队>";
+            Variables.LastCreatedUnit.RiderName = "Maria Woodwind <3rd Fleet>";
             Variables.Unit[4] = Variables.LastCreatedUnit;
             Variables.LastCreatedUnit.SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.LastCreatedUnit.unitAI).settings, Variables.Unit[3]));
            
@@ -120,11 +120,12 @@ namespace Stages.Stage4Parts
         {
             if (timer == t)
             {
+                /*
                 Stage.AddGameMessage(@"Zero: 全部破坏掉了！", Color.LightGreen, 2);
                 Stage.AddGameMessage(@"Bill: 秩序之环的能量正在消失……", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"Bill: 很快，我们将面对秩序之眼的本体。", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"玛莲娜.林风：抱歉，我们和盖亚号失去了联系。", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"普雷斯.杰斐逊：秩序之眼和“遗迹”产生了某些感应，干扰了周围的磁场。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Maria Woodwind: 抱歉，我们和盖亚号失去了联系。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Price Jeffsion: 秩序之眼和“遗迹”产生了某些感应，干扰了周围的磁场。", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"Bill: 奇怪的是……我们的通话并没有受到干扰。", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"Zero: 到达秩序之环的中心后，把“遗迹”扔到能量堆中就可以了吧。", Color.LightGreen, 2);
                 Stage.AddGameMessage(@"Bill: 希望如此——", Color.CornflowerBlue, 4);
@@ -133,8 +134,24 @@ namespace Stages.Stage4Parts
                 Stage.AddGameMessage(@"Alicia: 不要……", Color.Yellow, 4);
                 Stage.AddGameMessage(@"Alicia: 杰诺……我发现……这是一个圈套……", Color.Yellow, 4);
                 Stage.AddGameMessage(@"Bill: 这是什么意思——", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"玛莲娜.林风：是教会！散开！", Color.CornflowerBlue, 4);
-                
+                Stage.AddGameMessage(@"Maria Woodwind: 是教会！散开！", Color.CornflowerBlue, 4);
+                */
+
+                Stage.AddGameMessage(@"Zero: All done!", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"Bill: And the shield is fading.", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: We will face the Eye of Cosmos itself, soon.", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Maria Woodwind: Sorry, we lost the connection to Gaia.", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage("Price Jeffsion: There are some things happening between\nthe Eye and the Relic, generating strong disruption.", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: But we can communicate to each othen...?", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Zero: Just throw this Relic to the center of the ring, right?", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"Bill: Hope so..", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Alicia: No! Don't do this!", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Zero: Is that you, Alicia?", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"Alicia: No!", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: Zero... it is a trap!", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Bill: What the -", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Maria Woodwind: The Church! Prepare for battle!", Color.CornflowerBlue, 4);
+
                 b = true;
 
             }

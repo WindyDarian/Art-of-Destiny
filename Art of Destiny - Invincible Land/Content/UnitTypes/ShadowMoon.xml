@@ -3,7 +3,7 @@
   <!-- 狡猾的影月，由大地无敌-范若余于2010年1月24日建立 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>AODModelTypes\ShadowMoon</Modelname>
-    <Name>影月</Name>
+    <Name>Shadow Moon</Name>
     <Scale>2</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>750</MaxShield>

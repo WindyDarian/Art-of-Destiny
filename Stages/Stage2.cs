@@ -89,16 +89,20 @@ namespace Stages
                     switch (AODGameLibrary.Helpers.RandomHelper.RandomInt(1, 4))
                     {
                         case 1:
-                            AddRealtimeGameMessage(@"比尔：顶住，我需要一点时间恢复！", Color.CornflowerBlue, 2.3f);
+                            //AddRealtimeGameMessage(@"Bill: Hold on, and buy some time for me!", Color.CornflowerBlue, 2.3f);
+                            AddRealtimeGameMessage(@"Bill: Hold on, and buy some time for me!", Color.CornflowerBlue, 2.3f);
                             break;
                         case 2:
-                            AddRealtimeGameMessage(@"比尔：我先暂时撤退。", Color.CornflowerBlue, 2);
+                            //AddRealtimeGameMessage(@"Bill: I need to retreat at the moment.", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Bill: I need to retreat at the moment.", Color.CornflowerBlue, 2);
                             break;
                         case 3:
-                            AddRealtimeGameMessage(@"比尔：该死！", Color.CornflowerBlue, 2);
+                            //AddRealtimeGameMessage(@"Bill: Damn!", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Bill: Damn!", Color.CornflowerBlue, 2);
                             break;
                         case 4:
-                            AddRealtimeGameMessage(@"Zero: 比尔，你要挂了，赶快闪！", Color.LightGreen, 2);
+                            //AddRealtimeGameMessage(@"Zero: Bill, you are under fire, get out.", Color.LightGreen, 2);
+                            AddRealtimeGameMessage(@"Zero: Bill, you are under fire, get out.", Color.LightGreen, 2);
                             break;
                     }
                 }
@@ -118,13 +122,16 @@ namespace Stages
                     switch (AODGameLibrary.Helpers.RandomHelper.RandomInt(1, 3))
                     {
                         case 1:
-                            AddRealtimeGameMessage(@"比尔：返航！", Color.CornflowerBlue, 2);
+                            //AddRealtimeGameMessage(@"Bill: I am good.", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Bill: I am good.", Color.CornflowerBlue, 2);
                             break;
                         case 2:
-                            AddRealtimeGameMessage(@"比尔：恢复战斗，一切正常。", Color.CornflowerBlue, 2);
+                            //AddRealtimeGameMessage(@"Bill: Returning to battle.", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Bill: Returning to battle.", Color.CornflowerBlue, 2);
                             break;
                         case 3:
-                            AddRealtimeGameMessage(@"Alicia: 比尔回来了。", Color.Yellow, 2);
+                            //AddRealtimeGameMessage(@"Alicia: Bill is back", Color.Yellow, 2);
+                            AddRealtimeGameMessage(@"Alicia: Bill is back", Color.CornflowerBlue, 2);
                             break;
                     }
                 }

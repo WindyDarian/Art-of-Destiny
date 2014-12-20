@@ -64,7 +64,7 @@ namespace Stages
 
 
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Titan"), 1, new Vector3(0, 0, 0));
-            Variables.LastCreatedUnit.RiderName = "<地球联盟指挥舰> 威克多";
+            Variables.LastCreatedUnit.RiderName = "<Mothership of the Federation> Vector";
             ((RegularAI)Variables.LastCreatedUnit.unitAI).settings.isMoveAble = false;
             ((RegularAI)Variables.LastCreatedUnit.unitAI).settings.isRotateAble = false;
             ((RegularAI)Variables.LastCreatedUnit.unitAI).settings.isShotAble = false;
@@ -73,42 +73,42 @@ namespace Stages
             vector = new UnitInf(GameWorld);
             GameWorld.AddUI(vector);
             vector.Target = Variables.LastCreatedUnit;
-            vector.name = "盖亚号";
+            vector.name = "Gaia";
             vector.position =  new Vector2(5, 410);
 
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Phoenix"), 1, new Vector3(10, 0, 0));
             Variables.LastCreatedUnit.SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.LastCreatedUnit.unitAI).settings, Variables.Unit[5]));
             Variables.LastCreatedUnit.IsInvincible = true;
-            Variables.LastCreatedUnit.RiderName = "阿贝拉尔 <第一舰队>";
+            Variables.LastCreatedUnit.RiderName = "Abanar <1st Fleet>";
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Phoenix"), 1, new Vector3(10, 0, 0));
             Variables.LastCreatedUnit.SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.LastCreatedUnit.unitAI).settings, Variables.Unit[5]));
             Variables.LastCreatedUnit.IsInvincible = true;
-            Variables.LastCreatedUnit.RiderName = "布克 <第一舰队>";
+            Variables.LastCreatedUnit.RiderName = "Book <1st Fleet>";
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Phoenix"), 1, new Vector3(10, 0, 0));
             Variables.LastCreatedUnit.SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.LastCreatedUnit.unitAI).settings, Variables.Unit[5]));
             Variables.LastCreatedUnit.IsInvincible = true;
-            Variables.LastCreatedUnit.RiderName = "阿夫顿 <第一舰队>";
+            Variables.LastCreatedUnit.RiderName = "Affton <1st Fleet>";
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Phoenix"), 1, new Vector3(10, 0, 0));
             Variables.LastCreatedUnit.IsInvincible = true;
-            Variables.LastCreatedUnit.RiderName = "马萨 <第一舰队指挥官>";
+            Variables.LastCreatedUnit.RiderName = "Matha <1st Fleet Commander>";
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon"), 1, new Vector3(10, 0, 0));
             Variables.LastCreatedUnit.SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.LastCreatedUnit.unitAI).settings, Variables.Unit[5]));
             Variables.LastCreatedUnit.IsInvincible = true;
-            Variables.LastCreatedUnit.RiderName = "蒙托尔.雷诺 <第三舰队>";
+            Variables.LastCreatedUnit.RiderName = "Montor Raynor <3rd fleet>";
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon"), 1, new Vector3(10, 0, 0));
             Variables.LastCreatedUnit.SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.LastCreatedUnit.unitAI).settings, Variables.Unit[5]));
             Variables.LastCreatedUnit.IsInvincible = true;
-            Variables.LastCreatedUnit.RiderName = "马克斯.派恩 <第三舰队>";
+            Variables.LastCreatedUnit.RiderName = "Maks Payne <3rd Fleet>";
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon3"), 1, new Vector3(10, 0, 0));
             Variables.LastCreatedUnit.IsInvincible = true;
-            Variables.LastCreatedUnit.RiderName = "玛莲娜.林风 <第三舰队>";
+            Variables.LastCreatedUnit.RiderName = "Maria Woodwind <3rd Fleet>";
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon2"), 1, new Vector3(10, 0, 0));
             Variables.LastCreatedUnit.IsInvincible = true;
-            Variables.LastCreatedUnit.RiderName = "普雷斯.杰斐逊 <第三舰队指挥官>";
+            Variables.LastCreatedUnit.RiderName = "Price Jeffsion <3rd Fleet Commander>";
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon3"), 1, new Vector3(10, 0, 0));
             Variables.LastCreatedUnit.SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.LastCreatedUnit.unitAI).settings, Variables.Unit[5]));
             Variables.LastCreatedUnit.IsInvincible = true;
-            Variables.LastCreatedUnit.RiderName = "乔治.灰炮 <第三舰队>";
+            Variables.LastCreatedUnit.RiderName = "Jodge Graycannon <3rd Fleet>";
        
 
 
@@ -151,16 +151,16 @@ namespace Stages
                     switch (AODGameLibrary.Helpers.RandomHelper.RandomInt(1, 4))
                     {
                         case 1:
-                            AddRealtimeGameMessage(@"比尔：顶住，我需要一点时间恢复！", Color.CornflowerBlue, 2.3f);
+                            AddRealtimeGameMessage(@"Bill: Hold on, and buy some time for me!", Color.CornflowerBlue, 2.3f);
                             break;
                         case 2:
-                            AddRealtimeGameMessage(@"比尔：我先暂时撤退。", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Bill: I need to retreat at the moment.", Color.CornflowerBlue, 2);
                             break;
                         case 3:
-                            AddRealtimeGameMessage(@"比尔：该死！", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Bill: Damn!", Color.CornflowerBlue, 2);
                             break;
                         case 4:
-                            AddRealtimeGameMessage(@"Zero: 比尔，你要挂了，赶快闪！", Color.LightGreen, 2);
+                            AddRealtimeGameMessage(@"Zero: Bill, you are under fire, get out.", Color.LightGreen, 2);
                             break;
                     }
                 }
@@ -180,13 +180,13 @@ namespace Stages
                     switch (AODGameLibrary.Helpers.RandomHelper.RandomInt(1, 3))
                     {
                         case 1:
-                            AddRealtimeGameMessage(@"比尔：返航！", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Bill: I am good.", Color.CornflowerBlue, 2);
                             break;
                         case 2:
-                            AddRealtimeGameMessage(@"比尔：恢复战斗，一切正常。", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Bill: Returning to battle.", Color.CornflowerBlue, 2);
                             break;
                         case 3:
-                            AddRealtimeGameMessage(@"Jeffsion the Warrior: 刚才真是危险啊，老大。", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Jeffsion the Warrior: That was close, boss.", Color.CornflowerBlue, 2);
                             break;
                     }
                 }

@@ -3,7 +3,7 @@
   <!-- 测试用单位，于2009年8月8日在UnitType重写后建立 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>AODModelTypes\ShadowSlain</Modelname>
-    <Name>暗影星</Name>
+    <Name>Shadow Star</Name>
     <Scale>1.0</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>100</MaxShield>

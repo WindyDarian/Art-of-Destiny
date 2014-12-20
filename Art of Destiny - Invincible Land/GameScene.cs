@@ -91,8 +91,8 @@ namespace AOD
             pauseMenu.Items.Add(new MenuButton("Continue", true, "继续"));
             pauseMenu.Position = new Vector2(100, 100);
             List<string> s = new List<string>(2);
-            s.Add("否");
-            s.Add("是");
+            s.Add("No");
+            s.Add("Yes");
             pauseMenu.Items.Add(new MenuButton("Restart from checkpoint", true, "检查点", s, 0));
             pauseMenu.Items.Add(new MenuButton("Return to title", true, "主菜单", s, 0));
             pauseMenu.EscIndex = 0;

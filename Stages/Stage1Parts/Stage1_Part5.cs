@@ -35,10 +35,18 @@ namespace Stages.Stage1Parts
         /// </summary>
         public override void Initialize()
         {
+            /*
             Stage.AddGameMessage(@"Bill: 看来暂时是清理干净了。", Color.CornflowerBlue, 3);
             Stage.AddGameMessage(@"Zero: 还有更大的派对在后面。", Color.LightGreen, 3);
             Stage.AddGameMessage(@"Bill: 看来你也收到了求救信息，这里离信号发出的地点还有一段距离。", Color.CornflowerBlue, 4);
             Stage.AddGameMessage(@"Bill: 我先赶去，你准备好了就跟上。", Color.CornflowerBlue, 3);
+            
+             */
+            Stage.AddGameMessage(@"Bill: Done. At least for now.", Color.CornflowerBlue, 3);
+            Stage.AddGameMessage(@"Zero: But there will be more ahead.", Color.LightGreen, 3);
+            Stage.AddGameMessage(@"Bill: I assume you've also got the SoS.", Color.CornflowerBlue, 4);
+            Stage.AddGameMessage(@"Bill: I'll wait you there.", Color.CornflowerBlue, 3);
+            
             Stage.PlayMusic(@"Audio\Marcello_Morgese_-_Space_Travel", true, 9);
             if (Variables.Unit[2] != null)
             {
@@ -118,8 +126,10 @@ namespace Stages.Stage1Parts
                 bill.MoveTo(destination);
                 bill.IsAIControlling = false;
                 m = Stage.AddPositionMark(destination);
-                Stage.AddGameMessage(@"Bill: 那么，让我开始前进吧。再见！", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"Bill: 事实上，我很喜欢看到鲁道夫这个老顽固被打得屁滚尿流的样子。", Color.CornflowerBlue, 4);
+                //Stage.AddGameMessage(@"Bill: 那么，让我开始前进吧。再见！", Color.CornflowerBlue, 4);
+                //Stage.AddGameMessage(@"Bill: 事实上，我很喜欢看到鲁道夫这个老顽固被打得屁滚尿流的样子。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: See you.", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: In fact I'd like to see the glumpy Rudolf beaten hard.", Color.CornflowerBlue, 4);
 
             }
             base.Event_TimerRing(timer);

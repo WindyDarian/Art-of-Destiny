@@ -4,8 +4,8 @@
   <!--能量重炮X-D，由大地无敌-范若余在2010年8月16日创建-->
   <!--对护盾造成超强伤害的炮-->
   <Asset Type="AODGameLibrary.Weapons.WeaponType">
-    <weaponName>护盾干扰炮</weaponName>
-    <ammoName>X-D脉冲弹</ammoName>
+    <weaponName>X-D AS Cannon</weaponName>
+    <ammoName>X-D Powerbolt</ammoName>
     <maxAmmo>8</maxAmmo>
     <basicDamage>1500</basicDamage>
     <foldShield>1.2</foldShield>

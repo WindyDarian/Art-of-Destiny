@@ -3,7 +3,7 @@
   <!-- 攻击秩序之环中出现的力场产生器 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>AODModelTypes\PowerCore</Modelname>
-    <Name>不稳定的能量</Name>
+    <Name>Unstable Energy</Name>
     <Scale>1</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>100</MaxShield>

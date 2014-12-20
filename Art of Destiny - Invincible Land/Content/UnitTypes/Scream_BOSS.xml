@@ -3,7 +3,7 @@
   <!-- 啸叫，由大地无敌-范若余于2009年2月15日建立 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>AODModelTypes\Scream</Modelname>
-    <Name>黑暗咆哮</Name>
+    <Name>Dark Scream</Name>
     <Scale>3</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>8500</MaxShield>

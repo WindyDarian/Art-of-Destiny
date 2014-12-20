@@ -4,7 +4,7 @@
   <Asset Type="CombatLibrary.Spells.Restorer">
     <!--快速修复装置,由大地无敌-范若余在2010年3月20日加入-->
     <!--技能名-->
-    <SkillName>快速修复装置</SkillName>
+    <SkillName>Emergency Rep Kit</SkillName>
     <!--技能说明-->
     <SkillText>1秒内护甲回复800</SkillText>
 

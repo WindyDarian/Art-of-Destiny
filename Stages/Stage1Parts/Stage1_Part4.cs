@@ -35,9 +35,12 @@ namespace Stages.Stage1Parts
         public override void Initialize()
         {
             Stage.PlayMusic(@"Audio\Marcello_Morgese_-_Sounds_Of_The_Night", true, 4);
-            Stage.AddGameMessage("秩序之眼爪牙：发现猎物。", Color.Red, 4);
+            //Stage.AddGameMessage("秩序之眼爪牙：发现猎物。", Color.Red, 4);
+            Stage.AddGameMessage("EoC mob: Target confirmed.", Color.Red, 4);
 
-            Stage.AddGameMessage(@"Zero: 看来它们已经控制了这个地方，在支援舰队之前，必须先陪它们玩一下。", Color.LightGreen, 3);
+            //Stage.AddGameMessage(@"Zero: 看来它们已经控制了这个地方，在支援舰队之前，必须先陪它们玩一下。", Color.LightGreen, 3);
+            Stage.AddGameMessage(@"Zero: Looks like they have blocked this place. I will make this quick.", Color.LightGreen, 3);
+
 
             Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\FlameDestroyer"), 2, Stage.Player.Position + new Vector3(0, 0, -3000));
 
@@ -84,7 +87,7 @@ namespace Stages.Stage1Parts
                     Variables.LastCreatedUnit.unitAI.Target = bill;
                     ((RegularAI)Variables.LastCreatedUnit.unitAI).Threat = 100;
 
-
+                    /*
                     Stage.AddGameMessage(@"Bill: 小心你的背后！", Color.CornflowerBlue, 4);
                     Stage.AddGameMessage(@"Bill: 看来你需要帮忙，朋友，我是Bill Warden，第三舰队的前成员。", Color.CornflowerBlue, 4);
                     Stage.AddGameMessage(@"Bill: 你正在使用的行星突击炮，是很好的武器，", Color.CornflowerBlue, 4);
@@ -95,6 +98,18 @@ namespace Stages.Stage1Parts
                     Stage.AddGameMessage(@"Zero: 够了，你以为我是新手吗？ ", Color.LightGreen, 2);
                     Stage.AddGameMessage(@"Bill: 随便。但是我认为我们现在必须把这里清理一下。", Color.CornflowerBlue, 2);
                     Stage.AddGameMessage(@"Zero: 总之，我是老鸟，这就够了。", Color.LightGreen, 2);
+                    */
+                    Stage.AddGameMessage(@"Bill: Watch your back, friend.", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage(@"Bill: I am Bill Warden, a former member of the 3rd Fleet", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage(@"Bill: The assault chaingun you are using is an impressive weapon.", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage(@"Bill: It can burst a lot of damage to energy shields, but not that effictive for armor.", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage("Bill: It also has a Burst Mode with blue flame doing more damage, if you give\nit some time to cool down between attacks.", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage(@"Bill: Use your chaingun to eliminate their shields, and then missile to finish them.", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage(@"Zero: Enough, you think you are my mom?", Color.LightGreen, 2);
+                    Stage.AddGameMessage(@"Bill: Okey, here they come, again.", Color.CornflowerBlue, 2);
+                    Stage.AddGameMessage(@"Zero: Watch yourself, I'd suggest.", Color.LightGreen, 2);
+
+                    
                     t1 = Stage.CreateTimer(22);
                     b2 = true;
                 }
@@ -114,8 +129,12 @@ namespace Stages.Stage1Parts
 
                     Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\EyesElite"), 2, Stage.Player.Position + new Vector3(0, 0, 3000));
 
-                    Stage.AddGameMessage(@"Bill: 这些家伙是秩序之眼的精英！", Color.CornflowerBlue, 4);
-                    Stage.AddGameMessage(@"Zero: 比废铁有用一点罢了。", Color.LightGreen, 2);
+                    //Stage.AddGameMessage(@"Bill: 这些家伙是秩序之眼的精英！", Color.CornflowerBlue, 4);
+                    //Stage.AddGameMessage(@"Zero: 比废铁有用一点罢了。", Color.LightGreen, 2);
+
+                    Stage.AddGameMessage(@"Bill: These were elite forces of EoS, but why are they blocking this place?", Color.CornflowerBlue, 4);
+                    Stage.AddGameMessage(@"Zero: They are the same scattered metal to me.", Color.LightGreen, 2);
+
                     b4 = true;
                 }
             }
@@ -142,9 +161,14 @@ namespace Stages.Stage1Parts
 
                 //Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\EyesElite"), 2, Stage.Player.Position + new Vector3(100, 0, 8000));
 
+                /*
                 Stage.AddGameMessage(@"Bill: 朋友，看来我们被包围了。", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"Bill: 这些家伙带有导弹，时刻注意自己的能量护盾。", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"Zero: 这就是本游侠大显身手的机会么？ ", Color.LightGreen, 3);
+                 */
+                Stage.AddGameMessage(@"Bill: We are surrounded.", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: Watch out, they have missiles.", Color.CornflowerBlue, 4);
+                
                 b3 = true;
                 t2 = Stage.CreateTimer(95);
             }

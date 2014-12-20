@@ -31,7 +31,7 @@ namespace Stages.Stage5Parts
         /// </summary>
         public override void Initialize()
         {
-            Stage.GameWorld.InstantMessages.Add(new AODText(Stage.GameWorld, "第五章-命运的艺术", 3, Color.CornflowerBlue, new Vector2(Stage.Game.GraphicsDevice.Viewport.Width / 2,
+            Stage.GameWorld.InstantMessages.Add(new AODText(Stage.GameWorld, "Chapter 5 - Art of Destiny", 3, Color.CornflowerBlue, new Vector2(Stage.Game.GraphicsDevice.Viewport.Width / 2,
                   Stage.Game.GraphicsDevice.Viewport.Height / 3), FadeOutState.HalfFade, Vector2.Zero, true, 2));
           
             t = Stage.CreateTimer(4);
@@ -69,6 +69,7 @@ namespace Stages.Stage5Parts
         {
             if (timer == t)
             {
+                /*
                 Stage.AddGameMessage(@"Alicia: ……好吧，如果你们执意要这样的话。", Color.Yellow, 4);
                 Stage.AddGameMessage(@"Alicia: 因为程序的限制，我不能和自己的另一部分交战。", Color.Yellow, 4);
                 
@@ -76,14 +77,32 @@ namespace Stages.Stage5Parts
                 Stage.AddGameMessage(@"Alicia: 所以，都靠你们了。", Color.Yellow, 4);
                 Stage.AddGameMessage(@"Zero: 大干一场。", Color.LightGreen, 2);
                 Stage.AddGameMessage(@"…………", Color.White, 4);
-                Stage.AddGameMessage(@"威克多：杰诺、比尔，刚才教会干扰了通信，舰队联系不上你们！", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Vector: 杰诺、比尔，刚才教会干扰了通信，舰队联系不上你们！", Color.CornflowerBlue, 4);
 
-                Stage.AddGameMessage(@"威克多：盖亚号现在被一支行动迅速的秩序之眼小队纠缠着，", Color.CornflowerBlue, 2);
-                Stage.AddGameMessage(@"威克多：需要更长的时间才能会合。", Color.CornflowerBlue, 2);
+                Stage.AddGameMessage(@"Vector: 盖亚号现在被一支行动迅速的秩序之眼小队纠缠着，", Color.CornflowerBlue, 2);
+                Stage.AddGameMessage(@"Vector: 需要更长的时间才能会合。", Color.CornflowerBlue, 2);
                 Stage.AddGameMessage(@"Zero: 一切正常，威克多。我们已经接近秩序之眼的本体了。", Color.LightGreen, 2);
-                Stage.AddGameMessage(@"玛莲娜.林风：非常接近。", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Maria Woodwind: 非常接近。", Color.CornflowerBlue, 4);
                 Stage.AddGameMessage(@"Bill: 威克多，告诉我们该干什么。", Color.CornflowerBlue, 4);
-                Stage.AddGameMessage(@"普雷斯.杰斐逊：上膛吧！", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Price Jeffsion: 上膛吧！", Color.CornflowerBlue, 4);
+                
+                 */
+                Stage.AddGameMessage(@"Alicia: ...right, if you insist.", Color.Yellow, 4);
+                Stage.AddGameMessage("Alicia: I can't fight with the other part of myself due to\nthe hard limitation.", Color.Yellow, 4);
+
+                Stage.AddGameMessage(@"Alicia: The Cosmos is out of my control.", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: So, wish you the best.", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Zero: We will do our best.", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"...........", Color.White, 4);
+                Stage.AddGameMessage(@"Vector: Zero, Bill, are you okay? The communication was disrupted.", Color.CornflowerBlue, 4);
+
+                Stage.AddGameMessage(@"Vector: Some fast EoC forces are attacking Gaia.", Color.CornflowerBlue, 2);
+                Stage.AddGameMessage(@"Vector: We need more time to arrive. What's your status?", Color.CornflowerBlue, 2);
+                Stage.AddGameMessage(@"Zero: All green, Vector. we are finishing the job.", Color.LightGreen, 2);
+                Stage.AddGameMessage(@"Maria Woodwind: And it would be quick.", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Bill: Good luck, Vector.", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Price Jeffsion: Let's finsih this!", Color.CornflowerBlue, 4);
+                
                 b = true;
             }
             base.Event_TimerRing(timer);

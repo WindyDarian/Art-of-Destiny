@@ -68,7 +68,7 @@ namespace Stages
 
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon2"), 1, new Vector3(40, -10, 2950));
            
-            Variables.LastCreatedUnit.RiderName = "普雷斯.杰斐逊";
+            Variables.LastCreatedUnit.RiderName = "Price Jeffsion";
             Variables.Unit[3] = Variables.LastCreatedUnit;
             Variables.Unit[3].SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.Unit[3].unitAI).settings, Player));
             CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon3"), 1, new Vector3(40, 10, 2950));
@@ -127,16 +127,16 @@ namespace Stages
                     switch (AODGameLibrary.Helpers.RandomHelper.RandomInt(1, 4))
                     {
                         case 1:
-                            AddRealtimeGameMessage(@"比尔：顶住，我需要一点时间恢复！", Color.CornflowerBlue, 2.3f);
+                            AddRealtimeGameMessage(@"Bill: Hold on, and buy some time for me!", Color.CornflowerBlue, 2.3f);
                             break;
                         case 2:
-                            AddRealtimeGameMessage(@"比尔：我先暂时撤退。", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Bill: I need to retreat at the moment.", Color.CornflowerBlue, 2);
                             break;
                         case 3:
-                            AddRealtimeGameMessage(@"比尔：该死！", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Bill: Damn!", Color.CornflowerBlue, 2);
                             break;
                         case 4:
-                            AddRealtimeGameMessage(@"Zero: 比尔，你要挂了，赶快闪！", Color.LightGreen, 2);
+                            AddRealtimeGameMessage(@"Zero: Bill, you are under fire, get out.", Color.LightGreen, 2);
                             break;
                     }
                 }
@@ -151,16 +151,16 @@ namespace Stages
                     switch (AODGameLibrary.Helpers.RandomHelper.RandomInt(1, 4))
                     {
                         case 1:
-                            AddRealtimeGameMessage(@"杰斐逊：火力……掩护！", Color.CornflowerBlue, 2.3f);
+                            AddRealtimeGameMessage(@"Jeffsion: I need cover!", Color.CornflowerBlue, 2.3f);
                             break;
                         case 2:
-                            AddRealtimeGameMessage(@"杰斐逊：火力……掩护！", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Jeffsion: I need cover!", Color.CornflowerBlue, 2);
                             break;
                         case 3:
-                            AddRealtimeGameMessage(@"杰斐逊：火力……掩护！", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Jeffsion: I need cover!", Color.CornflowerBlue, 2);
                             break;
                         case 4:
-                            AddRealtimeGameMessage(@"杰斐逊：火力……掩护！", Color.LightGreen, 2);
+                            AddRealtimeGameMessage(@"Jeffsion: I need cover!", Color.LightGreen, 2);
                             break;
                     }
                 }
@@ -175,16 +175,16 @@ namespace Stages
                     switch (AODGameLibrary.Helpers.RandomHelper.RandomInt(1, 4))
                     {
                         case 1:
-                            AddRealtimeGameMessage(@"玛莲娜：啊！", Color.CornflowerBlue, 2.3f);
+                            AddRealtimeGameMessage(@"Maria: Ah!", Color.CornflowerBlue, 2.3f);
                             break;
                         case 2:
-                            AddRealtimeGameMessage(@"玛莲娜：啊！", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Maria: Ah!", Color.CornflowerBlue, 2);
                             break;
                         case 3:
-                            AddRealtimeGameMessage(@"玛莲娜：啊！", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Maria: Ah!", Color.CornflowerBlue, 2);
                             break;
                         case 4:
-                            AddRealtimeGameMessage(@"玛莲娜：啊！", Color.LightGreen, 2);
+                            AddRealtimeGameMessage(@"Maria: Ah!", Color.LightGreen, 2);
                             break;
                     }
                 }
@@ -204,13 +204,13 @@ namespace Stages
                     switch (AODGameLibrary.Helpers.RandomHelper.RandomInt(1, 3))
                     {
                         case 1:
-                            AddRealtimeGameMessage(@"比尔：返航！", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Bill: I am good.", Color.CornflowerBlue, 2);
                             break;
                         case 2:
-                            AddRealtimeGameMessage(@"比尔：恢复战斗，一切正常。", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Bill: Returning to battle.", Color.CornflowerBlue, 2);
                             break;
                         case 3:
-                            AddRealtimeGameMessage(@"比尔：还好。", Color.CornflowerBlue, 2);
+                            AddRealtimeGameMessage(@"Bill: I am okay.", Color.CornflowerBlue, 2);
                             break;
                     }
                 }
@@ -235,13 +235,13 @@ namespace Stages
                 //    switch (GameHelpers.GameHelper.RandomInt(1, 3))
                 //    {
                 //        case 1:
-                //            AddRealtimeGameMessage(@"比尔：返航！", Color.CornflowerBlue, 2);
+                //            AddRealtimeGameMessage(@"Bill: I am good.", Color.CornflowerBlue, 2);
                 //            break;
                 //        case 2:
-                //            AddRealtimeGameMessage(@"比尔：恢复战斗，一切正常。", Color.CornflowerBlue, 2);
+                //            AddRealtimeGameMessage(@"Bill: Returning to battle.", Color.CornflowerBlue, 2);
                 //            break;
                 //        case 3:
-                //            AddRealtimeGameMessage(@"比尔：还好。", Color.CornflowerBlue, 2);
+                //            AddRealtimeGameMessage(@"Bill: I am okay.", Color.CornflowerBlue, 2);
                 //            break;
                 //    }
                 //}
@@ -250,7 +250,7 @@ namespace Stages
                 Variables.Unit[3] = Variables.LastCreatedUnit;
                 //Variables.Unit[2].IsInvincible = true;
                 Variables.Unit[3].SetAI(new AODGameLibrary2.AssistAI(((RegularAI)Variables.Unit[3].unitAI).settings, Player));
-                Variables.LastCreatedUnit.RiderName = "普雷斯.杰斐逊";
+                Variables.LastCreatedUnit.RiderName = "Price Jeffsion";
                 jeff.Target = Variables.Unit[3];
                 Variables.Unit[3].Velocity = Player.Velocity;
                 Variables.Unit[3].Armor = 400;
@@ -266,13 +266,13 @@ namespace Stages
                 //    switch (GameHelpers.GameHelper.RandomInt(1, 3))
                 //    {
                 //        case 1:
-                //            AddRealtimeGameMessage(@"比尔：返航！", Color.CornflowerBlue, 2);
+                //            AddRealtimeGameMessage(@"Bill: I am good.", Color.CornflowerBlue, 2);
                 //            break;
                 //        case 2:
-                //            AddRealtimeGameMessage(@"比尔：恢复战斗，一切正常。", Color.CornflowerBlue, 2);
+                //            AddRealtimeGameMessage(@"Bill: Returning to battle.", Color.CornflowerBlue, 2);
                 //            break;
                 //        case 3:
-                //            AddRealtimeGameMessage(@"比尔：还好。", Color.CornflowerBlue, 2);
+                //            AddRealtimeGameMessage(@"Bill: I am okay.", Color.CornflowerBlue, 2);
                 //            break;
                 //    }
                 //}

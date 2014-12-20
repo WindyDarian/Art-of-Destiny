@@ -3,7 +3,7 @@
   <!--最终BOSS-->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>AODModelTypes\Titan</Modelname>
-    <Name>盖亚</Name>
+    <Name>Gaia</Name>
     <Scale>1</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>100000</MaxShield>

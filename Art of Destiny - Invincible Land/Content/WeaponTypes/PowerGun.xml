@@ -2,8 +2,8 @@
 <XnaContent>
   <!-- TODO: replace this Asset with your own XML asset data. -->
   <Asset Type="AODGameLibrary.Weapons.WeaponType">
-    <weaponName>能量突击炮（NPC用）</weaponName>
-    <ammoName>50mm轻型弹药</ammoName>
+    <weaponName>Power Chaingun</weaponName>
+    <ammoName>50mm Ammo</ammoName>
     <maxAmmo>6000</maxAmmo>
     <basicDamage>0.75</basicDamage>
     <foldShield>1.5</foldShield>

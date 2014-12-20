@@ -2,8 +2,8 @@
 <XnaContent>
   <!-- NPC用 -->
   <Asset Type="AODGameLibrary.Weapons.WeaponType">
-    <weaponName>行星突击炮</weaponName>
-    <ammoName>65mm轻型弹药</ammoName>
+    <weaponName>Assault Chaingun</weaponName>
+    <ammoName>50mm Ammo</ammoName>
     <maxAmmo>6000</maxAmmo>
     <basicDamage>2.1</basicDamage>
     <foldShield>1.5</foldShield>

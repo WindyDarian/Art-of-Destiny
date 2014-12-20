@@ -71,18 +71,33 @@ namespace Stages.Stage6Parts
                 {
                     if (boss.Shield <= 80000 && b1 == false)
                     {
-                        Stage.AddRealtimeGameMessage(@"威克多：只有我才有权限开启星际之门！", Color.Red, 2);
-                        Stage.AddRealtimeGameMessage(@"威克多：如果你们不想一起死在秩序之眼的爆炸中，", Color.Red, 2);
-                        Stage.AddRealtimeGameMessage(@"威克多：就把“遗迹”交给我！", Color.Red, 2);
+                        /*
+                        Stage.AddRealtimeGameMessage(@"Vector: 只有我才有权限开启星际之门！", Color.Red, 2);
+                        Stage.AddRealtimeGameMessage(@"Vector: 如果你们不想一起死在秩序之眼的爆炸中，", Color.Red, 2);
+                        Stage.AddRealtimeGameMessage(@"Vector: 就把“遗迹”交给我！", Color.Red, 2);
+                        
+                         */
+                        Stage.AddRealtimeGameMessage(@"Vector: Only I can initiate the jump system!", Color.Red, 2);
+                        Stage.AddRealtimeGameMessage(@"Vector: If you don't want to die in the explosion of the Eye", Color.Red, 2);
+                        Stage.AddRealtimeGameMessage(@"Vector: The give me the Relic!", Color.Red, 2);
+                        
                         b1 = true;
                     }
                     else if (boss .Shield<60000&& b2== false)
                     {
-                        Stage.AddRealtimeGameMessage(@"威克多：如果你们不想一起死在秩序之眼的爆炸中，", Color.Red, 2);
-                        Stage.AddRealtimeGameMessage(@"威克多：就把“遗迹”交给我！", Color.Red, 2);
+                        /*
+                        Stage.AddRealtimeGameMessage(@"Vector: 如果你们不想一起死在秩序之眼的爆炸中，", Color.Red, 2);
+                        Stage.AddRealtimeGameMessage(@"Vector: 就把“遗迹”交给我！", Color.Red, 2);
                         Stage.AddRealtimeGameMessage(@"Alicia: 没关系的，你会比秩序之眼先爆炸。", Color.Yellow, 4);
                         Stage.AddRealtimeGameMessage(@"Alicia: 这将是秩序之眼最后一次维护真正的秩序。", Color.Yellow, 4);
-                        Stage.AddRealtimeGameMessage(@"威克多：有趣。", Color.Red, 2);
+                        Stage.AddRealtimeGameMessage(@"Vector: 有趣。", Color.Red, 2);
+                        
+                         */
+                        Stage.AddRealtimeGameMessage(@"Vector: If you don't want to die in the explosion of the Eye", Color.Red, 2);
+                        Stage.AddRealtimeGameMessage(@"Vector: The give me the Relic!", Color.Red, 2);
+                        Stage.AddRealtimeGameMessage(@"Alicia: No matter, you will explode faster.", Color.Yellow, 4);
+                        Stage.AddRealtimeGameMessage(@"Alicia: This is the time for cosmos.", Color.Yellow, 4);
+                        Stage.AddRealtimeGameMessage(@"Vector: interesting.", Color.Red, 2);
                         Stage.ScreenEffectManager.Blink(Color.Orange, 10);
 
                         b2 = true;
@@ -100,8 +115,12 @@ namespace Stages.Stage6Parts
                     {
 
                         Stage.PlayMusic(@"Audio\Antti_Martikainen_-_Through_Enemy_Lines", true, 5);
-                        Stage.AddRealtimeGameMessage(@"威克多：开始投放无人机！", Color.Red, 2);
-                        Stage.AddRealtimeGameMessage(@"威克多：我要毁灭你们，叛徒！", Color.Red, 2);
+                        Stage.AddRealtimeGameMessage(@"Vector: Drones online!", Color.Red, 2);
+                        Stage.AddRealtimeGameMessage(@"Vector: You are doomed, traitors!", Color.Red, 2);
+                        /*
+                        Stage.AddRealtimeGameMessage(@"Vector: 开始投放无人机！", Color.Red, 2);
+                        Stage.AddRealtimeGameMessage(@"Vector: 我要毁灭你们，叛徒！", Color.Red, 2);
+                         */
                         boss.AddSkill(@"Skills\Summon_Falcon");
                         b4 = true;
                     }
@@ -109,7 +128,8 @@ namespace Stages.Stage6Parts
                     {
 
                         Stage.PlayMusic(@"Audio\TitanSlayer_-_Dawning_of_Darkness", true, 5);
-                        Stage.AddRealtimeGameMessage(@"威克多：这是你自找的，可恶！", Color.Red, 2);
+                        //Stage.AddRealtimeGameMessage(@"Vector: 这是你自找的，可恶！", Color.Red, 2);
+                        Stage.AddRealtimeGameMessage(@"Vector: You asked this yourself!", Color.Red, 2);
                         boss.AddSkill(@"Skills\Ghost_AE");
                         b5 = true;
                     }
@@ -133,26 +153,31 @@ namespace Stages.Stage6Parts
         {
             if (timer == t)
             {
+                /*
+                Stage.AddRealtimeGameMessage(@"马萨：第三舰队，向盖亚号发起突击！", Color.CornflowerBlue, 4);
+                Stage.AddRealtimeGameMessage(@"Alrdis: 第四舰队，锁定盖亚号！", Color.CornflowerBlue, 4);
+                Stage.AddRealtimeGameMessage(@"Vector: 你们这些渣滓！", Color.Red, 2);
+                */
+                Stage.AddRealtimeGameMessage(@"Matha：1st Fleet，let's attack the Gaia!", Color.CornflowerBlue, 4);
+                Stage.AddRealtimeGameMessage(@"Alrdis: 4th Fleet, lock on Gaia!", Color.CornflowerBlue, 4);
+                Stage.AddRealtimeGameMessage(@"Vector: YOU ALL BETRAYED ME!?", Color.Red, 2);
 
-                Stage.AddRealtimeGameMessage(@"马萨：第一舰队，向盖亚号发起突击！", Color.CornflowerBlue, 4);
-                Stage.AddRealtimeGameMessage(@"阿尔迪斯：第四舰队，锁定盖亚号！", Color.CornflowerBlue, 4);
-                Stage.AddRealtimeGameMessage(@"威克多：你们这些渣滓！", Color.Red, 2);
 
                 Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Phoenix"), 1, new Vector3(3000, 0, 0));
-                  Variables.LastCreatedUnit.RiderName = "阿贝拉尔 <第一舰队>";
+                  Variables.LastCreatedUnit.RiderName = "阿贝拉尔 <3rd fleet>";
                 Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Phoenix"), 1, new Vector3(3000, 100, 0));
        
-                Variables.LastCreatedUnit.RiderName = "布克 <第一舰队>";
+                Variables.LastCreatedUnit.RiderName = "Book <1st Fleet>";
                 Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Phoenix"), 1, new Vector3(3000, -100, 0));
-                 Variables.LastCreatedUnit.RiderName = "阿夫顿 <第一舰队>";
+                 Variables.LastCreatedUnit.RiderName = "Affton <1st Fleet>";
                 Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Phoenix"), 1, new Vector3(3000, 50, 0));
-                Variables.LastCreatedUnit.RiderName = "马萨 <第一舰队指挥官>";
+                Variables.LastCreatedUnit.RiderName = "Matha <1st Fleet Commander>";
                 Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon3"), 1, new Vector3(-3000, 0, 0));
-                Variables.LastCreatedUnit.RiderName = "阿夫顿 <第四舰队>";
+                Variables.LastCreatedUnit.RiderName = "Affron <4rd Fleet>";
                 Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon2"), 1, new Vector3(-3000, 50, 0));
-                Variables.LastCreatedUnit.RiderName = "阿尔迪斯 <第四舰队指挥官>";
+                Variables.LastCreatedUnit.RiderName = "Alrdis <4rd Fleet Commander>";
                 Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Falcon3"), 1, new Vector3(-3000, -50, 0));
-                Variables.LastCreatedUnit.RiderName = "奥尔德里 <第四舰队>";
+                Variables.LastCreatedUnit.RiderName = "Orderi <4rd Fleet>";
 
 
 
@@ -160,7 +185,7 @@ namespace Stages.Stage6Parts
 
                 Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\Titan_BOSS"), 3, new Vector3(0, 0, 0));
                 
-                Variables.LastCreatedUnit.RiderName = "威克多";
+                Variables.LastCreatedUnit.RiderName = "Vector";
                 boss = Variables.LastCreatedUnit;
                 boss.IsInvincible = true;
                 boss.MoveTo(Stage.Player.Position);
@@ -170,27 +195,49 @@ namespace Stages.Stage6Parts
             if (timer == t1)
             {
                 Stage.PlayMusic(@"Audio\Kai_Engel_-_Beneath_The_Stronghold", true, 5);
-                Stage.AddGameMessage(@"威克多：哈哈哈哈！你们无法撼动盖亚号！", Color.Red, 2);
+                /*
+                Stage.AddGameMessage(@"Vector: 哈哈哈哈！你们无法撼动盖亚号！", Color.Red, 2);
                 Stage.AddGameMessage(@"Alicia: 是吗？", Color.Yellow, 4);
-                Stage.AddGameMessage(@"威克多：怎……怎么会！？", Color.Red, 2);
+                Stage.AddGameMessage(@"Vector: 怎……怎么会！？", Color.Red, 2);
                 Stage.AddGameMessage(@"Alicia: 看来你的护盾好像已经被我重写的“遗迹”发出的信号解除了。", Color.Yellow, 4);
                 Stage.AddGameMessage(@"Alicia: 再次瘫痪吧！这次可没有什么能保护盖亚号了！", Color.Yellow, 4);
+                 */
+
+                Stage.AddGameMessage(@"Vector: Hahaha, you can't hurt the Gaia!", Color.Red, 2);
+                Stage.AddGameMessage(@"Alicia: Is it?", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Vector: Wh...what!?", Color.Red, 2);
+                Stage.AddGameMessage(@"Alicia: I hacked your shield.", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: Nothing can protect you now, Vector.", Color.Yellow, 4);
                 boss.IsInvincible = false;
                 boss.Stop();
             }
             if (timer == mori)
             {
                 Stage.PlayMusic(@"Audio\Antti_Martikainen_-_The_Chase", true, 5);
-                 Stage.AddGameMessage(@"威克多：死吧！", Color.Red, 2);
+
+                /*
+                 Stage.AddGameMessage(@"Vector: 死吧！", Color.Red, 2);
                 Stage.AddGameMessage(@"Alicia: 正在激活末日级，钥匙：遗迹。", Color.Yellow, 4);
-                Stage.AddGameMessage(@"威克多：什么？", Color.Red, 2);
+                Stage.AddGameMessage(@"Vector: 什么？", Color.Red, 2);
                  Stage.AddGameMessage(@"Alicia: 末日，隐形模式关闭，攻击模式开启。", Color.Yellow, 4);
                  Stage.AddGameMessage(@"Alicia: 杰诺，准备好了就按下发射钮吧。", Color.Yellow, 4);
-                 Stage.AddGameMessage(@"威克多：就算是末日，也阻挡不了我！", Color.Red, 2);
-                 Stage.AddGameMessage(@"普雷斯.杰斐逊：威克多，你的轨道偏转装置，刚才已经被我破坏了哦！", Color.CornflowerBlue, 4);
-                 Stage.AddGameMessage(@"威克多：不！叛徒，死吧！这个世界属于我！", Color.Red, 2);
+                 Stage.AddGameMessage(@"Vector: 就算是末日，也阻挡不了我！", Color.Red, 2);
+                 Stage.AddGameMessage(@"Price Jeffsion: 威克多，你的轨道偏转装置，刚才已经被我破坏了哦！", Color.CornflowerBlue, 4);
+                 Stage.AddGameMessage(@"Vector: 不！叛徒，死吧！这个世界属于我！", Color.Red, 2);
+                 */
+
+                Stage.AddGameMessage(@"Vector: Die!", Color.Red, 2);
+                Stage.AddGameMessage(@"Alicia: Activating the Doom battleship, key: Relic.", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Vector: What!?", Color.Red, 2);
+                Stage.AddGameMessage(@"Alicia: Doom, cloak off, railgunready.", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Alicia: Zero, if you are prepared, then shoot.", Color.Yellow, 4);
+                Stage.AddGameMessage(@"Vector: It is your doom!", Color.Red, 2);
+                //Stage.AddGameMessage(@"Price Jeffsion: 威克多，你的轨道偏转装置，刚才已经被我破坏了哦！", Color.CornflowerBlue, 4);
+                Stage.AddGameMessage(@"Vector: NO! DIE! TRAITORS! THIS WORLD  IS MINE!", Color.Red, 2);
+
+
                  Stage.CreatePlayerUnit(Content.Load<UnitType>(@"UnitTypes\Doom_Player"), 1, boss.Position + new Vector3(0, 0, 3000));
-                 Variables.LastCreatedUnit.RiderName = @"杰诺";
+                 Variables.LastCreatedUnit.RiderName = @"Zero";
                  Stage.Player = Variables.LastCreatedUnit;
                  ((AODGameLibrary2.AssistAI)Variables.Unit[2].unitAI).AssistUnit = Stage.Player;
                  ((AODGameLibrary2.AssistAI)Variables.Unit[3].unitAI).AssistUnit = Stage.Player;
@@ -233,21 +280,29 @@ namespace Stages.Stage6Parts
                 Stage.ScreenEffectManager.Blink(Color.Orange,5);
                 Stage.ScreenEffectManager.KeepColor(Color.Black,null);
                 Stage.AddFlyingMessage("", Color.White);
-                Stage.AddFlyingMessage(@"………………", Color.White);
+                /*
+                Stage.AddFlyingMessage(@"...............", Color.White);
                 Stage.AddFlyingMessage(@"Bill: ……结束了吗？", Color.CornflowerBlue);
-                Stage.AddFlyingMessage(@"普雷斯.杰斐逊：开启星际之门吧。", Color.CornflowerBlue);
-                Stage.AddFlyingMessage(@"………………", Color.White);
+                Stage.AddFlyingMessage(@"Price Jeffsion: 开启星际之门吧。", Color.CornflowerBlue);
+                Stage.AddFlyingMessage(@"...............", Color.White);
+                
+                 */
+                Stage.AddFlyingMessage(@"...............", Color.White);
+                Stage.AddFlyingMessage(@"Bill: .....is it... over？", Color.CornflowerBlue);
+                Stage.AddFlyingMessage(@"Price Jeffsion: It is over, now open the gate.", Color.CornflowerBlue);
+                Stage.AddFlyingMessage(@"...............", Color.White);
+                
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
-                Stage.AddFlyingMessage(@"………………", Color.White);
-                Stage.AddFlyingMessage(@"普雷斯.杰斐逊：地球联盟需要一位新的指挥官。", Color.CornflowerBlue);
-                Stage.AddFlyingMessage(@"Bill: 那当然是你。我得走了，再见。", Color.CornflowerBlue);
-                Stage.AddFlyingMessage(@"玛莲娜.林风：那么，再见，比尔。", Color.CornflowerBlue);
-                Stage.AddFlyingMessage(@"………………", Color.White);
+                Stage.AddFlyingMessage(@"...............", Color.White);
+                Stage.AddFlyingMessage(@"Price Jeffsion: The Federation needs a new commander.", Color.CornflowerBlue);
+                Stage.AddFlyingMessage(@"Bill: It is you. I have to go.", Color.CornflowerBlue);
+                Stage.AddFlyingMessage(@"Maria Woodwind: Then, bye, Bill.", Color.CornflowerBlue);
+                Stage.AddFlyingMessage(@"...............", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
@@ -255,12 +310,20 @@ namespace Stages.Stage6Parts
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
 
-                Stage.AddFlyingMessage(@"………………", Color.White);
+                Stage.AddFlyingMessage(@"...............", Color.White);
+                /*
                 Stage.AddFlyingMessage(@"Zero: 终于完成了。本游侠现在貌似暂时没事可干了。", Color.LightGreen);
                 Stage.AddFlyingMessage(@"Alicia: 再也没有秩序之眼了，你也没有战斗的对手了吧。", Color.Yellow);
                 Stage.AddFlyingMessage(@"Zero: 对了，你现在想去哪里，阿莉西亚？", Color.LightGreen);
                 Stage.AddFlyingMessage(@"Alicia: 由你决定，杰诺。", Color.Yellow);
-                Stage.AddFlyingMessage(@"………………", Color.White);
+                
+                 */
+                Stage.AddFlyingMessage(@"Zero: Finally... Now I don't know what to do...", Color.LightGreen);
+                Stage.AddFlyingMessage(@"Alicia: There is no more EoC drones, I suppose.", Color.Yellow);
+                Stage.AddFlyingMessage(@"Zero: All right, where do you want to go, Alicia?", Color.LightGreen);
+                Stage.AddFlyingMessage(@"Alicia: Surprise me, Zero.", Color.Yellow);
+                
+                Stage.AddFlyingMessage(@"...............", Color.White);
 
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
@@ -344,15 +407,15 @@ namespace Stages.Stage6Parts
                 Stage.AddFlyingMessage(@"", Color.White);
                 Stage.AddFlyingMessage(@"详细的授权信息请参见license.txt和third-party-licenses.txt，这里保持4年前原样好了。", Color.White);
                 Stage.AddFlyingMessage(@"更多信息，请访问http://www.windy.moe", Color.White);
-                Stage.AddFlyingMessage(@"", Color.White);
-                Stage.AddFlyingMessage("", Color.White);
+                Stage.AddFlyingMessage(@"See license.txt and third-party-licenses.txt for licensing informations", Color.White);
+                Stage.AddFlyingMessage("Created on 2009 by Windy Darian(http://windy.moe)", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
                 Stage.AddFlyingMessage("", Color.White);
 
-                Stage.AddFlyingMessage(@"Alicia: 那么……回家吧，杰诺。", Color.Yellow);
+                Stage.AddFlyingMessage(@"Alicia: Go home then, Zero.", Color.Yellow);
 
                 win = true;
             }
@@ -363,13 +426,23 @@ namespace Stages.Stage6Parts
                     Stage.StopMusic();
 
                     mori = Stage.CreateTimer(10);
+
+                    /*
                     Stage.AddGameMessage(@"Zero: 该死……", Color.LightGreen, 2);
                     Stage.AddGameMessage(@"Bill: 无路可退了。", Color.CornflowerBlue, 2);
                     Stage.AddGameMessage(@"Alicia: 需要帮助吗，游侠？", Color.Yellow, 4);
                     Stage.AddGameMessage(@"Alicia: 这次该我救你了。", Color.Yellow, 4);
 
                     Stage.AddGameMessage(@"Alicia: 上船吧，杰诺。", Color.Yellow, 4);
+                    */
 
+
+                    Stage.AddGameMessage(@"Zero: Damn...", Color.LightGreen, 2);
+                    Stage.AddGameMessage(@"Bill: Zero!", Color.CornflowerBlue, 2);
+                    Stage.AddGameMessage(@"Alicia: Need help, hunter?", Color.Yellow, 4);
+                    Stage.AddGameMessage(@"Alicia: I'll help you this time.", Color.Yellow, 4);
+
+                    Stage.AddGameMessage(@"Alicia: Come abroad, Zero.", Color.Yellow, 4);
                 }
                 else
                 {

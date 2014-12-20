@@ -3,7 +3,7 @@
   <!-- 测试用单位，于2009年8月8日在UnitType重写后建立 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>AODModelTypes\Phoenix</Modelname>
-    <Name>凤凰</Name>
+    <Name>Phoenix</Name>
     <Scale>1</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>2000</MaxShield>

@@ -3,7 +3,7 @@
   <!-- 炮塔，于2010年5月23日制造 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>Models\Cannons\EGFMi</Modelname>
-    <Name>水鸟导弹台</Name>
+    <Name>Kotori Cannon</Name>
     <Scale>0.6</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>500</MaxShield>

@@ -26,22 +26,31 @@ namespace Stages.Stage3Parts
         /// </summary>
         public override void Initialize()
         {
-            Stage.GameWorld.InstantMessages.Add(new AODText(Stage.GameWorld, "第三章-幻月流光", 3, Color.CornflowerBlue, new Vector2(Stage.Game.GraphicsDevice.Viewport.Width / 2,
+            Stage.GameWorld.InstantMessages.Add(new AODText(Stage.GameWorld, "Chapter 3 - Flowing Light", 3, Color.CornflowerBlue, new Vector2(Stage.Game.GraphicsDevice.Viewport.Width / 2,
                Stage.Game.GraphicsDevice.Viewport.Height / 3), FadeOutState.HalfFade, Vector2.Zero, true, 2));
            
             
             Stage.GameWorld.MovieModelStart();
             Stage.ScreenEffectManager.Blink(Color.White, 20);
-
+            /*
             Stage.AddFlyingMessage(@"杰诺通过星门，和地球联盟的军队会合", Color.Yellow);
             Stage.AddFlyingMessage(@"共同向秩序之眼的发起袭击。", Color.Yellow);
-            Stage.AddFlyingMessage(@"然而威克多指挥的第一舰队指挥舰——盖亚号，", Color.Yellow);
+            Stage.AddFlyingMessage(@"然而威克多指挥的第三舰队指挥舰——盖亚号，", Color.Yellow);
             Stage.AddFlyingMessage(@"受到了不明EMP导弹的攻击陷入瘫痪", Color.Yellow);
             Stage.AddFlyingMessage(@"时间紧迫……", Color.Yellow);
             Stage.AddFlyingMessage(@"……", Color.Yellow);
             Stage.AddFlyingMessage(@"分析完毕。", Color.Yellow);
 
-                 base.Initialize();
+             */
+
+            Stage.AddFlyingMessage(@"Zero made through the Star Gate, and regrouped with the 3rd Fleet.", Color.Yellow);
+            Stage.AddFlyingMessage(@"The legion began to advance to the heart of Eye of Cosmos.", Color.Yellow);
+            Stage.AddFlyingMessage(@"But Gaia - the mothership of Vector's Fleet", Color.Yellow);
+            Stage.AddFlyingMessage("Are attacked by a wave of EMP strike,\nand It takes time for the mothership function again.", Color.Yellow);
+            Stage.AddFlyingMessage(@"Time is short...", Color.Yellow);
+            Stage.AddFlyingMessage(@"......", Color.Yellow);
+            Stage.AddFlyingMessage(@"Analysis complete.", Color.Yellow);
+            base.Initialize();
         }
         /// <summary>
         /// 从该片段继续时进行的处理

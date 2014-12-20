@@ -3,7 +3,7 @@
   <!-- 与末日的战斗中出现的力场产生器 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>AODModelTypes\Shield</Modelname>
-    <Name>毁灭力场产生器</Name>
+    <Name>Invincible Field Generator</Name>
     <Scale>3</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>0</MaxShield>

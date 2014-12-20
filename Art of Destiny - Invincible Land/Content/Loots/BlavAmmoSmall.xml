@@ -4,7 +4,7 @@
   
   <Asset Type="AODGameLibrary.Units.LootSettings">
     <!--名字-->
-    <Name>Blav弹药箱</Name>
+    <Name>Blav Ammo</Name>
     <!--可拾取物件类别-->
     <LootType>Weapon</LootType>
     <!--得到的武器或技能或任务物品的AssetName(含目录)-->

@@ -3,7 +3,7 @@
   <!-- 炮塔，于2010年5月23日制造 -->
   <Asset Type="AODGameLibrary.Units.UnitType">
     <Modelname>Models\Cannons\EOSMa</Modelname>
-    <Name>天狼星炮台</Name>
+    <Name>Sirius Cannon</Name>
     <Scale>0.6</Scale>
     <ModelRotation>0 0 0</ModelRotation>
     <MaxShield>500</MaxShield>

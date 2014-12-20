@@ -29,8 +29,11 @@ namespace Stages.Stage1Parts
         public override void Initialize()
         {
 
-            Stage.AddGameMessage(@"Zero: 看来一场大的派对在等着我……", Color.LightGreen, 3);
-            Stage.AddGameMessage(@"Zero: 在本游侠赶到之前，你们这些“正规军”就先继续撑着吧！", Color.LightGreen, 4);
+            //Stage.AddGameMessage(@"Zero: 看来一场大的派对在等着我……", Color.LightGreen, 3);
+            //Stage.AddGameMessage(@"Zero: 在本游侠赶到之前，你们这些“正规军”就先继续撑着吧！", Color.LightGreen, 4);
+
+            Stage.AddGameMessage(@"Zero: Seems that a party awaits.", Color.LightGreen, 3);
+            Stage.AddGameMessage(@"Zero: Wish you militaries luck before I arrive.", Color.LightGreen, 4);
             
             base.Initialize();
         }
@@ -50,7 +53,9 @@ namespace Stages.Stage1Parts
         {
             if (Stage.IsMessageEnd && b1 == false)
             {
-                Stage.AddTooltipMessage(@"目标地点已经标注，全速前进吧！", Color.LightYellow, 15);
+                //Stage.AddTooltipMessage(@"目标地点已经标注，全速前进吧！", Color.LightYellow, 15);
+                Stage.AddTooltipMessage(@"Target location marked.", Color.LightYellow, 15);
+                
                 m = Stage.AddPositionMark(destination);
                 Stage.CreateNPCUnit(Content.Load<UnitType>(@"UnitTypes\FlameDestroyer"), 2, new Vector3(0, 100, -20000));
                 Stage.PlayMusic(@"Audio\Marcello_Morgese_-_Space_Travel", false, 5);
